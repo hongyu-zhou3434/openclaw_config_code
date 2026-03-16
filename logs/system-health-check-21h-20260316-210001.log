@@ -1,0 +1,94 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║           OpenClaw 定时任务执行监控                          ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+[INFO] 21:00:01 任务名称: system-health-check-21h
+[INFO] 21:00:01 执行脚本: /root/.openclaw/workspace/scripts/system-health-check.sh
+[INFO] 21:00:01 开始时间: 2026-03-16 21:00:01
+[INFO] 21:00:01 日志文件: /root/.openclaw/workspace/logs/system-health-check-21h-20260316-210001.log
+
+[STEP 1/5] 21:00:01 ▶ 检查任务脚本...
+[SUCCESS] 21:00:01 ✅ 脚本检查通过
+
+[STEP 2/5] 21:00:01 ▶ 检查依赖环境...
+[SUCCESS] 21:00:01 ✅ 依赖检查通过
+
+[STEP 3/5] 21:00:01 ▶ 预执行检查...
+[INFO] 21:00:01 磁盘使用率: 34%
+[SUCCESS] 21:00:01 ✅ 预检查完成
+
+[STEP 4/5] 21:00:01 ▶ 执行任务脚本...
+═══════════════════════════════════════════════════════════════
+
+=== OpenClaw 系统健康检查 v1.2 ===
+时间: Mon Mar 16 09:00:01 PM CST 2026
+版本: 1.2.0
+
+【1. 系统配置检查】
+  工作区目录存在 ... 通过
+  配置目录存在 ... 通过
+  技能目录存在 ... 通过
+  系统配置v1.1存在 ... 通过
+
+【2. 核心脚本检查】
+  cron-wrapper.sh存在 ... 通过
+  cron-status.sh存在 ... 通过
+  daily-ai-insight.sh存在 ... 通过
+  daily-ai-news-8am.sh存在 ... 通过
+
+【3. 技能可用性检查】
+  Tencent COS ... 通过
+  Weather ... 通过
+  OpenClaw Tavily Search ... 通过
+  GitHub ... 通过
+  Self Improving Agent ... 通过
+  WPS Skill ... 通过
+  Obsidian ... 通过
+  Find Skills ... 通过
+  Tencent Cloud Lighthouse ... 通过
+  Agent Browser ... 通过
+  Tencent Docs ... 通过
+  Tavily Search ... 通过
+  SMTP Sender ... 通过
+  Summarize ... 通过
+
+  技能检查统计: 通过 14, 失败 0
+
+【4. 依赖检查】
+  Python3可用 ... 通过
+  pip可用 ... 通过
+  curl可用 ... 通过
+  git可用 ... 通过
+
+【5. Python包检查】
+  python-docx包 ... 通过
+  openpyxl包 ... 通过
+  python-pptx包 ... 通过
+  markdown包 ... 通过
+
+【6. API密钥检查】
+  Tavily API Key设置 ... 通过 (tvly-dev-3Ds3oa-7krc...)
+  OpenAI API Key设置 ... 通过 (sk-sp-1dfcd6127bfc40...)
+
+【7. 定时任务检查】
+  daily-ai-insight-6am配置 ... 通过
+  daily-ai-news-8am配置 ... 通过
+  system-health-check-21h配置 ... 通过
+
+【8. 网络连接检查】
+  GitHub SSH访问 ... 通过
+  SMTP服务器连接 ... 通过
+
+【9. 磁盘空间检查】
+  磁盘使用率: 34%
+  磁盘空间充足 ... 通过
+
+【10. 测试报告】
+  通过: 38
+  失败: 0
+  总计: 38
+  通过率: 100%
+
+【11. GitHub同步】
+  测试全部通过，开始同步到 GitHub...

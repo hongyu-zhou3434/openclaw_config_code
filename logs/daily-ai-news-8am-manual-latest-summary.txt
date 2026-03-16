@@ -1,0 +1,5 @@
+任务名称: daily-ai-news-8am-manual
+执行时间: 2026-03-16 13:10:06
+执行耗时: 0分45秒
+执行状态: 成功
+日志文件: /root/.openclaw/workspace/logs/daily-ai-news-8am-manual-20260316-130921.log

@@ -1,0 +1,5 @@
+任务名称: test-task
+执行时间: 2026-03-16 12:01:32
+执行耗时: 0分2秒
+执行状态: 成功
+日志文件: /root/.openclaw/workspace/logs/test-task-20260316-120130.log

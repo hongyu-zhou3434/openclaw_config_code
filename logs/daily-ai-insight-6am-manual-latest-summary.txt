@@ -1,0 +1,5 @@
+任务名称: daily-ai-insight-6am-manual
+执行时间: 2026-03-16 13:02:13
+执行耗时: 0分1秒
+执行状态: 成功
+日志文件: /root/.openclaw/workspace/logs/daily-ai-insight-6am-manual-20260316-130212.log

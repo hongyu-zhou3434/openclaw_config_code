@@ -240,19 +240,24 @@ echo "" | tee -a "$LOG_FILE"
 # 6. API密钥检查
 echo "【6. API密钥检查】" | tee -a "$LOG_FILE"
 
+# 加载API密钥配置
+if [ -f "$WORKSPACE/config/api-keys.sh" ]; then
+    source "$WORKSPACE/config/api-keys.sh" > /dev/null 2>&1
+fi
+
 if [ -n "$TAVILY_API_KEY" ]; then
-    echo "  Tavily API Key设置 ... 通过" | tee -a "$LOG_FILE"
+    echo "  Tavily API Key设置 ... 通过 (${TAVILY_API_KEY:0:20}...)" | tee -a "$LOG_FILE"
     ((PASSED++))
 else
-    echo "  Tavily API Key设置 ... 失败" | tee -a "$LOG_FILE"
+    echo "  Tavily API Key设置 ... 失败 (未配置)" | tee -a "$LOG_FILE"
     ((FAILED++))
 fi
 
 if [ -n "$OPENAI_API_KEY" ]; then
-    echo "  OpenAI API Key设置 ... 通过" | tee -a "$LOG_FILE"
+    echo "  OpenAI API Key设置 ... 通过 (${OPENAI_API_KEY:0:20}...)" | tee -a "$LOG_FILE"
     ((PASSED++))
 else
-    echo "  OpenAI API Key设置 ... 失败" | tee -a "$LOG_FILE"
+    echo "  OpenAI API Key设置 ... 失败 (未配置)" | tee -a "$LOG_FILE"
     ((FAILED++))
 fi
 

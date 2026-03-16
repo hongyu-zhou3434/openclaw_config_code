@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "name": "self-improving-agent",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=self-improving-agent",
+      "source": "skillhub",
+      "version": "1.0.11"
+    },
+    "wps-skill": {
+      "name": "Wps Skill",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=wps-skill",
+      "source": "skillhub",
+      "version": "1.3.0"
+    },
+    "tavily-search": {
+      "name": "Tavily Web Search",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=tavily-search",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "smtp-sender": {
+      "name": "smtp-sender",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=smtp-sender",
+      "source": "skillhub",
+      "version": "1.0.2"
+    }
+  }
+}

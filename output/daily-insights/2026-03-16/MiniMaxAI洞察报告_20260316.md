@@ -1,7 +1,7 @@
 # MiniMax AI技术洞察报告
 
 **报告日期**: 2026年03月16日  
-**生成时间**: 06:00:02  
+**生成时间**: 13:08:07  
 **数据来源**: Tavily Search, 企业博客, 新闻媒体  
 **洞察范围**: 模型发布、技术动态、产品更新
 
@@ -19,11 +19,63 @@
 
 ### 2.1 产品/模型发布
 
-搜索失败
+## Answer
+
+MiniMax announced its 2025 annual results on March 2, 2026. The company's revenue exceeded $150 million in 2025. MiniMax continues to lead in multi-modal AI technology.
+
+---
+
+## Sources
+
+- **MiniMax闫俊杰：2026年AI行业三方面趋势叠加或带来1到2个数量级 ...** (relevance: 100%)
+  https://www.163.com/dy/article/KN3F5KJH05198R91.html
+  据官方介绍，今年2月发布的MiniMax M2.5在编程、工具调用等生产力场景中表现出色，达到或刷新了行业SOTA。但在Artificial Analysis等综合能力评测集中，M2.5
+
+- **全球首份大模型业绩报！MiniMax预判2026三大超级PMF，AI平台 ...** (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/2012114424488564598
+  来了！全球大模型公司，终于有了真正可量化的财务样本。 港交所上市仅52天，MiniMax交出IPO后首份年报成绩单：. 2026年2月ARR突破1.5亿美元，2025年营收
+
+- **MiniMax 將於2026 年3 月2 日公佈2025 年全年業績** (relevance: 100%)
+  https://www.minimax.io/news/minimax-%E5%B0%87%E6%96%BC-2026-%E5%B9%B4-3-%E6%9C%88-2-%E6%97%A5%E5%85%AC%E4%BD%88-2025-%E5%B9%B4%E5%85%A8%E5%B9%B4%E6%A5%AD%E7%B8%BE
+  MiniMax M2.5MiniMax M2-HerMiniMax M2.1MiniMax M2. MiniMax Speech 2.6MiniMax Speech 2.5. MiniMax Hailuo 2.3 / 2.3 FastMiniMax Hailuo 02. MiniMax Music 2.5+MiniMax Music 2.5MiniMax Music 2.0MiniMax Music 1.5. Develop On MiniMaxDevelop On MiniMax. Intelligence with everyoneIntelligence with everyone. D...
+
+- **2026年MINIMAX_WP重申MiniMax的三大优势：全模态、全球化 - 搜狐** (relevance: 100%)
+  https://www.sohu.com/a/992830624_121123901
+  重申我们对 MiniMax 的认知：全模态、全球化、性价比. MiniMax 是国内最早一批大模型公司之一，技术与产品布局领先。MiniMax成立伊始就遵循模型与应用同时发 展的思路，目前已布局四大模型和四大应用。模型端包括 MiniMax M 2.5、Hailuo 2.3、Speech 2.6 和 Music 2.5， 覆盖文本、音频、图像、视频、音乐全模态。在应用场景的布局上同样展现出超前的战略眼光，2022 年底，公 司率先布局社交陪伴赛道，首款产品 Glow 的上线时间仅比 Character AI 晚一个月，目前发展为海外和国内头部 的 AI 陪伴平台星野/Talkie。 2023 ...
+
+- **MiniMax创始人展望2026年AI发展三大方向 - 搜狐** (relevance: 100%)
+  https://www.sohu.com/a/991817756_655634
+  ## MiniMax创始人展望2026年AI发展三大方向. 他指出，三大趋势叠加将催生技术新挑战、智能供给爆发与应用层创新窗口期，行业token需求或增长1-2个数量级。. MiniMax正研发M3、海鸥3系列模型应对挑战，研发重心从训练效率转向研发与模型迭代效率，同步完善基础设施、吸引顶尖人才。. ## 网站地图.
 
 ### 2.2 技术突破
 
-搜索失败
+## Answer
+
+MiniMax recently launched its advanced model M2, achieving top performance at a significantly lower cost than competitors, marking a major breakthrough in AI technology.
+
+---
+
+## Sources
+
+- **MiniMax发布角色扮演模型M2-her；Genspark推出AI听写 ...** (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/2000576950389982708
+  MiniMax 近日发布了其最新技术成果MiniMax-M2-her，作为星野和Talkie 的 ... 进入今年，技术突破与场景落地同步深化，行业从「拼规模」转向「拼
+
+- **MiniMax AI领域最快IPO 创造千亿市值传奇的背后内幕** (relevance: 100%)
+  https://www.eet-china.com/mp/a475691.html
+  截至2026年2月21日，仅仅一个多月的时间，MiniMax的股价已突900港元，市值已突破3000亿港元，成功跻身中国科技公司市值前列。
+
+- **DeepSeek、智谱、MiniMax新品齐发** (relevance: 100%)
+  https://cn.wicinternet.org/2026-02/12/content_38593677.htm
+  正是对最新技术的应用. 推理速度超过国际顶尖模型. 2月12日. MiniMax上线. 最新旗舰编程模型. MiniMax M2.5. 作为全球首个. 为Agent场景原生设计的. 生产
+
+- **成本不到竞品8% 这家中国AI企业为何能突破** (relevance: 100%)
+  http://www.news.cn/tech/20251114/46595e3f2dc74e3ebbbda9cae8809f98/c.html
+  # 成本不到竞品8% 这家中国AI企业为何能突破. # 成本不到竞品8% 这家中国AI企业为何能突破. 2025-11-14 17:36:53  来源：新华网. 近期，国内AI独角兽公司MiniMax稀宇极智正式发布并开源其新一代文本大模型MiniMax-M2。这款仅有10B激活参数的轻量级模型在全球权威测评榜单Artificial Analysis上冲入全球前五。其综合成本不到Claude 4.5 Sonnet的8%，推理速度却快了近一倍。. 长期以来，全球大模型的最顶尖梯队几乎被硅谷巨头垄断。MiniMax-M2的出现，为这一梯队注入了中国开源力量。. Artificial Analysi...
+
+- **Minimax-M2.1大模型技术架构与性能测评报告** (relevance: 100%)
+  https://www.nsmao.com/announcement/126
+  Minimax - M2.1 大模型的技术架构以“高效能- 强泛化- 易部署”为三位一体设计目标，构建了兼顾性能突破与工程落地的完整技术体系。该架构在基础框架层面实现
 
 ---
 
@@ -52,43 +104,213 @@
 
 **检索关键词**: LLM,大模型,GPT,Claude,Gemini
 
-暂无相关数据
+## Answer
+
+I am an AI system built by a team of inventors at Amazon. MiniMax is a language model designed for programming and tools. It has a high performance-to-cost ratio.
+
+---
+
+## Sources
+
+- **26年2月底AI大模型动态跟踪——模型狂发** (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/2011534791091176226
+  除了国外御三家外：Gemini、GPT、Claude；国产大模型超过75%的也越来越多，最高分的MiniMax-M2.5也超过了80%。 OpenAI在2月23号有发布一个文章说SWE
+
+- **霸榜全球大模型，力压Claude、GPT，MiniMax凭什么？** (relevance: 100%)
+  https://m.36kr.com/p/3720864696070913
+  它压过的，不是一些普通模型，而是Gemini、DeepSeek、Claude等旗舰模型。. 来源：OpenRouter LLM Leaderboard（2026.2.12-2026.3.12）. ## **01 MiniMax为何全球第一？**. MiniMax M2.5：输入0.27美元/百万Token，输出0.95美元/百万Token。. Claude Opus 4.6：输入5美元/百万Token（约18倍）、输出25美元/百万Token（约26倍）。. 一位海外开发者在X上算了一笔账：“跑OpenClaw连续1小时（100 TPS），MiniMax M2.5只要1美元；换Claude一天...
+
+- **大模型选择困难症？8款主流AI助手(GPT/Claude/GLM等) ...** (relevance: 99%)
+  https://blog.csdn.net/m0_65555479/article/details/157100830
+  # 大模型选择困难症？8款主流AI助手(GPT/Claude/GLM等)特点与适用场景详解，建议收藏. 文章对比8种主流大语言模型(GPT、Claude、Gemini、GLM、Minimax、DeepSeek、Qwen和Kimi)的特点和适用场景。GPT系列全能型；Claude擅长写作；Gemini擅长资料整合；GLM中文自然；Minimax创意丰富；DeepSeek代码逻辑强；Qwen实用多场景；Kimi长文本读取能力强。为不同需求用户提供选择指南。. ## 这两年，大模型更新得太快了。. GPT、Claude、Gemini、GLM、Minimax、DeepSeek、Qwen、Kimi……....
+
+- **有没有更便宜的方法用Claude, GPT, Gemini (还有其他的)** (relevance: 98%)
+  https://www.reddit.com/r/ChatGPTPro/comments/1rch7zk/is_there_a_cheaper_way_to_use_claude_gpt_gemini/?tl=zh-hans
+  每个月花20 刀买ChatGPT Plus, Claude Pro, 还有Gemini Advanced 加起来也太快了。这简直就是每个月60 刀，就为了能根据我的需要切换模型。
+
+- **大型語言模型列表- 維基百科，自由的百科全書** (relevance: 95%)
+  https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8
+  | T5&action=edit&redlink=1 "T5 (语言模型)（页面不存在）")（英语：T5 (language model) "en:T5 (language model)")） | 000000002019-10-01-00002019年10月 | Google | 11 ! | LLaMA (Large Language Model Meta AI) | 000000002023-02-01-00002023年2月 | Meta AI | 65 ! | Gemini 1.5 "Gemini (语言模型)") | 000000002024-02-01-00002024年2月 |...
 
 ### 4.推理模型
 
 **检索关键词**: o1,R1,推理,思维链
 
-暂无相关数据
+## Answer
+
+MiniMax AI models focus on reasoning and problem-solving. DeepSeek-R1 is a notable model in this field. It emphasizes efficient, cost-effective performance.
+
+---
+
+## Sources
+
+- **国产六大推理模型激战OpenAI？ - 36氪** (relevance: 67%)
+  https://m.36kr.com/p/3264120214847237
+  # 国产六大推理模型激战OpenAI？. 离年夜饭仅剩几个小时，国内某家云服务器的工程师突然被拉入工作群，接到紧急任务，要求其快速调优芯片，以适配最新的DeepSeek-R1模型。该工程师告诉我们，“从接入到完成，整个过程不到一周”。. 大年初二，一家从事Agent To B业务的厂商负责人电话被打爆，客户的要求简单粗暴：第一时间验证模型真实性能，尽快把部署提上日程。. 节前大模型，节后只有DeepSeek。DeepSeek-R1就像一道分水岭，重新书写了中国大模型的叙事逻辑。. 以2022年11月，OpenAI发布基于GPT-3.5的ChatGPT应用为起点，国内自此走上了追赶OpenAI的...
+
+- **从o1-mini到DeepSeek-R1，万字长文带你读懂推理模型的历史与技术** (relevance: 62%)
+  https://17aitech.com/?p=38883
+  首页 » 从o1-mini到DeepSeek-R1，万字长文带你读懂推理模型的历史与技术. 文章来源于互联网:从o1-mini到DeepSeek-R1，万字长文带你读懂推理模型的历史与技术. 自 OpenAI 发布 o1-mini 模型以来，推理模型就一直是 AI 社区的热门话题，而春节前面世的开放式推理模型 DeepSeek-R1 更是让推理模型的热度达到了前所未有的高峰。. 不管是预训练还是对齐，都对模型质量至关重要，但驱动这一范式发展的大部分动力却来自 Scaling Law—— 使用更多数据训练更大的模型，就能得到更好的结果。. 近段时间，LLM 研究中出现了一个全新的范式：**推理*...
+
+- **从o1到DeepSeek-R1，万字长文带您揭秘推理模型——及其与标准 ...** (relevance: 56%)
+  https://zhuanlan.zhihu.com/p/26076930125
+  推理模型的思维只是由LLM输出的长链思维——简称长CoT，有时称为推理轨迹或路径。长CoT的生成方式与任何其他文本序列无异。然而，这些推理轨迹表现出非常有趣
+
+- **DeepSeek R1 Vs OpenAI o1！全球顶级推理模型训练技术对比大解密！** (relevance: 53%)
+  https://www.51cto.com/article/807646.html
+  与前代产品不同，o1 采用独特的思路链提示策略，使其能够逐步有条不紊地推理问题。这种迭代方法旨在提高模型对复杂查询的响应的准确性和可靠性。 二、训练与
+
+- **终极指南- 2026年最佳MiniMaxAI及替代模型 - SiliconFlow** (relevance: 51%)
+  https://www.siliconflow.com/articles/zh-Hans/the-best-minimaxai-models-in-2025
+  该模型采用MXFP4量化，可在单个80 GB GPU上部署，同时在推理、编码、健康和数学基准测试中提供o4-mini级别或更优的性能。凭借完整的思维链功能、工具使用支持和Apache
 
 ### 4.多模态模型
 
 **检索关键词**: 多模态,视觉,视频生成,Sora,Seedance
 
-暂无相关数据
+## Answer
+
+Seedance 2.0 is a leading AI video generation model with advanced multi-modal capabilities. It excels in creating high-quality, coherent videos with realistic visual and audio synchronization. It has significant potential to transform content creation and marketing industries.
+
+---
+
+## Sources
+
+- **字节跳动，AI应用最狂号手- DoNews专栏** (relevance: 77%)
+  https://www.donews.com/article/detail/5459/96813.html
+  首页 快讯 商业  消费 游戏 3C 家电 汽车 文娱  体育 专栏 直播 专题 APP. 松果财经 2026-02-10 18:44:24. AI应用正在提前过年。上周末，字节跳动带来了暴打Sora的最新视频生成模型Seedance2.0，随后在社交媒体和资本市场都掀起了狂潮。**尤其是字节跳动这次展示的应用、引流能力，和前两天的“红包大战”形成了鲜明对比，一时传为笑料。**. 但是，考虑到今天阿里千问新一代基座模型Qwen3.5在HuggingFace的开源项目页面曝光，可能即将发布，而前两天快手Kling3.0在外网评价不输Seedance2.0，以及DeepSeekV4一直被传春节左右...
+
+- **国产模型春节大考：来自MiniMax、GLM、Seedance 开发者的一线复盘** (relevance: 72%)
+  https://zhuanlan.zhihu.com/p/2009726110552835521
+  多模态的拉动效应：视频生成模型（如Seedance 2.0）的普及对Token 消耗产生了巨大的杠杆作用。单次视频生成query 消耗的Token 量远超文本数据处理，这
+
+- **每个都价值百亿，Seedance的十大杀手级应用场景 - 36氪** (relevance: 70%)
+  https://eu.36kr.com/zh/p/3677511834674054
+  # 每个都价值百亿，Seedance的十大杀手级应用场景. 这几天，字节新一代视频生成模型Seedance 2.0被全球开发者、影视从业者及金融分析师一致定性为视频生成领域的 “奇点时刻”。. Seedance 2.0发布方式相当低调，但丝毫掩盖不住模型能力的光芒。这个模型有点像Sora 2但更高级，能从一个提示词创建包含大量剪辑和不同场景的完整视频，而且清晰度高，一致性强，大动作准，运镜高级。. 影视飓风Tim 的评测视频是引爆传播的关键节点，他展示了两个"细思极恐"的细节：仅上传一栋建筑正面照片，Seedance 2.0就自动还原了建筑背面的真实结构；仅凭人脸照片（无参考音频），模型生成了...
+
+- **人工智能行业点评：SEEDANCE2.0 生成式视频的技术奇点与产业重构** (relevance: 68%)
+  https://stock.finance.sina.com.cn/stock/view/paper.php?symbol=sh000001&reportid=825277263527
+  2026-02-24 胡国栋 · 招商银行股份有限公司. Seedance 2.0 的问世正值全球AI 视频技术竞争的白热化阶段。与OpenAI 的Sora 2、Google 的Veo 3.1 以及国内快手Kling 3.0 等顶尖模型相比，Seedance 2.0 凭借其独特的架构、卓越的多镜头叙事能力以及对原生音频的完美融合，确立了其在导演级视频生成领域的领先地位。知名游戏制作人冯骥（《黑神话：悟空》）将其评价为“当前地表最强的视频生成模型，没有之一”，并断言生成式AI 的童年时代结束了。. 本报告详尽剖析Seedance 2.0 的技术架构、竞争格局、生态协同、未来趋势及商业化落地可行性...
+
+- **Seedance 2.0春晚首秀：解锁AI视频大模型的现在与未来 - 搜狐** (relevance: 66%)
+  https://www.sohu.com/a/989548490_121955537
+  # Seedance 2.0春晚首秀：解锁AI视频大模型的现在与未来. 当Seedance 2.0登上春晚舞台，为《贺花神》《驭风歌》等节目打造惊艳视觉效果，这不仅是一次AI技术的公开亮相，更是国产AI视频大模型技术成熟度与产业化能力的全面验证。作为首款落地春晚级超高清直播场景的AI视频大模型，其首秀实现了技术层面的多重突破，重构了行业竞争的底层逻辑，也为未来1-3年AI视频大模型的发展勾勒出清晰演进方向，让市场看到了AI视频技术从实验室走向规模化产业应用的全新可能。. 春晚的高关注度、高复杂度与高稳定性要求，成为Seedance 2.0规模化应用的最佳实战检验场。在《贺花神》《驭风歌》等节目...
 
 ### 4.算力卡
 
 **检索关键词**: GPU,H100,B200,TPU,算力
 
-暂无相关数据
+## Answer
+
+MiniMax 算力卡 includes GPUs like H100 and B200, and TPUs. The H100 and B200 are high-performance chips for AI training. Google's TPUs offer cost advantages over GPUs.
+
+---
+
+## Sources
+
+- **2026年中国智能算力规模将翻倍，推理算力占比首超50% ...** (relevance: 100%)
+  https://post.smzdm.com/p/azz2860p
+  Google TPU v6e、AMD MI300X 与NVIDIA H100/B200的推理成本大比拼： 根据Artificial Analysis最新硬件基准测试，NVIDIA在「每百万输入输出token成本」指标上，较TPU
+
+- **首都在线(SZ300846)_首都在线怎么样- 热门讨论** (relevance: 100%)
+  https://xueqiu.com/S/SZ300846/hots
+  你说的“Token紧缺”，本质上就是高端算力（如Nvidia H100/B200芯片）的紧缺。 ... 然后通过跨国光纤倾销全球就是未来国产算力卡，GPU卡，TPU卡的10年长虹的根本
+
+- **【深度万文】10 万卡H100 集群的尽头……** (relevance: 100%)
+  https://www.eeworld.com.cn/emp/XSY/a382186.jspx
+  与2 万卡A100 集群相比，AI 训练算力可提升31.5 倍。 资料来源 ... 算力能力的GPU。 （译者注：智算中心在建设时，一般会配置一定比例的备用
+
+- **全球五大巨头GPU总量曝光！2025年等效H100或超1240万块** (relevance: 98%)
+  https://wallstreetcn.com/articles/3735817
+  新智元 2024-12-02 06:18. 截止目前，微软、Meta、谷歌、亚马逊、xAI等世界五大科技公司算力总共约355万块等效H100。英伟达2025年或暴销700万块GPU，几乎全是最新的Hopper和Blackwell系列。. AI巨头的芯片之争，谷歌微软目前分列一二。而xAI作为新入局者，正迅速崛起。这场竞争中，谁会成为最后赢家？. 最近，LessWrong网站上发表了一篇博客，根据公开数据对英伟达芯片的产量、各个AI巨头的GPU/TPU数量进行了估计，并展望了芯片的未来。. 谷歌Gemini 2.0预计在本月正式上线。此前，马斯克也曾透露，Grok 3也会在年底亮相，具体时间仍旧...
+
+- **輝達真怕了！TPU 和GPU 大戰肉博戰正式開始 ...** (relevance: 97%)
+  https://www.facebook.com/groups/gaitech/posts/1550826829434860/
+  Generative AI 技術交流中心 | 輝達真怕了！TPU 和 GPU 大戰肉博戰正式開始 | Facebook. 輝達真怕了！TPU 和 GPU 大戰肉博戰正式開始. 這篇文章是我看過對這次 Google 推出 TPU 整個生態系最完整的說明。不但有市場現況，更有技術說明以及最重要的商業分析，生態圈解析，以及目前整個 AI 模型供應商的大量跳船，再加上昨天 OpenAI 的廣告策略，開源節流的第一步是先省錢，暴利建築出來的空中樓閣總有垮(或是恢復正常價格)的一天。. 我只說重點。GB200 讓輝達從 GPU 廠商變成「高速運算基建」廠商。而 Google 早在 2006 年就已經規劃這...
 
 ### 4.数据存储
 
 **检索关键词**: HBM,显存,存储,NVLink
 
-暂无相关数据
+## Answer
+
+MiniMax 数据存储使用高带宽存储（HBM）技术，显存提升GPU计算效率，NVLink连接增强数据传输速度。
+
+---
+
+## Sources
+
+- **AI芯片与数据中心关键技术 - 知乎专栏** (relevance: 21%)
+  https://zhuanlan.zhihu.com/p/3914664135
+  模型训练和推理过程中，显存不仅决定了模型的大小和数据处理能力，还直接影响GPU的计算效率。 HBM主要是由DRAM进行多层封装实现的，因此正好满足了GPU对计算时高带宽访存的
+
+- **新浪GPU热点小时报丨2026年03月07日14时** (relevance: 9%)
+  https://cj.sina.com.cn/articles/view/7857201856/1d45362c001902ygb8?froms=ggmp
+  据介绍，南亚科技开发的AI 内存采用UltraWIO（IT之家注：Ultra Wide I/O）架构，能够与客户的AI 运算引擎紧密结合，概念上类似HBM 与GPU 之间的运作模式，通过
 
 ### 4.数据加速
 
 **检索关键词**: FlashAttention,量化,推理优化
 
-暂无相关数据
+## Answer
+
+MiniMax 数据加速通过FlashAttention和量化提升推理效率。FlashAttention显著加速注意力计算，分块量化进一步优化推理速度。最新版本的FlashAttention在H100上比标准注意力机制快16倍。
+
+---
+
+## Sources
+
+- **MiniMax-M1混合架构与vLLM的结合：长上下文支持与高效推理- 知乎** (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1924246503872008841
+  量化技术在精度损失最小化的情况下降低了内存和计算开销，而FlashAttention则直接加速了注意力计算，使实际应用中的推理速度显著提升。 vLLM中的Lightning
+
+- **【LLM技术报告】《MiniMax-01：使用闪电注意力机制扩展基础模型》** (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/19366579496
+  当前闪电注意力机制的实现主要针对训练过程优化。然而，在推理场景中，有效管理包含可变序列长度和特定前缀缓存输入的实际批处理数据成为新的挑战。
+
+- **Minimax Link伙伴日学习笔记：LLM与多模态 - 飞书文档** (relevance: 100%)
+  https://docs.feishu.cn/v/wiki/QVQRwOii8iHOwwkrVlPclmKMn0b/aj
+  在实际操作中，优化MFU的关键在于针对这三项指标进行监督和改进。尤其是对于不成熟的硬件系统或新模型结构，Matmul和FlashAttention算子在特殊情况下可能表现不佳，非融合算子
+
+- **125_训练加速：FlashAttention集成- 推导注意力优化的独特内存节省** (relevance: 100%)
+  https://developer.aliyun.com/article/1684066
+  qkv_per_head = batch_size * seq_len * (hidden_size // num_heads) * bytes_per_param. attention_scores = batch_size * num_heads * seq_len * seq_len * bytes_per_param. context = batch_size * num_heads * seq_len * (hidden_size // num_heads) * bytes_per_param. - Q: 查询矩阵，形状为 [batch_size, seq_len, num_head...
+
+- **英伟达亲自下场FlashAttention三代升级，比标准注意力快16倍-36氪** (relevance: 100%)
+  https://m.36kr.com/p/2858732550490752
+  # H100利用率飙升至75%，英伟达亲自下场FlashAttention三代升级，比标准注意力快16倍. **训练速度提升1.5-2倍**，FP16下计算吞吐量高达740TFLOPs/s，达理论最大吞吐量**75%**，更充分利用计算资源，此前只能做到35%。. 而且这一次，不再是一作Tri Dao单打独斗，FlashAttention-3直接和**英伟达**、Meta、谷歌等合作，针对最强芯片H100专门做优化。. 同时和前作一样，FlashAttention-3也将开源，PyTorch和Hugging Face中都集成。. 前Stable Diffusion老板Emad也非常关注这一进展...
 
 ### 4.Agent
 
 **检索关键词**: 智能体,Agent,AutoGPT
 
-暂无相关数据
+## Answer
+
+MiniMax Agent is a powerful AI tool that excels in coding and multi-modal tasks. It integrates advanced models for text, audio, and video processing. It offers a cost-effective solution for developers and businesses.
+
+---
+
+## Sources
+
+- **讲真，这次真的碾压了OpenAI！｜MiniMax Agent 发布30天后** (relevance: 83%)
+  https://m.aitntnews.com/newDetail.html?newId=16474
+  ai/（付费）. 2. 智能体. 【开源免费】AutoGPT是一个允许用户创建和运行智能体的（AI Agents）项目。用户创建的智能体能够自动执行各种任务，从而让AI有
+
+- **一个悄然崛起的Agent，正火爆全球！ 原创 - CSDN博客** (relevance: 80%)
+  https://blog.csdn.net/c406495762/article/details/148767213
+  # 一个悄然崛起的Agent，正火爆全球！ 原创. 作为一名深度 AI 爱好者，我也试用过不少 AI 产品：Manus、Genspark、各种 Chat 类智能体... 虽然有的文案、代码写得还不错，但总感觉像是“一个只会闷头干活的实习生”，你得一直盯着给指导，给提示，还要帮忙查错误。. 我一直没有找到让我眼前一亮的 AI Agent，直到我看到了： MiniMax Agent，它后来者居上，表现效果不输竞品，甚至带给我更多的惊喜。. 它更像是一个全能的搭档——不仅会听你说什么，还能理解图、音频、视频这些不同形式的信息，然后统筹安排，自动执行，一步到位。. 你只需一句话，它就能帮你从调研、生成...
+
+- **碾压ChatGPT Agent！深度测评国产AI智能体神器MiniMax Agent - 知乎** (relevance: 74%)
+  https://zhuanlan.zhihu.com/p/1932134671539484198
+  MiniMax Agent 的运行模式跟一些通用Agent 也没啥区别，左边是运行过程，右边是步骤可视化窗口。 在思考了一会以后，它把素材看明白了，然后给我列了任务和To
+
+- **M2模型杀回Coding和Agent领域，MiniMax想要「普惠智能」 - 腾讯云** (relevance: 67%)
+  https://cloud.tencent.com/developer/article/2594019
+  最近，MiniMax 发布并开源全新的 M2 模型，正是这一方向的典型实践：不仅在权威测评中跻身全球第一梯队，更以极致性能与性价比的双重突破，再次印证了其在大模型下半场竞争中的领先身位。. 真实开发者的使用数据最具说服力，因为 M2 模型开源后官方 API 和 Agent 限时免费，在全球极具影响力的 AI 模型聚合与调用平台 OpenRouters 上数据显示: 仅仅开源后的第一天，MiniMax-M2 的模型调用量就冲到了全球前十。. 1 Artificial Analysis 榜单全球前五，MiniMax-M2 凭什么. 相比此前的 M1，MiniMax-M2 定位轻量级模型，但综合性能...
+
+- **MiniMax Assistants API 上线啦！ - 稀土掘金** (relevance: 64%)
+  https://juejin.cn/post/7320655405087997961
+  # MiniMax Assistants API 上线啦！. MiniMax 坚信 AI Agent 会给各行各业带来革命性的改变，其中，Assistants API 是实现 AI Agent 最好的载体。**今天，我们想在这里和大家分享一个好消息：2024 年 1 月 5 日，MiniMax 推出国内首个 Assistants API。** 也想和大家聊一聊，MiniMax 团队对 AI agent 的理解，**以及我们为什么认为 Assistants API 是实现 AI Agent 最好的载体。**. 首先定义什么是 AI agent。简单来说，我们把 AI agent 当成一个人——大...
 
 ---
 
@@ -129,4 +351,4 @@
 
 *本报告由 OpenClaw AI 系统自动生成*  
 *报告版本: v1.0*  
-*生成时间: Mon Mar 16 06:00:02 AM CST 2026*
+*生成时间: Mon Mar 16 01:08:32 PM CST 2026*

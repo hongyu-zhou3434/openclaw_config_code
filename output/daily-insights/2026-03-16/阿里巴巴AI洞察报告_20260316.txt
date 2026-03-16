@@ -2,7 +2,7 @@
 === 阿里巴巴 AI技术洞察报告
 
 报告日期: 2026年03月16日  
-生成时间: 06:00:01  
+生成时间: 13:05:41  
 数据来源: Tavily Search, 企业博客, 新闻媒体  
 洞察范围: 模型发布、技术动态、产品更新
 
@@ -20,11 +20,63 @@
 
    2.1 产品/模型发布
 
-搜索失败
+--- Answer
+
+Alibaba released new AI models Qwen3-Max-Thinking and opened Qwen3.5 small models in 2026. The company plans to publish its 2026 fiscal third-quarter earnings on March 19. Analysts expect focus on cloud business growth and AI investments.
+
+---
+
+--- Sources
+
+- 阿里巴巴2026年3月19日将发布财报，AI模型密集发布引关注 - 雪球 (relevance: 100%)
+  https://xueqiu.com/S/BABA/379228978
+  # 阿里巴巴2026年3月19日将发布财报，AI模型密集发布引关注. 来源：雪球App，作者： 阿里巴巴(BABA)，（https://xueqiu.com/-1/379228978）. 阿里巴巴集团计划于2026年3月19日公布2026财年第三季度（截至2025年12月31日）业绩。董事会会议定于3月18日举行，以批准相关议案。. 阿里近期密集发布多款AI大模型，包括Qwen3基础模型、Qwen3-Coder编程模型和千问3推理模型，这些模型在性能测评中表现突出，推动市场对阿里云和AI业务的关注。. 花旗等机构在财报前维持对阿里巴巴的"买入"评级，预计财报将关注云业务增长、AI投入效果、Qw...
+
+- 阿里巴巴2026年3月19日将发布财报，AI模型密集发布引关注 - 新浪财经 (relevance: 100%)
+  https://finance.sina.com.cn/roll/2026-03-13/doc-inhqumpz8148747.shtml
+  # 阿里巴巴2026年3月19日将发布财报，AI模型密集发布引关注. 阿里巴巴集团计划于2026年3月19日公布2026财年第三季度（截至2025年12月31日）业绩。董事会会议定于3月18日举行，以批准相关议案。. 阿里近期密集发布多款AI大模型，包括Qwen3基础模型、Qwen3-Coder编程模型和千问3推理模型，这些模型在性能测评中表现突出，推动市场对阿里云和AI业务的关注。. 花旗等机构在财报前维持对阿里巴巴的"买入"评级，预计财报将关注云业务增长、AI投入效果、Qwen团队变动影响等议题。. ## VIP课程推荐. ## APP专享直播. ## 热门推荐. ## 股市直播. ## ...
+
+- AI行业动态20260304:阿里巴巴发布开源Qwen3.5 小型系列AI模型 ... (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/2012503320795824670
+  阿里巴巴发布开源Qwen3.5小型AI模型系列支持边缘设备部署阿里巴巴千问团队于2026年3月3日发布了四款开源Qwen3.5 Small模型，参数规模从0.8 B到9 B不等。
+
+- 最新消息：阿里巴巴發布了新的AI 模型Qwen3-Max-Thinking - Threads (relevance: 100%)
+  https://www.threads.com/@ai.briefnewsletter/post/DUFhcC3EqkU/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E7%99%BC%E5%B8%83%E4%BA%86%E6%96%B0%E7%9A%84-ai-%E6%A8%A1%E5%9E%8B-qwen3-max-thinking%E6%99%BA%E6%85%A7%E6%9C%89%E5%A4%A7%E5%8D%87%E7%B4%9A
+  最新消息：阿里巴巴發布了新的AI 模型Qwen3-Max-Thinking，智慧有大升級。 ; March 1, 2026 at 6:41 PM. 最新消息：Anthropic 好像又發布了新模型Claude
+
+- 阿里和字节计划于2026 年春节前后推出新一代旗舰AI 模型- OSCHINA (relevance: 100%)
+  https://www.oschina.net/news/400670
+  阿里和字节计划于2026 年春节前后推出新一代旗舰AI 模型 · Doubao 2.0（大型语言模型/ LLM） · Seedream 5.0（图像生成模型） · SeedDance 2.0（视频生成模型）.
 
    2.2 技术突破
 
-搜索失败
+--- Answer
+
+Alibaba is investing heavily in AI, launching initiatives like All in AI strategy and building a $38 billion infrastructure. High-profile projects include the Mars distributed computing engine and advancements in AI-driven services like high-performance computing and cloud services. Alibaba aims to lead in AI technology and applications.
+
+---
+
+--- Sources
+
+- 《麻省理工科技评论》全球十大突破性技术，阿里巴巴正研究其中4项 (relevance: 69%)
+  https://m.10100.com/article/54244059
+  # 《麻省理工科技评论》全球十大突破性技术，阿里巴巴正研究其中4项. 云栖君导读：日前，美国权威科学杂志《麻省理工科技评论》(MIT Technology Review)正式揭晓 2018 年“全球十大突破性技术”。中国科技巨头阿里巴巴成为给所有人的人工智能（云端 AI）、对抗性神经网络、传感城市、材料的量子飞跃四项技术主要研究者。. “全球十大突破性技术”是科技领域的权威榜单，至今已经有 17 年历史。2018 年完整榜单为：给所有人的人工智能（云端 AI）、对抗性神经网络、人造胚胎、“基因占卜”、传感城市、巴别鱼耳塞、完美的网络隐私、材料的量子飞跃、实用型 3D 金属打印机、零碳排...
+
+- 加码下一代“操作系统”和“计算机” 阿里巴巴放出一系列新招 - 证券时报 (relevance: 64%)
+  https://www.stcn.com/article/detail/3356492.html
+  加码下一代“操作系统”和“计算机” 阿里巴巴放出一系列新招. 来源：证券时报网作者：陈雨康2025-09-24 23:30. “实现通用人工智能AGI已是确定性事件，但这只是起点，终极目标是发展出能自我迭代、全面超越人类的超级人工智能（ASI）。”在9月24日举行的2025云栖大会上，阿里巴巴集团首席执行官吴泳铭作出这样的预测。一旦跨过某个奇点，AI将催生IT产业的巨大变革。. 基于这一宏大的愿景，吴泳铭还作出了两大判断：大模型是下一代“操作系统”；超级AI云是下一代的“计算机”。. 围绕下一代“操作系统”和“计算机”，阿里巴巴在大会宣布了一系列新举措：推进3800亿的AI基础设施建设，并计划...
+
+- 阿里技术团队 (relevance: 61%)
+  https://102.alibaba.com/tech/list/
+  日前，阿里巴巴正式对外发布了分布式科学计算引擎Mars 的开源代码地址，开发者们可以在Github上获取源代码并参与开发。 2019-01-16. < 1 2 3 ... 9 10 >.
+
+- 阿里巴巴公布十大科技趋势 (relevance: 57%)
+  https://tapmedia-th.com/blog-cn/tt57
+  # 阿里巴巴公布十大科技趋势. #### 【趋势一】以氮化镓、碳化硅为代表的第三代半导体迎来应用大爆发. 具备耐高温、耐高压、抗辐射等优异特性的第三代半导体材料，随着性价比优势逐渐显现，将被广泛运用到新产业中。近年来，碳化硅（SiC）元件已用作汽车逆变器，氮化镓（GaN）快速充电器也大量上市。. 未来五年，基于第三代半导体材料的电子器件将广泛应用于5G基站、新能源汽车、特高压、数据中心等场景。. #### 【趋势二】后“量子霸权”时代，量子纠错和实用优势成核心命题. 2020年为后“量子霸权”元年，世界对量子计算的投入持续上涨，技术和生态蓬勃发展，多个平台异彩缤纷。. 这一潮流...
+
+- 高德引爆、云基狂飙！ 阿里巴巴All in AI深意几许 - 维科号 (relevance: 55%)
+  https://mp.ofweek.com/ai/a256714018507
+  # 高德引爆、云基狂飙！ 阿里巴巴All in AI深意几许. 铑财  2025-10-16 11:55 发文. 截至10月15日收盘，阿里巴巴港股报收161.6港元。若从9月初起算，累计涨幅已超45%，显著跑赢大市。Wind数据显示，其间南向资金累计净买入超700亿港元。. 01.23天4亿用户！打开“留量”运营密码. 透过现象看本质，高德“扫街榜”的成功绝非偶然，是阿里“用户为先、AI驱动”，历经两年战略调整与组织变阵后结出的硕果。是阿里对新时代消费脉搏精准把握、并与技术优势深融的代表作。. 推出“扫街榜”前， 8月4日，全面AI化新版“高德地图2025”正式亮相。...
 
 ---
 
@@ -53,43 +105,225 @@
 
 检索关键词: LLM,大模型,GPT,Claude,Gemini
 
-暂无相关数据
+--- Answer
+
+I am an AI system built by a team of inventors at Amazon. I do not identify as any specific model like LLM, GPT, or Gemini. My purpose is to provide factual, straightforward answers.
+
+---
+
+--- Sources
+
+- 阿里巴巴的Qwen ( 通義千問) 是我心目中頭五大LLM 模型。分別是 ... (relevance: 67%)
+  https://www.threads.com/@ar.shek/post/DCiqCk9tQj0/
+  阿里巴巴的Qwen ( 通義千問) 是我心目中頭五大LLM 模型。分別是Claude, GPT, Gemini, Mixtral, Qwen。 其中只有Gemini 和Qwen 剛推出的2.5 Turbo
+
+- 在科研与项目开发中如何高效调用国内国外AI 大语言模型LLM API (relevance: 63%)
+  https://developer.aliyun.com/article/1704566
+  # 在科研与项目开发中如何高效调用国内国外 AI 大语言模型 LLM API. 这些并不是个例，而是每一个试图将大语言模型（LLM API）集成到实际科研流程或生产级产品中的开发者都会遇到的“隐形墙”。在 Demo 阶段，我们关注的是 Prompt 的技巧、思维链（CoT）的设计，是模型能不能答对这道数学题；但在 Engineering 阶段，我们实际上在与大模型API的基础设施做斗争。稳定性、延迟、并发控制、成本审计，这些枯燥但至关重要的指标，决定了一个 AI 项目是仅仅停留在 PPT 上，还是能真正服务于千万用户。. 本文将剥离掉 AI 那些光鲜亮丽的概念，从纯粹的“工程与资源调度...
+
+- 2026年十大最佳大型语言模型（LLM） - Botpress (relevance: 63%)
+  https://botpress.com/zh-cn/blog/best-large-language-models
+  Abstract illustration with colorful shapes. ### OpenAI. ### Anthropic. ### DeepSeek. | GPT-4o | ✅ | 128K | 输入$5 / 输出$15 |. LLM 的幽默通常带有悲剧色彩，但 Grok 至少知道自己在讲笑话。有时候能逗笑，有时候会越说越离谱。无论如何，它总是滔滔不绝。. | OpenAI o3 | ❌ | 200K | $10 输入 / $40 输出 |. | Gemini 2.5 Pro | ❌ | 100万 | $1.25 输入 / $10 输出 |. OpenAI 的 o3 是一...
+
+- 阿里一口气发布7款大模型！中国AI正悄然改写全球格局- 老虎证券 (relevance: 60%)
+  https://www.itiger.com/hans/news/2605912857
+  # 老虎证券. # 阿里一口气发布7款大模型！中国AI正悄然改写全球格局. 从“追赶者”到“定义者”，阿里用一场发布会，向世界宣告：大模型竞赛，中国已站上主舞台。2025年，全球AI竞赛进入白热化。当人们还在热议GPT-5、Claude 4和Gemini 2.5时，阿里巴巴在云栖大会上扔出了一颗“技术核弹”——一次性发布7款通义千问（Qwen）！这不是简单的“堆数量”，而是一次全栈式、全模态、全开源的战略亮剑。更令人震惊的是：多款模型性能已冲进全球前三，甚至超越美国顶尖... 免责声明：投资有风险，本文并非投资建议，以上内容不应被视为任何金融产品的购买或出售要约、建议或邀请，作者或其他用户的任...
+
+- 2025：大语言模型（LLM）之年 - 36氪 (relevance: 60%)
+  https://m.36kr.com/p/3640423298125193
+  OpenAI 在 2024 年 9 月用 o1 和 o1-mini 开启了“推理”革命，也叫做推理侧扩展或可验证奖励强化学习（RLVR）。在 2025 年初，他们通过推出 o3、o3-mini 和 o4-mini 进一步强化了这一优势。自此，“推理”已成为几乎每家主流 AI 实验室模型的招牌功能。. 一个显著的成果是 AI 辅助搜索现在真的变好用了。以前将搜索引擎连接到 LLM 的效果差强人意，但现在我发现，即使是复杂的调研问题，ChatGPT 的 GPT-5 Thinking 通常也能给出答案。. Claude Code 是我所谓的“编程智能体”最杰出的代表——这种 LLM 系统可以编写代码...
 
    4.推理模型
 
 检索关键词: o1,R1,推理,思维链
 
-暂无相关数据
+--- Answer
+
+Alibaba announced its QwQ-Max reasoning model, competing with Open AI's o1 and DeepSeek's R1. QwQ-Max excels in math and programming, showing strong reasoning and problem-solving. It supports deep thinking and chain reasoning.
+
+---
+
+--- Sources
+
+- 阿里巴巴公布下一代推理模型与DeepSeek等竞争 - 联合早报 (relevance: 72%)
+  https://www.zaobao.com.sg/realtime/china/story20250225-5927991
+  user%20--%3e%3cdefs%3e%3cstyle%3e%20.st0,%20.st1%20{%20fill:%20none;%20}%20.st1%20{%20stroke:%20%236f6f6f;%20stroke-width:%202px;%20}%20.st2%20{%20fill:%20%236f6f6f;%20fill-rule:%20evenodd;%20}%20.st3%20{%20clip-path:%20url(%23clippath);%20}%20%3c/style%3e%3cclipPath%20id='clippath'%3e%3crect%20clas...
+
+- 旺精通~阿里START：自学工具调用的长思维链推理模型 (relevance: 72%)
+  https://zhuanlan.zhihu.com/p/32078743531
+  随后，以OpenAI-o1（OpenAI，2024b）和DeepSeek-R1（DeepSeek-AI，2025）为代表的强化学习取得突破，建立了一种名为长思维链的新范式，该范式模仿人类的认知策略，
+
+- 国内“推理模型”卷疯了！类o1 推理模型，谁更强？ (relevance: 62%)
+  https://www.icviews.cn/semiCommunity/postDetail/7426
+  DeepSeek-R1-Lite 是深度求索推出的新一代AI 推理模型，用强化学习训练，具备长思维链推理能力，能实时展示推理思考过程，性能在多个基准测试中超越GPT-4 等
+
+- 类o1系列模型大盘点：QwQ、Deepseek-R1、Marco-o1、Huatuo-o1 (relevance: 61%)
+  https://deepseek.csdn.net/67ab1e2879aaf67875cb9ab6.html
+  模型会尝试不同的解决方案，并根据结果调整其推理路径。 生成思路链：在推理过程中，模型会生成一个内部的思路链，记录每一步的推理过程和结果。这个思路链
+
+- 阿里重磅开源QwQ-32B：自我思考、纠正，数学能力击败o1模型 (relevance: 59%)
+  https://www.51cto.com/aigc/3086.html
+  阿里巴巴重磅开源了新模型——QwQ-32B-Preview。 QwQ-32B的主要特点就是推理很强，可以给出很长的透明化推理流程，这与国内DeepSeek前不久刚发布的R1-Lite很相似。
 
    4.多模态模型
 
 检索关键词: 多模态,视觉,视频生成,Sora,Seedance
 
-暂无相关数据
+--- Answer
+
+Alibaba's AI model, Seedance, is a leading multi-modal video generation model. It integrates text, images, audio, and video inputs. Seedance has been used in high-profile applications like the CCTV Spring Festival Gala.
+
+---
+
+--- Sources
+
+- 从Sora引发惊恐到实现即时反杀：中国AI视频生成发展之路 - 36氪 (relevance: 63%)
+  https://eu.36kr.com/zh/p/3715645989369221
+  紧随其后，支撑这场视觉奇观的Seedance 2.0模型开放API调用，价格一秒一块钱。 时间倒回两年前，AI视频生成还是一个被认为“中国完全做不出来”的赛道。
+
+- 不吹不黑！海外创作者实测Seedance2.0：这些功能秒杀Sora (relevance: 61%)
+  https://zhuanlan.zhihu.com/p/2010782167152751770
+  与传统模型单一的“文本到视频”路径不同，Seedance 2.0能同时理解并融合文字、图片、视频、音频四种模态的输入。这意味着，你可以用文字描述故事，用图片定义
+
+- Seedance2.0春晚出圈，AI视频应用浮现哪些风口？ - 腾讯 (relevance: 60%)
+  https://news.qq.com/rain/a/20260219A02VMF00
+  # Seedance2.0春晚出圈，AI视频应用浮现哪些风口？. 2026-02-19 11:00发布于江西上海报业集团旗下《财联社》官方账号. 财联社2月19日讯（记者 赵昕睿）2026年央视马年春晚热点纷呈，人形机器人扎堆亮相的同时，Seedance 2.0大模型以春晚为首个公开应用场景完成首秀，深度参与多项节目视觉制作。. 本届春晚中，“AI生成影像+实景舞台扩展”的创新模式引发全网热议，而Seedance 2.0正是这一模式的核心技术支撑，参与了《贺花神》、《驭风歌》、《快乐小马》等节目的视觉定制，也依托春晚这一国民级场景，完成了规模化应用的首次实战检验。. 在歌咏创意秀《贺花...
+
+- Seedance 2.0春晚首秀：解锁AI视频大模型的现在与未来 - 搜狐 (relevance: 60%)
+  https://www.sohu.com/a/989548490_121955537
+  # Seedance 2.0春晚首秀：解锁AI视频大模型的现在与未来. 当Seedance 2.0登上春晚舞台，为《贺花神》《驭风歌》等节目打造惊艳视觉效果，这不仅是一次AI技术的公开亮相，更是国产AI视频大模型技术成熟度与产业化能力的全面验证。作为首款落地春晚级超高清直播场景的AI视频大模型，其首秀实现了技术层面的多重突破，重构了行业竞争的底层逻辑，也为未来1-3年AI视频大模型的发展勾勒出清晰演进方向，让市场看到了AI视频技术从实验室走向规模化产业应用的全新可能。. 春晚的高关注度、高复杂度与高稳定性要求，成为Seedance 2.0规模化应用的最佳实战检验场。在《贺花神》《驭风歌》等节目...
+
+- Seedance一骑绝尘背后：中国AI春节前为何“杀疯了”？ (relevance: 59%)
+  https://h5.ifeng.com/c/vivoArticle/v002IWXwaw3NGJJwZVGGu--rVjBLKXUCSpaTxYtXh3IHvYVQ__?vivoBusiness=hiboardnews
+  # Seedance一骑绝尘背后：中国AI春节前为何“杀疯了”？. 最近，字节跳动旗下最新视频大模型Seedance 2.0凭借关键技术能力突破，构成实现接近“导演级”的控制精度，生成能力与稳定性大幅提升，在海外市场可谓是“杀疯了”。. 马斯克转发评论Seedance 2.0相关推文并表示：模型发展速度太快（It's happening fast）；也有美国导演在使用Seedance 2.0后感叹：好莱坞可能要完了。. 有外媒称，迪士尼公司已向字节跳动发函，指控对方在训练和开发Seedance 2.0模型时未经许可使用迪士尼作品，要求字节跳动“停止侵权且不得再犯”。. “目前在AI视频生成领域...
 
    4.算力卡
 
 检索关键词: GPU,H100,B200,TPU,算力
 
-暂无相关数据
+--- Answer
+
+Alibaba's "平头哥" is developing competitive GPUs to rival international brands like Nvidia. The PPU GPU aims for high performance and cost-effectiveness. It targets both training and inference tasks in AI applications.
+
+---
+
+--- Sources
+
+- 百芯大戰 - 富途牛牛财经新闻 (relevance: 70%)
+  https://news.futunn.com/hk/post/68242330
+  # 百芯大戰. 一年前，我們在《DeepSeek掀起算力革命，英偉達挑戰加劇，ASIC芯片悄然崛起》一文中，更多的是看好ASIC帶來類似博通和晶圓代工的產業機會。. 一年後的今天，ASIC的發展速度遠超預期。尤其近半年以來，ASIC甚至逐漸成爲AI競爭的勝負手：國內外大廠開年以來股價表現最好的分別是百度、谷歌和阿里。. 谷歌TPU+自研模型+雲+內部應用的王炸，已經讓其立於不敗之地；國內互聯網大廠，近期被重估的只有自研ASIC芯片拆分獨立IPO的百度（計劃拆分崑崙芯IPO）和阿里（計劃拆分平頭哥IPO）。. ASIC（Application Specific Integrated Circui...
+
+- [PDF] AI系列专题报告（一） - 算力 (relevance: 68%)
+  https://pdf.dfcfw.com/pdf/H3_AP202506121689781660_1.pdf
+  AI系列专题报告（一） 算力：算力基建景气度高，国产AI芯片发展势头良好 证券研究报告 分析师： 陈福栋S1060523070003（证券投资咨询） 分析师： 闫磊 S1060519100002（证券投资咨询） 平安证券研究所电子信息团队 2025年6月12日 请务必阅读正文后免责条款 电子行业强于大市（维持） 核心摘要  AIGC蓬勃发展，对底层智能算力产生强劲需求。行业前期，训练是算力需求的主力，大量大模型训练需要海量算力支撑。2024年末，DeepSeek重磅发 布，其轻量化、低成本、高性能特征大幅拉低了AI应用门槛，有望成为各类推理场景爆发的契机，推理算力市场需求潜力巨大。在此背景下...
+
+- 美股懂哥解读小米、谷歌、英伟达、阿里巴巴与GPU/TPU关系研报 (relevance: 67%)
+  https://www.tiktok.com/@user5860790033378/video/7586618237295545618
+  2015年推出首款TPU，2025年发布的TPU v7峰值算力达4614 TFLOPS，能效超英伟达B200，已获Meta数十亿美元采购订单。TPU专为自家TensorFlow框架及Gemini大模型
+
+- 一张图说清：H100、H200、B200 到底该怎么选？ - 博客园 (relevance: 65%)
+  https://www.cnblogs.com/AlayaNeW/articles/19388803
+  | NVLink | 第四代（900 GB/s） | 第四代 | 第五代（1.8 TB/s） |. H200 不是算力升级，而是显存与带宽升级，解决“跑不动”的问题；. B200 则是一次架构级跃迁，面向千卡集群、下一代 AI 工厂设计。. | <7B 参数，微调/推理 | A10 / L4 / RTX 6000 Ada | 小模型对算力要求低，A10/L4 成本更低；H100 属性能过剩，仅在统一集群时考虑 |. | 7B–30B，全参训练 | H100 | 在 FP8 + 梯度检查点 + ZeRO 下可高效训练PyTorch/TensorFlow 生态最成熟，调试工...
+
+- 揭秘！阿里隐藏大招曝光，一文读懂超火GPU - 36氪 (relevance: 65%)
+  https://eu.36kr.com/de/p/3658910978372356
+  # 阿里放出隐藏大招？一文读懂大火的GPU. 近期，阿里又放出一枚重磅炸弹：阿里巴巴集团已决定，支持旗下芯片公司“平头哥半导体”未来独立上市。. 据说，平头哥在2025年推出的通用GPU芯片（PPU），综合性能可以对标英伟达H20，升级版性能则可以比肩A100。. 这个A100，就是前段时间刚刚解禁的，英伟达H200的上一代产品，也是当下中小规模的AI训练，性价比最高的产品之一。. 12月5日，被称为“小英伟达”的摩尔线程登陆科创板，高开涨幅468%，中一签就是小27万元；. 一边是市场的火热，另一边，是对手千方百计的阻挠，这个GPU赛道，究竟有着怎样的含金量？. ## 到底什么是GPU？...
 
    4.数据存储
 
 检索关键词: HBM,显存,存储,NVLink
 
-暂无相关数据
+--- Answer
+
+Alibaba uses HBM and NVLink for high-performance data storage in AI servers. NVLink enhances data transfer efficiency. Alibaba's AI infrastructure leverages advanced memory technologies.
+
+---
+
+--- Sources
+
+- 中金：AI服务器产业链拆解 - 华尔街见闻 (relevance: 100%)
+  https://wallstreetcn.com/articles/3685834
+  HBM（高带宽存储）显存是一种适用于高性能和AI训练计算的新型内存芯片，通过硅通孔技术进行芯片堆叠，并与GPU位于同一物理封装内，可节省能耗和占用空间，便于在
+
+- 小白也能看懂的国内外AI 芯片概述 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/667686665
+  NVIDIA GPU 显存有两种类型，GDDR 和HBM，每种也有不同的型号。针对显存我们通常会关注两个指标：显存大小和显存带宽。HBM 显存通常可以提供更高的显存
+
+- 是超越英伟达了吗？和阿里的平头哥算力芯片比如何？ - 知乎 (relevance: 99%)
+  https://www.zhihu.com/question/1951971387632751207
+  此外，NVLink还支持原子操作和同步，从而在精细粒度上实现数据一致性。 利用这些能力，NVLink可以实现以下关键功能：. 内存池化（Memory Pooling）：NVLink允许将
+
+- 探索大模型世界的多元算力：CPU、GPU与算存互连的复杂比较与 ... (relevance: 8%)
+  https://developer.aliyun.com/article/1267050
+  # 探索大模型世界的多元算力：CPU、GPU与算存互连的复杂比较与重要性分析. ### 为什么选择阿里云. ### 大模型. ### 产品和定价. ### 技术内容. ### 权益. ### 服务. ### 关注阿里云. ### 友情链接. © 2009-现在 Aliyun.com 版权所有 增值电信业务经营许可证： 浙B2-20080101 域名注册服务机构许可： 浙D3-20210002. 浙公网安备 33010602009975号浙公网安备 33010602009975号浙B2-20080101-4.
+
+- 九、一文解读：阿里云AI基础设施的演进与挑战 (relevance: 0%)
+  https://developer.aliyun.com/article/1567871
+  ### 探索云世界. #### 热门. #### 云计算. #### 大数据. #### 云原生. #### 人工智能. #### 数据库. #### 开发与运维. ### 活动广场. #### 任务中心. #### 训练营. #### 直播. #### 乘风者计划. ### 下载. #### 镜像站. #### 技术资料. # 带你读《阿里云产品五月刊》——九、一文解读：阿里云AI基础设施的演进与挑战. ### 为什么选择阿里云. ### 大模型. ### 产品和定价. ### 技术内容. ### 权益. ### 服务. ### 关注阿里云. ### 友情链接. © 2009-现在 Aliy...
 
    4.数据加速
 
 检索关键词: FlashAttention,量化,推理优化
 
-暂无相关数据
+--- Answer
+
+FlashAttention optimizes large language model inference by reducing memory access and leveraging low-precision computations. It combines matrix multiplication and softmax operations for faster processing. This technique significantly speeds up model inference.
+
+---
+
+--- Sources
+
+- 14-PagedAttention、FlashAttention与投机采样：推理优化三大技术 (relevance: 100%)
+  https://juejin.cn/post/7612562930848841754
+  PagedAttention、FlashAttention与投机采样：推理优化三大技术大模型推理的三大瓶颈在上一章中，我们学习了KV Cache如何通过缓存已计算的K和V来加速推理
+
+- 大模型推理加速调研（框架、方法） - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/683986024
+  普通的Attention的计算过程如下，需要多次访问HBM，Flash Attention的目的就是通过分片+算子融合（矩阵乘法和Softmax）减少对HBM的访问。
+
+- Flash Attention原理！数据布局转换与内存优化！【推理引擎】离线 ... (relevance: 100%)
+  https://www.youtube.com/watch?v=A-ilU7QixI4
+  Comments · 【機器學習2021】自注意力機制(Self-attention) (上) · 川普開火！ · Earn $100,000 in 7 days! · AI 服务器爆炸图鉴！ · 离线转换模块的架构与整体
+
+- FlashAttention - 3的新优化点对AI模型意味着什么？ - 飞书文档 (relevance: 100%)
+  https://docs.feishu.cn/v/wiki/ESWYwhmISiMOvIkU44CcIZVzntb/ad
+  它在FlashAttention 和FlashAttention-2 的基础上，进一步优化了对H 系列架构的支持，通过异步计算和低精度FP8 的使用，实现了GEMM（通用矩阵乘法）和Softmax 操作的重叠，以及
+
+- 最速LLM体验：Qwen集成Flash Attention实现10倍推理加速-CSDN博客 (relevance: 100%)
+  https://blog.csdn.net/gitblog_00039/article/details/151161497
+  Qwen作为阿里巴巴达摩院研发的大语言模型，原生支持从7B到72B等多种参数规模。在未启用Flash Attention时，即使是24GB显存的RTX 4090也难以流畅运行7B
 
    4.Agent
 
 检索关键词: 智能体,Agent,AutoGPT
 
-暂无相关数据
+--- Answer
+
+Alibaba's Agent framework uses AgentScope, while AutoGPT is an open-source project for autonomous agents. Both focus on enhancing AI capabilities through advanced frameworks.
+
+---
+
+--- Sources
+
+- 零失误搭建Agent！阿里AgentScope+AutoGPT双框架实战 (relevance: 100%)
+  https://blog.csdn.net/m0_59164520/article/details/151762721
+  一款旨在最大程度消除LLM带来的不确定性，以帮助你“驯服”智能体的框架。 接下来让我们一起走进这款独特的框架：. 企业应用Agent的最大“拦路虎”; 构建对话式
+
+- 2025年大佬爆肝整理的大模型AI Agent智能体入门到进阶 ... (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1903198488520549993
+  除了langchain，还有AutoGPT，微软的AutoGen等，这些框架支持的主流开发语言大多都是python。 对于Java背景的开发人员，Java/Spring生态体系下也有SpringAI
+
+- AI-Compass Agent智能体技术生态：整合AutoGPT (relevance: 100%)
+  https://www.nowcoder.com/discuss/776566610302656512
+  9. 1.Refact-AI-Agent. # 1.Agently.  新闻汇总报告生成器AgentEra/Agently-Daily-News-Collector: An open-source LLM based automatically daily news collecting workflow showcase powered by Agently AI application development framework.  camel-ai/camel: 🐫 CAMEL: The first and the best multi-agent framework. # 1.R...
+
+- 开源的agent框架对比- autoGPT、loopGPT、babyAGI (relevance: 100%)
+  https://juejin.cn/post/7463650717071147008
+  # 开源的agent框架对比. ## 未完成.... #### 全自动agent：autoGPT、loopGPT、babyAGI. #### 半自动agent：camel. #### 领域agent：chatDev、metaGPT. #### 自定义agent：superAGI、autoGen、agents、swarms. ### 引用. 1. 10个最受欢迎的开源Agent项目，autoGPT、metaGPT、autoGen.........
+
+- AI智能体卷爆大模型，AutoGPT等4大Agent打擂 (relevance: 100%)
+  https://hub.baai.ac.cn/view/27683
+  # AI智能体卷爆大模型，AutoGPT等4大Agent打擂. 白羽中 2023-07-06 13:33 分享. 这也引起了无数AI大佬和科技巨头的兴趣。今年加入OpenAI的大牛、前特斯拉AI总监Karpathy近日就在一次开发者活动上表示：AI智能体，代表了AI的一种未来！其实，早在今年三、四月，就有过一轮AI智能体的大爆发，仿佛巧合一样，在短短两周内，斯坦福西部世界小镇、BabyAGI、AutoGPT等多个智能体，就如雨后春笋一般冒出来。. 3月21日，Camel发布。3月30日，AutoGPT发布。4月3日，BabyAGI发布。4月7日，西部世界小镇发布。. 就在同一时间，商汤、清华等...
 
 ---
 
@@ -130,4 +364,4 @@
 
 本报告由 OpenClaw AI 系统自动生成  
 报告版本: v1.0  
-生成时间: Mon Mar 16 06:00:01 AM CST 2026
+生成时间: Mon Mar 16 01:06:06 PM CST 2026

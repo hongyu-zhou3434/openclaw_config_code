@@ -2,7 +2,7 @@
 === 智谱AI AI技术洞察报告
 
 报告日期: 2026年03月16日  
-生成时间: 06:00:02  
+生成时间: 13:06:33  
 数据来源: Tavily Search, 企业博客, 新闻媒体  
 洞察范围: 模型发布、技术动态、产品更新
 
@@ -20,11 +20,63 @@
 
    2.1 产品/模型发布
 
-搜索失败
+--- Answer
+
+In 2026, AI company Zhipu released its flagship model GLM-5, aiming to compete with DeepSeek. GLM-5 focuses on complex reasoning and long text processing. The model's release marks a significant step in AI model advancements.
+
+---
+
+--- Sources
+
+- AI行业动态20260215：2026年新发布的代表性AI大模型汇总 - 知乎专栏 (relevance: 91%)
+  https://zhuanlan.zhihu.com/p/2006304089840058657
+  智谱AI于2026年2月12日正式上线并开源其新一代旗舰模型GLM-5。该模型即为此前在OpenRouter榜首引发热议的神秘模型“Pony Alpha”，在复杂逻辑推理和长文本
+
+- IPO首日，智谱创立发起人内部信曝光：明确2026年目标，提及梁文锋 (relevance: 89%)
+  https://finance.sina.com.cn/tob/2026-01-08/doc-inhfqcaz1517178.shtml
+  # IPO首日，智谱创立发起人内部信曝光：明确2026年目标，提及梁文锋. 新浪科技讯 1月8日上午消息，智谱AI今日上市，新浪科技了解到，上市当天，清华大学计算机系教授、智谱创立发起人兼首席科学家唐杰发布内部信，宣布很快将推出新一代模型 GLM-5。并进一步明确了2026年公司的目标是“成为国际领跑的大模型企业”。. 唐杰提及了DeepSeek出现带给自己的警醒道：“文锋2023年创业的时候和我聊过，当时我并没有意识到他对AGI如此执着，感谢他带给我很多不一样的思考。”唐杰称，“选择对AGI技术的执着追求，不断探索AGI的上界，同时精准的未来预判成为下一步智谱需要不断改进和升华的地方。”. ...
+
+- 智谱发布新一代AI模型加快步伐与DeepSeek展开竞争 - 新浪财经 (relevance: 89%)
+  https://finance.sina.com.cn/roll/2026-02-12/doc-inhmpkar4085377.shtml
+  # 智谱发布新一代AI模型 加快步伐与DeepSeek展开竞争. 中国人工智能(AI)企业智谱发布其旗舰模型的升级版本，在DeepSeek预计将会推出新产品之前先行一步，加快步伐与其展开竞争。. 智谱在2月11日发布的声明中称，其最新一代大语言模型名为GLM-5，旨在处理复杂的编程和智能体任务，并已与Anthropic的Claude Opus系列进行直接对标测试。智谱表示，GLM-5的参数量较上一代增加一倍以上，该模型于2月12日正式推出。. 2月以来，市场对可能威胁既有商业模式的新人工智能的发布表现出更高的敏感度，受冲击的领域涵盖法律和合规软件、视频游戏等。于今年年初上市的智谱本周已经上涨了...
+
+- 2026年大模型分化：智谱、MiniMax向左，Kimi向右！ - 搜狐 (relevance: 80%)
+  https://www.sohu.com/a/971743687_122605338
+  # 2026年大模型分化：智谱、MiniMax向左，Kimi向右！. 在中国AI企业纷纷冲刺资本市场的当下，月之暗面（Moonshot AI）以其独特的发展节奏脱颖而出。近日，公司创始人杨植麟通过内部信透露，月之暗面已完成5亿美元的C轮融资，且大幅超募，现金储备超过100亿元。与智谱、MiniMax等同行积极推动上市的步伐不同，月之暗面明确表示“短期不着急上市，也不以上市为目的”，这一战略选择引发行业广泛关注。. 2023年末，月之暗面凭借Kimi产品在B站、知乎、小红书、抖音等平台展开高强度投流，通过精准的渠道策略（如B站的科技KOL合作、抖音的“免费不限次”话术、知乎的“国产替代”...
+
+- 智谱与MiniMax登陆港股引爆2026年AI上市潮？ - 腾讯 (relevance: 80%)
+  https://news.qq.com/rain/a/20260117A015IJ00
+  # 智谱与MiniMax登陆港股 引爆2026年AI上市潮？. 2026-01-17 03:26发布于北京中国经营报官方账号. 近日，接连在港交所上市的国产AI大模型股智谱（02513.HK）及MiniMax（00100.HK）受到投资者热捧。然而，两个大模型企业有各自的商业模式与布局，市场表现也不一。. 从商业逻辑看，智谱深耕MaaS+B端市场，2025年上半年营收同比激增325%，本地部署贡献超八成收入，走的是稳健的产业赋能路线；MiniMax押注C端全球化，付费用户破百万，海外收入占比超七成，毛利率由负转正，展现出更陡峭的增长曲线。二者的差异化探索，为大模型商业化提供了可参考的范本，但同...
 
    2.2 技术突破
 
-搜索失败
+--- Answer
+
+Zhipu AI's GLM-4 model has achieved performance close to GPT-4, marking a significant advancement in domestic AI capabilities. This breakthrough positions Zhipu AI as a leader in the race to develop advanced AI models. The model's success highlights the potential for further progress in artificial general intelligence.
+
+---
+
+--- Sources
+
+- News & Information - Z.ai - Inspiring AGI to Benefit Humanity (relevance: 80%)
+  https://www.zhipuai.cn/en/news?tab=2
+  2025年8月19日，中关村自主大模型产业联盟在北京市海淀区搜狐网络大厦10层图灵会议室召开了第一次会员大会。会议应出席会员（均为单位会员，下同）数32，实到数32，超过会员总数2/3，会议有效。会议由北京智谱华章科技股份有限公司董事长刘德兵主持。会议主要内容和通过的主要决定如下：一、会员以举手方式表决通过了《中关村自主大模型产业联盟筹备工作报告》、《中关村自主大模型产业联盟章程（草案）》、《中关GLM-PC 基座模型，CogAgent-9B 开源. ### GLM-PC 基座模型，CogAgent-9B 开源. 11 月 29 日，智谱正式提出 GLM-OS 概念，并发布 AutoGLM 和...
+
+- 新品发布 - 智谱AI开放文档 (relevance: 77%)
+  https://docs.bigmodel.cn/cn/update/new-releases
+   [公告通知](#%E5%85%AC%E5%91%8A%E9%80%9A%E7%9F%A5). ## [​](#公告通知) 公告通知. 💬 [GLM-5](/cn/guide/models/text/glm-5).  首次集成 DeepSeek Sparse Attention，在维持长文本效果无损的同时，提升 Token Efficiency. 💬 [GLM-OCR](/cn/guide/models/vlm/glm-ocr).  采用自研 CogViT 与 GLM-0.5B 的编码器-解码器设计，连接层实现高效跨模态对齐。.  基于数十亿图文对的 CLIP 预训...
+
+- 智谱AI开放平台 (relevance: 77%)
+  https://open.bigmodel.cn/
+  [![Image 1: ZHIPU·AI](blob:http://localhost/5e5cc7efe2dddc77f45a0cb0ed5a85f0)](https://open.bigmodel.cn/). ![Image 2: 大模型](https://cdn.bigmodel.cn/static/platform/images/logo/white_logo.png). ![Image 3: 智谱AI](https://cdn.bigmodel.cn/static/platform/images/activity/university/pop_right_bottom_new.png...
+
+- 2024，智谱如何更快？ - 白鲸技术栈 (relevance: 75%)
+  https://jishuzhan.baijing.cn/article/1364
+  要问当前 AI 大型语言模型界万众期待的一件事，以及各通用大模型厂商都在暗自铆足劲干的一件事，一定是追赶 GPT-4。. 据公开资料显示，截至去年 10 月份国内已经发布了238个大模型，意味着中国过去每天都有一个新的大模型发布，我们会发现大家在介绍自家大模型时，纷纷提到模型能力“接近 GPT-4”，有胆大者甚至宣称“赶超 GPT-4”。. 因为事实情况远非如此。去年 11 月时，元象 XVERSE 科技创始人、腾讯公司前副总裁姚星曾告诉雷峰网，大家都说接近 GPT-4，显然不符合实际情况，很多都是刷榜刷出来的，意义不大。. “刷榜是我们的一个陋习”，这导致的结果就是大家对中国大模型的能力没有...
+
+- 智谱AI新突破！GLM-Z1-Rumination：新一代沉思模型 - 知乎专栏 (relevance: 73%)
+  https://zhuanlan.zhihu.com/p/1890166146608628674
+  其创新性在于实现了从被动响应到主动研究的范式转变，推动AI助手进入”高智商+高自主”的新阶段。 GLM-Z1-Rumination 的主要功能. 实时信息获取：突破训练数据
 
 ---
 
@@ -53,43 +105,229 @@
 
 检索关键词: LLM,大模型,GPT,Claude,Gemini
 
-暂无相关数据
+--- Answer
+
+I am an AI system built by a team of inventors at Amazon. I provide information based on my training data. I do not identify as any specific model name.
+
+---
+
+--- Sources
+
+- 2025：大语言模型（LLM）之年 - 36氪 (relevance: 69%)
+  https://m.36kr.com/p/3640423298125193
+  OpenAI 在 2024 年 9 月用 o1 和 o1-mini 开启了“推理”革命，也叫做推理侧扩展或可验证奖励强化学习（RLVR）。在 2025 年初，他们通过推出 o3、o3-mini 和 o4-mini 进一步强化了这一优势。自此，“推理”已成为几乎每家主流 AI 实验室模型的招牌功能。. 一个显著的成果是 AI 辅助搜索现在真的变好用了。以前将搜索引擎连接到 LLM 的效果差强人意，但现在我发现，即使是复杂的调研问题，ChatGPT 的 GPT-5 Thinking 通常也能给出答案。. Claude Code 是我所谓的“编程智能体”最杰出的代表——这种 LLM 系统可以编写代码...
+
+- 三大同步大模型厂商API深度对比：OpenAI ChatGPT - 腾讯云 (relevance: 68%)
+  https://cloud.tencent.com/developer/article/2560292
+  ## 三大同步大模型厂商API深度对比：OpenAI ChatGPT、Google Gemini与Anthropic Claude. # 三大同步大模型厂商API深度对比：OpenAI ChatGPT、Google Gemini与Anthropic Claude. #### 引言：同步大模型的市场背景与调研目的. 近年来，全球人工智能领域正经历以同步大模型（Synchronous Large Language Models）为核心的技术范式变革。根据中国工业互联网研究院发布的《2024大模型发展趋势报告》，以OpenAI的GPT-4、Google的Gemini系列和Anthropic的Clau...
+
+- 10款热门大模型功能全面对比(GPT-4、Claude、Kimi、文心一言 (relevance: 59%)
+  https://juejin.cn/post/7393606971892645940
+  # 2024年AI模型大盘点:10款热门大模型功能全面对比(GPT-4、Claude、Kimi、文心一言、通义千问等哪个更适合你?). 2024年，国内外的AI大模型层出不穷，引领着新一波的技术浪潮。从广为人知的ChatGPT到备受瞩目的Claude，再到国内领先的文心、天工、讯飞、通义等，共计十大主流AI大模型齐聚一堂。在这个信息爆炸的时代，AI技术的发展速度令人瞩目，为我们带来了前所未有的便捷与高效。今天，就让我们一起走进这些AI大模型的世界，探索它们如何改变我们的生活。. ## AI搜索的崛起. 回想两年前，当提及AI搜索时，许多人或许还抱有怀疑的态度。然而，时光荏苒，如今AI搜索已然成...
+
+- 大型語言模型列表- 維基百科，自由的百科全書 (relevance: 53%)
+  https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%9E%8B%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E5%88%97%E8%A1%A8
+  | T5&action=edit&redlink=1 "T5 (语言模型)（页面不存在）")（英语：T5 (language model) "en:T5 (language model)")） | 000000002019-10-01-00002019年10月 | Google | 11 ! | LLaMA (Large Language Model Meta AI) | 000000002023-02-01-00002023年2月 | Meta AI | 65 ! | Gemini 1.5 "Gemini (语言模型)") | 000000002024-02-01-00002024年2月 |...
+
+- 豆包、Claude五大主流AI模型深度对比：技术、生态与应用全景解析 (relevance: 52%)
+  https://blog.csdn.net/gaowenhui2008/article/details/156852153
+  本报告旨在对当前市场上五款具有代表性的主流大语言模型——Google Gemini、OpenAI ChatGPT、通义千问（Qwen）、字节跳动豆包（Doubao）及Anthropic Claude——
 
    4.推理模型
 
 检索关键词: o1,R1,推理,思维链
 
-暂无相关数据
+--- Answer
+
+{
+  "title": "AI Model Comparison",
+  "content": "The o1 model is compared to R1 and other AI models for reasoning capabilities.",
+  "next_action": "final_answer"
+}
+
+---
+
+--- Sources
+
+- 国内首个对标o1的推理模型发布：DeepSeek-R1-Lite初体验！ (relevance: 100%)
+  https://deepseek.csdn.net/67ab1ffe79aaf67875cb9eeb.html
+  o1 模型经过了思维链的加持 ... 在接下来的几个月里，国内的不少AI公司也在纷纷尝试，但更多的是在应用方面，如Kimi、智谱、天工和360的推理型AI搜索。
+
+- 国产AI卷翻硅谷，奥特曼发文“阴阳”，类o1模型都在卷什么？ (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/19824257286
+  ... R1 ... 链思维推理方面取得了SOTA成绩。 性能最强的long-CoT版本Kimi k1.5，数学、代码、多模态推理能力可以达到长思考SOTA模型OpenAI o1正式版的水平。
+
+- DeepSeek 开源R1 系列推理模型，性能对标OpenAI o1 - 稀土掘金 (relevance: 100%)
+  https://juejin.cn/post/7462231260541190179
+  DeepSeek R1-Zero 是一款基于纯强化学习的开源推理模型，无需监督微调数据，支持多任务泛化与自我进化，适用于数学推理、代码生成等场景。
+
+- g1：o1推理链开源实现，原理竟如此简单！解决60-80% 的困扰LLM ... (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2472870
+  此外，我觉得o1不会是单纯 gpt-4o+Agent+思维链 能到达的水平，可能o1训练的数据集会存在一种tag，其作用是提供一个问题不同种类的、拆解的、细致的解决步骤，当然，这可能只是其中一种训练方式。. 当然这一切都是一些猜测，回到正题，我们今天要介绍的是一个模仿o1思维链的开源项目——g1（在 Groq 上使用 Llama-3.1 70b 创建类似 o1 的推理链）。. g1 是实验性的并且是开源的，以帮助激励开源社区开发新的策略来产生类似 o1 的推理。不过他主要是展示可视化步骤提示推理的力量，而不是与使用不同技术的 o1 进行比较或完全复制。. ###### Groq 模型（如lla...
+
+- 推理模型新路线开源！与DeepSeek截然不同，抛弃思维链不用人类 ... (relevance: 100%)
+  https://www.qbitai.com/2025/02/252645.html
+  < img id="wx\_img" src="https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png" width="400" height="400">. # 推理模型新路线开源！与DeepSeek截然不同，抛弃思维链不用人类语言思考. 梦晨 2025-02-11 15:18:51  来源：量子位. 开源推理大模型新架构来了，采用与Deepseek-R1/OpenAI o1截然不同的路线：. 从新模型Huginn的思考轨迹可视化中，可以看到对数字3等重要token不断旋转，最终收敛到正确答案对应的位置，但...
 
    4.多模态模型
 
 检索关键词: 多模态,视觉,视频生成,Sora,Seedance
 
-暂无相关数据
+--- Answer
+
+Seedance 2.0 is a leading AI video generation model by ByteDance, surpassing Sora in technical capabilities. It uses multi-modal inputs for coherent video generation and has been praised for its realistic physics simulation. It represents a significant advancement in China's AI video generation technology.
+
+---
+
+--- Sources
+
+- 从Sora惊恐到即梦反杀，中国的AI视频生成之路 (relevance: 72%)
+  https://zhuanlan.zhihu.com/p/2014667788883616989
+  紧随其后，支撑这场视觉奇观的Seedance 2.0模型开放API调用，价格一秒一块钱。 时间倒回两年前，AI视频生成还是一个被认为“中国完全做不出来”的赛道。OpenAI
+
+- 字节跳动，AI应用最强吹号人！ (relevance: 72%)
+  https://jishuzhan.baijing.cn/article/2883
+  AI 应用正在提前过年。上周末，字节跳动带来了暴打 Sora 的最新视频生成模型 Seedance2.0，随后在社交媒体和资本市场都掀起了狂潮。尤其是字节跳动这次展示的应用、引流能力，和前两天的“红包大战”形成了鲜明对比，一时传为笑料。. 但是，考虑到今天阿里千问新一代基座模型 Qwen3.5 在 HuggingFace 的开源项目页面曝光，可能即将发布，而前两天快手 Kling3.0 在外网评价不输 Seedance2.0，以及 DeepSeekV4 一直被传春节左右有可能发布，AI应用的逐鹿显然还没结束，冷嘲热讽容易翻车。. 首先是市场看好的 AI 应用股其实更倾向于掌握IP或者开发能力的...
+
+- AI应用层迎技术变革，智谱一日暴涨36.22%，领跑港股热潮 - QQ.com (relevance: 70%)
+  https://news.qq.com/rain/a/20260209A06SME00
+  字节跳动旗下即梦平台日前宣布，正内测一款AI视频生成模型——Seedance 2.0 。该模型支持同时上传图片、视频、音频等多达12类参考文件，凭借多模态参考 、
+
+- Seedance一骑绝尘背后：中国AI春节前为何“杀疯了”？ (relevance: 65%)
+  https://h5.ifeng.com/c/vivoArticle/v002IWXwaw3NGJJwZVGGu--rVjBLKXUCSpaTxYtXh3IHvYVQ__?vivoBusiness=hiboardnews
+  # Seedance一骑绝尘背后：中国AI春节前为何“杀疯了”？. 最近，字节跳动旗下最新视频大模型Seedance 2.0凭借关键技术能力突破，构成实现接近“导演级”的控制精度，生成能力与稳定性大幅提升，在海外市场可谓是“杀疯了”。. 马斯克转发评论Seedance 2.0相关推文并表示：模型发展速度太快（It's happening fast）；也有美国导演在使用Seedance 2.0后感叹：好莱坞可能要完了。. 有外媒称，迪士尼公司已向字节跳动发函，指控对方在训练和开发Seedance 2.0模型时未经许可使用迪士尼作品，要求字节跳动“停止侵权且不得再犯”。. “目前在AI视频生成领域...
+
+- 抖音战胜了Sora，Seedance 2.0 技术原理和指南：字节跳动多模态 (relevance: 63%)
+  https://www.bilibili.com/read/cv45830618
+  Seedance 2.0作为字节跳动即梦平台的新一代AI视频生成模型，其技术原理核心在于多模态对齐、时空扩散模型与导演级分镜控制的结合，实现了从文本、图像、音频到多镜头视频的连贯生成，将创意直接转化为工业级视听叙事内容。. ### 一、技术架构：多模态对齐与时空扩散模型. Seedance 2.0的底层架构基于多模态对齐技术，支持文本、图像、视频、音频四类输入的统一编码。通过跨模态特征融合模块，模型将不同素材映射到同一语义空间：. - 参考图像/视频提取角色特征（如服装、外貌）和运动轨迹（如舞蹈动作）；. 1. 空间生成：基于首帧图像或提示词生成关键帧，通过U-Net结构保证角色、环境的一致性...
 
    4.算力卡
 
 检索关键词: GPU,H100,B200,TPU,算力
 
-暂无相关数据
+--- Answer
+
+The H100 and B200 are high-performance GPUs by NVIDIA, with the B200 being a dual-chip model for large-scale AI tasks. TPUs are efficient for cloud-based machine learning, often preferred by Google. AI hardware performance grows rapidly, with significant advancements in GPU and TPU technologies.
+
+---
+
+--- Sources
+
+- 16.1 AI 芯片基础：GPU、TPU、NPU | 零基础学AI | AI Beginner Guide (relevance: 100%)
+  https://yeasy.gitbook.io/ai_beginner_guide/di-si-bu-fen-jin-jie-yu-zhan-wang/16_ai_hardware_quantum/16.1_ai_chips
+  GPU 是当前的统治者. NVIDIA H100/B200 是最强硬件. 但成本极高，功耗极高. 适合大规模训练和云端推理 ; TPU 是效率之王. 如果能用Google 云端，TPU 是最优
+
+- NVIDIA GPU 全面对比：A 系/ H 系/ B 系 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1939012368395903238
+  性能代差巨大. A100 → H100 的FP8 性能提升超过3 倍; H100 → B100 再提升约2.5 倍，且显存翻倍至192GB; B200 双芯片直接面向万亿参数模型，是AI 工厂级别的怪兽卡. 2
+
+- AI算力芯片天下一分为四，中国实力渐显 (relevance: 100%)
+  https://ee.ofweek.com/2023-11/ART-8440-2800-30618101.html
+  ܵ | Ƽ |  |  |  | 3Dӡ | ܼҾ | ˹ | Դ | . ǻ۳ | Ǳ | VR | Ӳ |  |  | ﮵ | ² |  | . | ǻۺ| ɴ豸| ҽеƼ| | ͨ| | | Դ| ѧ| | PCB.  Ӧã  ҵ ѵ ҽƵ  Դ LED ͨ Բ . H100 Ӣΰĵ 9  GPUּΪģ AI  HPC ʵһӢΰA100 Tensor Core GPU ܷԾϤۺ H100 µļ㼼أH100 ļܱ A100 Լ 6 һ AI  HPC صǿչܹЧʡ. 201...
+
+- 全球AI算力报告出炉，LLM最爱A100！谷歌坐拥超100万H100等效算力 (relevance: 100%)
+  https://hub.baai.ac.cn/view/43400
+  # 全球AI算力报告出炉，LLM最爱A100！谷歌坐拥超100万H100等效算力. 新智元 2025-02-16 21:40 分享. ### --- 新智元报道. ##### 【新智元导读】全球有多少AI算力？算力增长速度有多快？在这场AI「淘金热」中，都有哪些新「铲子」？AI初创企业Epoch AI发布了最新全球硬件估算报告。. AI的物质基础是机器学习硬件，例如图形处理单元（GPU）和张量处理单元（TPU）。. 除了传统硬件厂商英伟达、AMD等纷纷推出加速卡，一些新兴势力开始「造芯」，算力持续提升。. 除了GPU，硬件类型也丰富了起来。比如，出现了专门处理张量计算的TPU（...
+
+- H200放行，全球AI分流，国产算力要不要换一套打法？ - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1981747699809272721
+  H200 是英伟达Hopper 架构的延续产品，综合推理和训练能力比H100 更进一步；; 与此同时，美方仍未允许出口最先进的B100/B200 系列。 这是一场可控释放
 
    4.数据存储
 
 检索关键词: HBM,显存,存储,NVLink
 
-暂无相关数据
+--- Answer
+
+HBM significantly enhances AI performance by providing high bandwidth and low latency, crucial for large model training. NVLink improves multi-GPU communication efficiency. AI model training demands high-capacity, high-speed memory solutions like HBM.
+
+---
+
+--- Sources
+
+- HBM，何以成为AI角力关键？_新闻中心 (relevance: 63%)
+  https://www.amaxchina.com/news/2167.html
+  # HBM，何以成为AI角力关键？\_新闻中心\_苏州超集信息科技有限公司. 三星电子近日宣布，其12层第六代HBM4内存将于10月底正式发布，现已进入研发冲刺阶段，并计划今年晚些时候量产。这一动作无疑为2025年本就爆发式增长的HBM市场再添一把烈火。. 为什么HBM年增速能突破200%，达到68亿美元全球市值，成为AI赛道的"战略石油"。 今天，超集信息带您透视HBM的底层逻辑：从打破"存储墙"到决定大模型训练速度，它如何悄悄掌控AI算力的生死线。. HBM对GPU的性能提升，本质是解决了传统内存（如GDDR6、DDR5）的"带宽瓶颈"——GPU计算核心的算力（如 FP8 算力达 1-2 ...
+
+- 2026内存涨价深度解析：AI驱动下的DRAM/HBM产业逻辑与 ... (relevance: 52%)
+  https://blog.csdn.net/2401_89353317/article/details/156766843
+  NVLink vs PCIe：8卡训练速度实测对比. 在多卡训练系统中，NVLink相比PCIe能显著提升训练速度。实测数据显示，NVLink全互联架构可将通信开销从20-30%降
+
+- AI芯片与数据中心关键技术 (relevance: 49%)
+  https://zhuanlan.zhihu.com/p/3914664135
+  模型训练和推理过程中，显存不仅决定了模型的大小和数据处理能力，还直接影响GPU的计算效率。 HBM主要是由DRAM进行多层封装实现的，因此正好满足了GPU对计算时高带宽访存的
+
+- 2026，国产AI芯片，跨越天堑：从“推理”走向“训练” (relevance: 30%)
+  https://m.36kr.com/p/3696839539338881
+  在政务、金融、安防、工业质检等场景中，国产芯片凭借成本可控、供应稳定等优势，逐步完成了从“可用”到“好用”的过程。但在AI训练这一算力金字塔顶端，国产芯片长期缺席，或者只能参与边缘性任务。. 这一格局，正在发生改变。2026年，将成为“国产AI芯片训练落地元年”。但这一步，绝非简单升级，而是一场系统工程级别的跨越。. ## 训练与推理有何区别？. 在大众语境中，“AI算力”往往被视作一个整体，但在工程实践中，训练与推理几乎是两种完全不同的工作负载。. 训练的核心是让AI模型“学会知识”，具体而言，是通过海量带标签样本，经过特定算法迭代，求解出机器学习模型最优参数...
+
+- AI 大模型与异构算力融合技术白皮书 (relevance: 18%)
+  https://pdf.dfcfw.com/pdf/H3_AP202510141762072518_1.pdf?1760514880000.pdf
+  135 AI 大模型与异构算力融合技术白皮书 — 1 — 一、前言 1.1 报告背景与意义 1.1.1 AI 大模型爆发与算力需求激增 近年来， 人工智能大模型技术呈现爆发式增长， 模型参数规模从亿级迅速扩 展至万亿级。根据最新研究显示，全球AI 算力需求正以每3~4 个月翻番的速度 突破临界点，远超传统摩尔定律预测的计算能力提升速度（每18 个月翻倍）， 形成了所谓的"逆摩尔定律"（Inverse Moore's Law）。IDC 预测，2023-2030 年全 球IDC 市场将保持高速增长，其中AI 算力需求增速显著高于传统算力。 逆摩尔定律下的AI 算力需求爆发 随着GPT-5、Llam...
 
    4.数据加速
 
 检索关键词: FlashAttention,量化,推理优化
 
-暂无相关数据
+--- Answer
+
+FlashAttention optimizes attention computation by reducing memory access, achieving linear complexity. It uses hardware-aware techniques to minimize data transfer time. Quantization and optimization further enhance inference speed.
+
+---
+
+--- Sources
+
+- LLM推理加速4：MInference/FlashAttention-3/EAGLE-2/Q-Sparse. etc (relevance: 75%)
+  https://zhuanlan.zhihu.com/p/708128459
+  考虑量化也可以加速推理，因此公式变为Y=(Q(X)\odot M)W^T. 量化. 这种方法可以和量化一起使用，公式则变成Y=(Q(X)\odot M)Q(W^T) 。 为了进一步提高激活的稀疏性，对
+
+- 即插即用！清华提出8比特量化Attention，两倍加速不掉点 - CSDN博客 (relevance: 70%)
+  https://blog.csdn.net/c9Yv2cf9I06K2A9E/article/details/143172920
+  实现了5 倍相比于FlashAttention 的即插即用的推理加速（此前 ... 内容概要：本文介绍了CodeGeeX——一款由清华大学和智谱AI团队开发的免费AI编程助手。
+
+- FlashAttention算法详解 - 阿里云开发者社区 (relevance: 61%)
+  https://developer.aliyun.com/article/1311766
+  # FlashAttention算法详解. ## 介绍. “FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness”. 内存的效率与普通注意力相比（序列长度是二次的，O(N²)），FlashAttention是次二次的/线性的N (O(N))。并且它不是注意力机制的近似值(例如，稀疏或低秩矩阵近似值方法)-它的输出与“传统”注意力机制相同。与普通的注意力相比，FlashAttention的注意力是”有感知“的。. 它利用底层硬件的内存层次知识(例如gpu，但其他AI加速器也应该工作，我这里使用gpu...
+
+- 图解大模型计算加速系列：FlashAttention V1，从硬件到计算逻辑 (relevance: 57%)
+  https://zhuanlan.zhihu.com/p/669926191
+  由于Flash attention的优化核心是减少数据读取的时间，而数据读取这块又离不开数据在硬件上的流转过程，所以这里我们简单介绍一些GPU上的存储与计算内容，作为Flash attention
+
+- 大模型加速-核心网络算子-Flash Attention V3 - 稀土掘金 (relevance: 56%)
+  https://juejin.cn/post/7418867723151638537
+  # 大模型加速-核心网络算子-Flash Attention V3. FlashAttention V1 和 FlashAttention V2 提出了一种通过减少内存读写来加速 GPU 上Attention计算的方法。然而，它尚未充分利用最近硬件提供的新能力,比如 FlashAttention-2 在 H100 GPU 上的利用率仅为 35%。Flash Attention V3它贡献了三个新的想法，以进一步提高在最新 GPU 架构上的性能：. 因为 Flash Attention v3 是针对 H100 的新特性进行的性能提升,需要针对h100相关新特性进行了解,才能深刻理解 V3。. 我...
 
    4.Agent
 
 检索关键词: 智能体,Agent,AutoGPT
 
-暂无相关数据
+--- Answer
+
+AutoGLM is a leading AI agent developed by Zhipu, capable of deep research and device control, surpassing similar models in speed and cost. Zhipu has also released open-source models and advanced its Agentic GLM technology.
+
+---
+
+--- Sources
+
+- 智谱发布全新Agent，集深度研究和操作执行于一体，背后模型媲美 ... (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1890064406051813020
+  智谱在AI Agent领域的研发，包括从最早推出具备Function Call能力的智谱清言，到率先上线支持智能体编排的GLMs，再到推出全球首个设备操控智能体AutoGLM。
+
+- 智谱AI上线最新“自主智能体”，“Her”终于能照进现实了 - 36氪 (relevance: 100%)
+  https://eu.36kr.com/zh/p/3006924031714052
+  与OpenAI的AI Agent相似，智谱清言AutoGLM模型，也无需用户手动操作示范，不受制于简单的任务场景或API调用，即可替代人类在电子设备执行操作。 目前，智谱
+
+- 掀桌！豆包被“围攻”后，智谱把手机Agent开源，让人人皆可打造AI手机 (relevance: 100%)
+  https://awtmt.com/articles/3760976
+  12月9日早间，国内头部大模型厂商智谱AI正式宣布开源其核心AI Agent模型——AutoGLM。这是一个历经32个月研发、具备“Phone Use”（手机操作）能力的智能体框架。
+
+- 比R1快8倍、价格仅3%，智谱新推理模型来袭，能让免费智能体自己 ... (relevance: 100%)
+  https://www.infoq.cn/article/wzqmmngbnziffljqprnw
+  智谱表示，未来两周，他们将进一步扩展更多智能体执行能力，包括推出“虚拟机”版本。此外，智谱还将于 4 月 14 日开源 AutoGLM 沉思核心链路的模型和技术。据智谱 CEO 张鹏称，AutoGLM 背后有一系列的模型能力，Agent 也同大模型一样存在类似的 Scaling Law。. # AutoGLM 沉思背后的核心模型. “让机器不仅能够思考，还能主动行动。”智谱表示，这是他们对 AI Agent 的核心理解，目前已经探索到 L3-Agentic LLM 阶段。. 据介绍，与 OpenAI 的 Deep Research 不同，AutoGLM 沉思不仅能深入研究，还能真正执行任务，推...
+
+- 智谱Agent抢跑OpenAI，GLM-PC一句话搞定一切！网友：有AGI那味了 (relevance: 100%)
+  https://hub.baai.ac.cn/view/42900
+  智谱公司率先发布全球首个面向公众的L3级工具使用能力电脑智能体GLM-PC，具备“代码思维”，可直接回车使用，功能超越预期。在春节来临之际（放假倒计时4天）
 
 ---
 
@@ -130,4 +368,4 @@
 
 本报告由 OpenClaw AI 系统自动生成  
 报告版本: v1.0  
-生成时间: Mon Mar 16 06:00:02 AM CST 2026
+生成时间: Mon Mar 16 01:06:56 PM CST 2026

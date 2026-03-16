@@ -271,6 +271,166 @@ gh auth status
 | **邮件通知** | 273477656@qq.com |
 | **归档周期** | 保留最近30天 |
 
+---
 
+## 10. 定时任务监控配置（新增v1.0.3）
+
+### 10.1 cron-wrapper - 统一任务包装器
+
+| 配置项 | 值 |
+|--------|-----|
+| **脚本路径** | `scripts/cron-wrapper.sh` |
+| **功能** | 为所有定时任务添加监控、日志和进度反馈 |
+| **执行流程** | 5步：检查脚本 → 检查依赖 → 预执行检查 → 执行任务 → 后处理 |
+| **状态文件** | `/tmp/task_{任务名}.status` |
+| **日志文件** | `logs/{任务名}-{日期}-{时间}.log` |
+| **执行时间统计** | 自动生成.duration文件 |
+
+### 10.2 cron-status - 状态查询工具
+
+| 配置项 | 值 |
+|--------|-----|
+| **脚本路径** | `scripts/cron-status.sh` |
+| **功能** | 查询所有定时任务执行状态 |
+| **用法** | `./cron-status.sh [任务名]` |
+| **显示内容** | 任务状态、执行耗时、下次执行时间、日志文件 |
+
+---
+
+## 11. 邮件系统配置（更新v1.0.4）
+
+### 11.1 邮件发送工具
+
+| 配置项 | 值 | 说明 |
+|--------|-----|------|
+| **主脚本** | `skills/smtp-sender/email_sender.py` | 修复MIME类型问题 |
+| **进度版本** | `scripts/send_email_with_progress.py` | 带进度显示 |
+| **SMTP服务器** | smtp.qq.com:465 | QQ邮箱 |
+| **发件人** | 273477656@qq.com | 系统邮箱 |
+| **修复内容** | 附件MIME类型 | PDF使用application/pdf，MD使用text/markdown |
+
+### 11.2 邮件通知任务
+
+| 任务 | 收件人 | 内容 |
+|------|--------|------|
+| daily-ai-insight-6am | 273477656@qq.com | 9个报告（MD+PDF） |
+| daily-ai-news-8am | 273477656@qq.com | AI动态报告（MD+PDF） |
+| system-health-check | 273477656@qq.com | 失败时发送告警 |
+
+---
+
+## 12. 系统健康检查配置（更新v1.0.5）
+
+### 12.1 检查项目（10个类别，38项）
+
+| 类别 | 检查项数 | 说明 |
+|------|----------|------|
+| 系统配置检查 | 4 | 工作区、配置、技能目录等 |
+| 核心脚本检查 | 4 | cron-wrapper、定时任务脚本等 |
+| 技能可用性检查 | 14 | 所有已安装技能（新增） |
+| 依赖检查 | 4 | Python3、pip、curl、git |
+| Python包检查 | 4 | python-docx、openpyxl等 |
+| API密钥检查 | 2 | Tavily、OpenAI |
+| 定时任务检查 | 3 | 3个定时任务配置 |
+| 网络连接检查 | 2 | GitHub SSH、SMTP |
+| 磁盘空间检查 | 1 | 使用率<90% |
+
+### 12.2 技能检查清单（14个）
+
+| 技能名称 | 检查方式 | 状态 |
+|----------|----------|------|
+| Agent Browser | SKILL.md存在 | ✅ |
+| Find Skills | SKILL.md存在 | ✅ |
+| GitHub | SKILL.md存在 | ✅ |
+| Obsidian | SKILL.md存在 | ✅ |
+| OpenClaw Tavily Search | SKILL.md存在 | ✅ |
+| Self Improving Agent | SKILL.md存在 | ✅ |
+| SMTP Sender | email_sender.py存在 | ✅ |
+| Summarize | SKILL.md存在 | ✅ |
+| Tavily Search | search.mjs存在 | ✅ |
+| Tencent Cloud Lighthouse | SKILL.md存在 | ✅ |
+| Tencent COS | SKILL.md存在 | ✅ |
+| Tencent Docs | SKILL.md存在 | ✅ |
+| Weather | SKILL.md存在 | ✅ |
+| WPS Skill | main.py存在 | ✅ |
+
+---
+
+## 13. API密钥配置（新增v1.0.6）
+
+### 13.1 集中配置文件
+
+| 配置项 | 值 |
+|--------|-----|
+| **文件路径** | `config/api-keys.sh` |
+| **加载方式** | `source config/api-keys.sh` |
+| **系统级配置** | `/etc/profile.d/openclaw-api-keys.sh` |
+| **用户级配置** | `~/.bashrc` |
+
+### 13.2 已配置API密钥
+
+| 密钥名称 | 值 | 用途 |
+|----------|-----|------|
+| **TAVILY_API_KEY** | tvly-dev-3Ds3oa-7krcDnvt1zwIgE... | AI搜索、资讯检索 |
+| **OPENAI_API_KEY** | sk-sp-1dfcd6127bfc4033b85aa78f... | AI模型调用 |
+| **OPENAI_BASE_URL** | https://coding.dashscope.aliyuncs.com/v1 | 百炼平台 |
+
+---
+
+## 14. 格式转换工具配置
+
+### 14.1 标准转换工具
+
+| 工具 | 路径 | 优先级 |
+|------|------|--------|
+| **wps-skill** | `skills/wps-skill/scripts/main.py` | 第一优先 |
+| **doc-converter.sh** | `scripts/doc-converter.sh` | 统一接口 |
+| **batch_md_to_pdf.py** | `scripts/batch_md_to_pdf.py` | 备选方案 |
+
+### 14.2 支持的转换格式
+
+| 源格式 | 目标格式 | 工具 |
+|--------|----------|------|
+| Markdown | Word (DOCX) | wps-skill |
+| Markdown | Excel (XLSX) | wps-skill |
+| Markdown | PPT (PPTX) | wps-skill |
+| Markdown | PDF | wps-skill / batch_md_to_pdf.py |
+
+---
+
+## 15. 当前系统状态（2026-03-16）
+
+### 15.1 健康检查结果
+
+| 指标 | 数值 |
+|------|------|
+| **总检查项** | 38 |
+| **通过项** | 38 |
+| **失败项** | 0 |
+| **通过率** | 100% |
+| **系统状态** | 🟢 完全健康 |
+
+### 15.2 GitHub同步状态
+
+| 项目 | 状态 |
+|------|------|
+| **仓库** | hongyu-zhou3434/openclaw_config_code |
+| **分支** | master (main) |
+| **总文件数** | 210+ |
+| **最新提交** | 系统健康检查自动同步 |
+| **同步状态** | ✅ 已同步 |
+
+---
+
+## 16. 更新日志（完整）
+
+| 版本 | 时间 | 更新内容 |
+|------|------|----------|
+| 1.0.0 | 2026-03-16 | 初始配置，四技能协同，24个技能就绪 |
+| 1.0.1 | 2026-03-16 | 删除定时任务 daily-insight（19:00简化版） |
 | 1.0.2 | 2026-03-16 | 添加system-health-check（21:00）定时任务到crontab |
+| 1.0.3 | 2026-03-16 | 添加cron-wrapper定时任务包装器，支持5步执行流程和状态监控 |
+| 1.0.4 | 2026-03-16 | 修复邮件附件MIME类型问题，PDF正确显示而非bin格式 |
+| 1.0.5 | 2026-03-16 | 更新system-health-check.sh，添加14个技能可用性检查 |
+| 1.0.6 | 2026-03-16 | 添加API密钥集中配置（config/api-keys.sh），支持Tavily和OpenAI |
 

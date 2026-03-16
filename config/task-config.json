@@ -1,0 +1,86 @@
+{
+  "version": "1.1.0",
+  "last_updated": "2026-03-16",
+  "description": "系统任务配置 - 统一使用wps-skill进行格式转换",
+  "tasks": {
+    "daily-ai-insight-6am": {
+      "name": "每日AI技术洞察报告",
+      "schedule": "0 6 * * *",
+      "script": "/root/.openclaw/workspace/scripts/daily-ai-insight.sh",
+      "output_dir": "/root/.openclaw/workspace/output/daily-insights",
+      "email": {
+        "enabled": true,
+        "recipients": ["273477656@qq.com"],
+        "subject_prefix": "📊 每日AI技术洞察报告",
+        "send_pdf": true,
+        "send_md": true
+      },
+      "conversion": {
+        "tool": "wps-skill",
+        "fallback": "batch_md_to_pdf.py",
+        "output_format": ["pdf"]
+      },
+      "retention_days": 30
+    },
+    "daily-ai-news-8am": {
+      "name": "每日AI动态洞察报告",
+      "schedule": "0 8 * * *",
+      "script": "/root/.openclaw/workspace/scripts/daily-ai-news-8am.sh",
+      "output_dir": "/root/.openclaw/workspace/output/daily-ai-news",
+      "email": {
+        "enabled": true,
+        "recipients": ["273477656@qq.com"],
+        "subject_prefix": "📊 AI动态洞察报告",
+        "send_pdf": true,
+        "send_md": true
+      },
+      "conversion": {
+        "tool": "wps-skill",
+        "fallback": "batch_md_to_pdf.py",
+        "output_format": ["pdf"]
+      },
+      "retention_days": 30
+    },
+    "system-health-check-21h": {
+      "name": "系统健康检查",
+      "schedule": "0 21 * * *",
+      "script": "/root/.openclaw/workspace/scripts/system-health-check.sh",
+      "output_dir": "/root/.openclaw/workspace/output/health-checks",
+      "email": {
+        "enabled": true,
+        "recipients": ["273477656@qq.com"],
+        "subject_prefix": "🔍 系统健康检查报告",
+        "send_on_failure": true,
+        "send_on_success": false
+      },
+      "github_sync": {
+        "enabled": true,
+        "repo": "git@github.com:hongyu-zhou3434/openclaw_config_code.git"
+      },
+      "retention_days": 30
+    }
+  },
+  "global_settings": {
+    "smtp_config": "/root/.openclaw/workspace/skills/smtp-sender/smtp-config.json",
+    "default_sender": "273477656@qq.com",
+    "log_dir": "/root/.openclaw/workspace/logs",
+    "wrapper_script": "/root/.openclaw/workspace/scripts/cron-wrapper.sh",
+    "status_query": "/root/.openclaw/workspace/scripts/cron-status.sh",
+    "conversion": {
+      "primary_tool": "wps-skill",
+      "primary_path": "/root/.openclaw/workspace/skills/wps-skill/scripts/main.py",
+      "fallback_tool": "batch_md_to_pdf.py",
+      "fallback_path": "/root/.openclaw/workspace/scripts/batch_md_to_pdf.py",
+      "wrapper_script": "/root/.openclaw/workspace/scripts/doc-converter.sh"
+    },
+    "email_sender": "/root/.openclaw/workspace/scripts/send_email_with_progress.py",
+    "supported_formats": {
+      "md_to_docx": "wps-skill",
+      "md_to_pdf": "wps-skill",
+      "md_to_xlsx": "wps-skill",
+      "md_to_pptx": "wps-skill",
+      "docx_to_md": "wps-skill",
+      "docx_to_pdf": "wps-skill"
+    }
+  }
+}

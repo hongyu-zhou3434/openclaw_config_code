@@ -349,7 +349,7 @@ if [ $FAILED -eq 0 ]; then
     if [ -n "$(git status --porcelain 2>/dev/null)" ]; then
         git add -A 2>&1 | tee -a "$LOG_FILE"
         git commit -m "系统健康检查自动同步 - $(date +%Y-%m-%d)" 2>&1 | tee -a "$LOG_FILE" || true
-        git push origin master 2>&1 | tee -a "$LOG_FILE" || echo "  ! GitHub推送可能需要手动处理" | tee -a "$LOG_FILE"
+        git push origin main 2>&1 | tee -a "$LOG_FILE" || echo "  ! GitHub推送可能需要手动处理" | tee -a "$LOG_FILE"
         echo "  同步完成" | tee -a "$LOG_FILE"
     else
         echo "  没有需要同步的更改" | tee -a "$LOG_FILE"

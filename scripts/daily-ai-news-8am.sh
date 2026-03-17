@@ -210,18 +210,19 @@ convert_to_pdf() {
     fi
 }
 
-# 发送邮件
+# 发送邮件（仅发送PDF附件）
 send_email_notification() {
-    local md_file="$1"
-    local pdf_file="$2"
+    local pdf_file="$1"
     
     echo "【发送邮件通知】" | tee -a "$LOG_FILE"
     
-    # 构建附件列表
-    local attachments="$md_file"
-    [ -n "$pdf_file" ] && attachments="$attachments $pdf_file"
+    # 检查PDF文件是否存在
+    if [ -z "$pdf_file" ] || [ ! -f "$pdf_file" ]; then
+        echo "  ! PDF文件不存在，无法发送邮件" | tee -a "$LOG_FILE"
+        return 1
+    fi
     
-    # 使用带进度反馈的邮件发送工具
+    # 使用带进度反馈的邮件发送工具（仅发送PDF）
     cd "$OUTPUT_DIR"
     python3 "$WORKSPACE/scripts/send_email_with_progress.py" \
         --to "$QQ_EMAIL" \
@@ -236,11 +237,11 @@ send_email_notification() {
 
 覆盖公司: OpenAI、Google、Meta、NVIDIA、Microsoft、Anthropic、阿里巴巴、字节跳动、腾讯、DeepSeek、智谱AI、MiniMax、百度、华为
 
-请查看附件中的报告文件。
+附件为PDF格式报告文件。
 
 ---
 本邮件由 OpenClaw AI 系统自动发送" \
-        --attachments $attachments 2>&1 | tee -a "$LOG_FILE"
+        --attachments "$pdf_file" 2>&1 | tee -a "$LOG_FILE"
     
     if [ $? -eq 0 ]; then
         echo "  ✓ 邮件发送成功" | tee -a "$LOG_FILE"
@@ -257,12 +258,17 @@ echo "" | tee -a "$LOG_FILE"
 echo "【步骤2/4】转换为PDF..." | tee -a "$LOG_FILE"
 PDF_FILE=""
 if [ -f "$MD_FILE" ]; then
-    PDF_FILE=$(convert_to_pdf "$MD_FILE" || echo "")
+    convert_to_pdf "$MD_FILE"
+    PDF_FILE="${MD_FILE%.md}.pdf"
+    if [ ! -f "$PDF_FILE" ]; then
+        echo "  ! PDF文件未生成" | tee -a "$LOG_FILE"
+        PDF_FILE=""
+    fi
 fi
 
 echo "" | tee -a "$LOG_FILE"
 echo "【步骤3/4】发送邮件通知..." | tee -a "$LOG_FILE"
-send_email_notification "$MD_FILE" "$PDF_FILE"
+send_email_notification "$PDF_FILE"
 
 echo "" | tee -a "$LOG_FILE"
 echo "【步骤4/4】归档管理..." | tee -a "$LOG_FILE"

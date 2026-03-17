@@ -18,6 +18,9 @@ export OPENAI_API_KEY="sk-sp-1dfcd6127bfc4033b85aa78f2ed6a995"
 export OPENAI_BASE_URL="https://coding.dashscope.aliyuncs.com/v1"
 export SUMMARIZE_MODEL="kimi-k2.5"
 
+# QQ邮箱配置
+QQ_EMAIL="273477656@qq.com"
+
 # 创建输出目录
 mkdir -p "$OUTPUT_DIR"
 
@@ -87,10 +90,19 @@ generate_insight_report() {
 EOF
 
     # 使用Tavily搜索最新动态
-    echo "  搜索: ${company_name} AI 模型 发布 2026..." | tee -a "$LOG_FILE"
+    echo "  搜索: ${company_name} AI 模型 发布..." | tee -a "$LOG_FILE"
     
     local search_result
-    search_result=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "${company_name} AI 模型 发布 $(date +%Y)" 2>/dev/null || echo "搜索失败")
+    search_result=$(TAVILY_API_KEY="$TAVILY_API_KEY" node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "${company_name} AI 模型 发布" 2>&1) || {
+        echo "  ! 搜索出错: $search_result" | tee -a "$LOG_FILE"
+        search_result="搜索失败，请检查API配置"
+    }
+    
+    # 检查搜索结果是否有效
+    if [ -z "$search_result" ] || [[ "$search_result" == *"Missing TAVILY_API_KEY"* ]]; then
+        echo "  ! API密钥无效或未设置" | tee -a "$LOG_FILE"
+        search_result="**搜索失败**: API配置错误"
+    fi
     
     # 提取关键信息并写入报告
     echo "$search_result" >> "$output_md"
@@ -103,7 +115,15 @@ EOF
 
     # 搜索技术相关
     echo "  搜索: ${company_name} 技术突破..." | tee -a "$LOG_FILE"
-    search_result=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "${company_name} 技术突破 最新" 2>/dev/null || echo "搜索失败")
+    search_result=$(TAVILY_API_KEY="$TAVILY_API_KEY" node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "${company_name} 技术突破" 2>&1) || {
+        echo "  ! 搜索出错" | tee -a "$LOG_FILE"
+        search_result="搜索失败"
+    }
+    
+    if [ -z "$search_result" ] || [[ "$search_result" == *"Missing TAVILY_API_KEY"* ]]; then
+        search_result="**搜索失败**: API配置错误"
+    fi
+    
     echo "$search_result" >> "$output_md"
     
     cat >> "$output_md" << EOF
@@ -146,7 +166,15 @@ EOF
 
 EOF
 
-        search_result=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "${company_name} ${area_name} ${area_keywords}" 2>/dev/null || echo "暂无相关数据")
+        search_result=$(TAVILY_API_KEY="$TAVILY_API_KEY" node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "${company_name} ${area_name} ${area_keywords}" 2>&1) || {
+            echo "  ! 搜索出错" | tee -a "$LOG_FILE"
+            search_result="搜索失败"
+        }
+        
+        if [ -z "$search_result" ] || [[ "$search_result" == *"Missing TAVILY_API_KEY"* ]]; then
+            search_result="**搜索失败**: API配置错误"
+        fi
+        
         echo "$search_result" >> "$output_md"
     done
     
@@ -200,6 +228,81 @@ EOF
     echo "  ✓ 报告已生成: ${company_name}AI洞察报告_${DATE_STR}.md" | tee -a "$LOG_FILE"
 }
 
+# 转换为PDF格式
+convert_to_pdf() {
+    echo "【转换为PDF格式】" | tee -a "$LOG_FILE"
+    
+    # 收集所有Markdown文件
+    local md_files=()
+    local summary_md="$OUTPUT_DIR/每日AI洞察汇总_${DATE_STR}.md"
+    [ -f "$summary_md" ] && md_files+=("$summary_md")
+    
+    for company_info in "${COMPANIES[@]}"; do
+        IFS=':' read -r company_name _ _ <<< "$company_info"
+        local company_md="$OUTPUT_DIR/${company_name}AI洞察报告_${DATE_STR}.md"
+        [ -f "$company_md" ] && md_files+=("$company_md")
+    done
+    
+    # 批量转换为PDF
+    if [ ${#md_files[@]} -gt 0 ]; then
+        cd "$OUTPUT_DIR"
+        python3 "$WORKSPACE/scripts/batch_md_to_pdf.py" "${md_files[@]}" 2>&1 | tee -a "$LOG_FILE"
+        if [ $? -eq 0 ]; then
+            echo "  ✓ PDF转换完成" | tee -a "$LOG_FILE"
+        else
+            echo "  ! PDF转换部分失败" | tee -a "$LOG_FILE"
+        fi
+    fi
+}
+
+# 发送邮件通知（带PDF附件）
+send_email_notification() {
+    echo "【发送邮件通知】" | tee -a "$LOG_FILE"
+    
+    # 构建PDF附件列表
+    local attachments=""
+    local summary_pdf="$OUTPUT_DIR/每日AI洞察汇总_${DATE_STR}.pdf"
+    
+    if [ -f "$summary_pdf" ]; then
+        attachments="$summary_pdf"
+    fi
+    
+    # 添加所有公司PDF报告
+    for company_info in "${COMPANIES[@]}"; do
+        IFS=':' read -r company_name _ _ <<< "$company_info"
+        local company_pdf="$OUTPUT_DIR/${company_name}AI洞察报告_${DATE_STR}.pdf"
+        if [ -f "$company_pdf" ]; then
+            attachments="$attachments $company_pdf"
+        fi
+    done
+    
+    # 使用Python邮件发送工具
+    cd "$OUTPUT_DIR"
+    python3 "$WORKSPACE/scripts/send_email_with_progress.py" \
+        --to "$QQ_EMAIL" \
+        --subject "📊 每日AI技术洞察报告 - $DATE_CN" \
+        --body "您好！
+
+今日AI技术洞察报告已生成。
+
+报告日期: $DATE_CN
+生成时间: $(date +"%H:%M:%S")
+覆盖公司: 字节跳动、阿里巴巴、腾讯、智谱AI、DeepSeek、Google、NVIDIA、MiniMax
+洞察范围: 大模型、推理模型、多模态、算力卡、数据存储、数据加速、Agent
+
+附件为PDF格式报告文件，包含汇总报告及各公司详细洞察报告。
+
+---
+本邮件由 OpenClaw AI 系统自动发送" \
+        --attachments $attachments 2>&1 | tee -a "$LOG_FILE"
+    
+    if [ $? -eq 0 ]; then
+        echo "  ✓ 邮件发送成功" | tee -a "$LOG_FILE"
+    else
+        echo "  ! 邮件发送失败" | tee -a "$LOG_FILE"
+    fi
+}
+
 # 生成汇总报告
 generate_summary_report() {
     echo "【生成汇总报告】" | tee -a "$LOG_FILE"
@@ -225,7 +328,13 @@ EOF
     # 搜索今日热点
     echo "  搜索今日AI热点..." | tee -a "$LOG_FILE"
     local hot_news
-    hot_news=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "AI 大模型 发布 $(date +%Y年%m月%d日)" 2>/dev/null || echo "暂无热点数据")
+    hot_news=$(TAVILY_API_KEY="$TAVILY_API_KEY" node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "AI 大模型 发布" 2>&1) || {
+        echo "  ! 搜索出错" | tee -a "$LOG_FILE"
+        hot_news="搜索失败"
+    }
+    if [ -z "$hot_news" ] || [[ "$hot_news" == *"Missing TAVILY_API_KEY"* ]]; then
+        hot_news="**搜索失败**: API配置错误"
+    fi
     echo "$hot_news" >> "$summary_md"
     
     cat >> "$summary_md" << EOF
@@ -234,7 +343,13 @@ EOF
 
 EOF
 
-    hot_news=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "AI 技术突破 $(date +%Y年%m月)" 2>/dev/null || echo "暂无数据")
+    hot_news=$(TAVILY_API_KEY="$TAVILY_API_KEY" node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "AI 技术突破" 2>&1) || {
+        echo "  ! 搜索出错" | tee -a "$LOG_FILE"
+        hot_news="搜索失败"
+    }
+    if [ -z "$hot_news" ] || [[ "$hot_news" == *"Missing TAVILY_API_KEY"* ]]; then
+        hot_news="**搜索失败**: API配置错误"
+    fi
     echo "$hot_news" >> "$summary_md"
     
     cat >> "$summary_md" << EOF
@@ -330,6 +445,12 @@ echo "【归档管理】" | tee -a "$LOG_FILE"
 find "$WORKSPACE/output/daily-insights" -type d -mtime +30 -exec rm -rf {} + 2>/dev/null || true
 echo "  ✓ 已清理30天前的旧报告" | tee -a "$LOG_FILE"
 
+# 转换为PDF并发送邮件
+echo "" | tee -a "$LOG_FILE"
+convert_to_pdf
+echo "" | tee -a "$LOG_FILE"
+send_email_notification
+
 # GitHub同步（可选）
 if [ -d "$WORKSPACE/.git" ]; then
     echo "" | tee -a "$LOG_FILE"
@@ -344,5 +465,6 @@ echo "" | tee -a "$LOG_FILE"
 echo "=== 洞察报告生成完成 ===" | tee -a "$LOG_FILE"
 echo "输出目录: $OUTPUT_DIR" | tee -a "$LOG_FILE"
 echo "报告数量: $(ls -1 $OUTPUT_DIR/*.md 2>/dev/null | wc -l) 个" | tee -a "$LOG_FILE"
+echo "邮件已发送至: $QQ_EMAIL" | tee -a "$LOG_FILE"
 
 exit 0

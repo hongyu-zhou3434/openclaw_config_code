@@ -100,7 +100,9 @@ def send_email_with_progress(to_email, subject, body, attachments=None, body_fil
                     mime_part = MIMEBase(main_type, sub_type)
                     mime_part.set_payload(f.read())
                     encoders.encode_base64(mime_part)
-                    mime_part.add_header('Content-Disposition', f'attachment; filename="{filename}"')
+                    # 使用RFC 2231编码处理中文文件名
+                    from email.header import Header
+                    mime_part.add_header('Content-Disposition', 'attachment', filename=('utf-8', '', filename))
                     msg.attach(mime_part)
                 size_kb = os.path.getsize(filepath) // 1024
                 print(f"✅ ({size_kb}KB, {main_type}/{sub_type})")

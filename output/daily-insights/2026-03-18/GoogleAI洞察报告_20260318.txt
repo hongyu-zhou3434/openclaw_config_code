@@ -2,7 +2,7 @@
 === Google AI技术洞察报告
 
 报告日期: 2026年03月18日  
-生成时间: 06:00:01  
+生成时间: 08:26:26  
 数据来源: Tavily Search, 企业博客, 新闻媒体  
 洞察范围: 模型发布、技术动态、产品更新
 
@@ -20,11 +20,63 @@
 
    2.1 产品/模型发布
 
-搜索失败，请检查API配置
+--- Answer
+
+Google released the Gemini AI model in December 2023. Gemini includes multiple versions: Ultra, Pro, and Nano. Gemini aims to surpass GPT-4 in various capabilities.
+
+---
+
+--- Sources
+
+- Google發布最新AI模型Gemini 3.1 Pro 核心推理能力提升顯著 (relevance: 100%)
+  https://hk.finance.yahoo.com/news/google%E7%99%BC%E5%B8%83%E6%9C%80%E6%96%B0ai%E6%A8%A1%E5%9E%8Bgemini-3-1-pro-%E6%A0%B8%E5%BF%83%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B%E6%8F%90%E5%8D%87%E9%A1%AF%E8%91%97-062537249.html
+  谷歌(Google)發布其最新人工智能模型Gemini 3.1 Pro，稱其為核心推理能力的重大突破。該模型已於Gemini應用程式中向AI Pro或Ultra方案用戶開放。
+
+- 隆重推出Gemini 2.0：我們迎向代理式AI 時代的新模型 (relevance: 100%)
+  https://blog.google/intl/zh-tw/products/explore-get-answers/google-gemini-ai-update-december-2024/
+  Google 發布Gemini 2.0 模型，是邁向通用人工智慧的重要一步。Gemini 2.0 在多模態理解、推理能力和執行任務都有顯著提升，並已應用於多項研究計畫。
+
+- 谷歌发布最新AI模型Gemini 3 (relevance: 100%)
+  http://www.news.cn/tech/20251120/fe871e40a8ae4865b25ed101802d0071/c.html
+  # 谷歌发布最新AI模型Gemini 3. # 谷歌发布最新AI模型Gemini 3. 2025-11-20 08:10:00  来源：科技日报. 谷歌推出Gemini 3人工智能模型。图片来源：《纽约时报》官网. 当地时间18日，谷歌正式推出Gemini 3系列人工智能（AI）模型，并同步上线Gemini 3 Pro预览版。该公司称，Gemini 3是迄今为止“最智能”和“最具事实准确性的”AI系统。它不仅拥有卓越的推理能力、多模态理解能力和智能体编码能力，还能将用户创意快速转化为应用程序，在创建软件、整理邮件和分析文档等任务中，相比前代产品都有显著提升。. 谷歌同时宣布，自11月18日起，...
+
+- 赶超GPT-4！谷歌发布最新大模型Gemini，主打三大“杀手锏” (relevance: 100%)
+  https://m.cyzone.cn/article/745880
+  赶超GPT-4！谷歌发布最新大模型Gemini，主打三大“杀手锏”. 赶超GPT-4！谷歌发布最新大模型Gemini，主打三大“杀手锏”. 外界期待已久的谷歌大语言模型Gemini在美国时间12月6日早间正式对外发布，谷歌首席执行官皮查伊表示：Gemini 1.0是目前为止谷歌能力最强的通用人工智能模型。. 编者按：本文来自微信公众号 腾讯科技(ID:qqtech)，作者 ：纪振宇，创业邦经授权转载。. “Gemini是原生多模态打造，是（谷歌）通往Gmeini模型时代的第一步。”皮查伊在当天的声明中说。. 谷歌当天发布的Gemini 1.0共分为Ultra, Pro和Nano三个版本，其中U...
+
+- 隆重推出Gemini：我們最強大的AI 模型 (relevance: 99%)
+  https://blog.google/intl/zh-tw/products/explore-get-answers/2023_12_google-gemini/
+  Gemini 也是我們至今推出最有彈性的模型，從資料中心到行動裝置的各種平台上，都能高效運行。而開發人員和企業客戶在使用 AI 構建和拓展業務的時候，Gemini 的先進功能可以為他們帶來極大的幫助。. Gemini 也可以當作引擎，來驅動更進階的程式生成系統。兩年前，我們推出了 AlphaCode，是第一個在程式設計競賽當中能夠達到有競爭實力的 AI 程式碼生成系統。. 我們透過 AI 最佳化的基礎架構，有規模的去訓練 Gemini 1.0，而這個架構使用的是 Google 自行設計的 Tensor Processing Unit（TPU）v4 及 v5e；而我們也把 Gemini 設計成最...
 
    2.2 技术突破
 
-搜索失败
+--- Answer
+
+Google achieved significant breakthroughs in AI, including advancements in quantum computing and the launch of innovative AI models in 2025. Their research focused on improving AI's role in various sectors, from healthcare to creative applications. Google's AI innovations continue to drive progress in technology and practical applications.
+
+---
+
+--- Sources
+
+- Google 2025 年度回顾：八大研究突破领域 (relevance: 77%)
+  https://h5.ifeng.com/c/vivoArticle/v002mbYHjbr6AqJ6cYq9BYUnocXTusx6-_MyaZxQlQC1UZCE__?vivoBusiness=hiboardnews
+  2025 年，人工智能在多个维度持续演进——从基础模型的推理能力提升，到智能体（AI agents）在真实任务中的协同应用，再到其在科学发现、气候建模、医疗健康等复杂领域的实际落地。作为全球重要的科技研究力量之一，Google 近日在其官方网站发布了年度回顾文章《Google's year in review: 8 areas with research breakthroughs in 2025》，系统梳理了过去一年中 Google、Google DeepMind 与 Google Research 在关键技术方向上的主要进展。. Google 在文中提到的八大领域涵盖大模型演进、AI 产品...
+
+- 从AI技术到AI落地，Google I/O开发者大会传递出了7个信号 (relevance: 59%)
+  https://news.qq.com/rain/a/20250526A04K2L00
+  与前代模型相比，Gemini 2.5 Pro最大的突破在于引入了“动态推理架构”。它不再是单纯根据输入数据生成答案，而是通过生成多个假设分支、模拟不同决策路径，
+
+- 从群嘲到追捧！彻底翻盘的谷歌AI，给百度阿里们带来哪些 ... (relevance: 57%)
+  https://zhuanlan.zhihu.com/p/1977826198252958342
+  最激进的突破是搜索，不仅支持了AI 预览，还在早些时候下定决心，正式上线了AI Mode。Pixel 手机也是Google AI 化改造的另一个主力，云端和设备端不同尺寸、
+
+- 谷歌量子计算重磅突破登上Nature：首次实现可验证量子优势 (relevance: 54%)
+  https://finance.sina.com.cn/stock/t/2025-10-22/doc-infuutxc3090258.shtml
+  谷歌量子AI团队宣布里程碑式算法突破，“Willow”量子芯片成功运行“量子回声”算法，首次在硬件上实现可验证量子优势，研究发表于《自然》杂志。
+
+- Google Cloud 於Next 25 大會上發表多項突破性AI 創新 (relevance: 50%)
+  https://blog.google/intl/zh-tw/products/cloud/google-cloud-launches-groundbreaking-ai-innovations-at-next25/
+  Google Cloud 於 Next 25 大會上發表多項突破性 AI 創新. # Google Cloud 於 Next 25 大會上發表多項突破性 AI 創新. Next 25 大會上展示了 Google Cloud 以 AI 優化的基礎架構、強大的 AI 模型和可互通 AI 代理的新一代企業級功能，幫助企業提升效率並推動未來創新。. Google WAN：為 Gemini 時代打造，由 AI 驅動的新一代全球網路. Google Cloud 的 AI Hypercomputer 包含硬體、軟體和使用模式，是一個經過精心設計的革命性超級運算系統，目的是簡化 AI 部署、顯著提高效...
 
 ---
 
@@ -53,43 +105,225 @@
 
 检索关键词: LLM,大模型,GPT,Claude,Gemini
 
-搜索失败
+--- Answer
+
+I am an AI system built by a team of inventors at Amazon. I provide information based on my training data. I do not identify as any specific model name.
+
+---
+
+--- Sources
+
+- 大模型谁家强：Gemini、Claude、GPT-4o 和O1 - DeepSeek技术社区 (relevance: 100%)
+  https://deepseek.csdn.net/682446c1c7c7e505d3586bf8.html
+  Google Gemini、Anthropic Claude、OpenAI GPT-4o 和O1 等大型语言模型(LLM) 各具特色，都在不断发展和完善。 Google Gemini 是一款多模态模型，在
+
+- 精通LLM：ChatGPT、Gemini、Claude、Llama3、OpenAI 和API (relevance: 100%)
+  https://softnshare.com/llm-mastery-chatgpt-gemini-claude-llama3-openai-apis/
+  # 精通 LLM：ChatGPT、Gemini、Claude、Llama3、OpenAI 和 API.  LLM 中的強化學習 (Reinforcement Learning，RLHF).  LLM 使用的工具：計算器、Python 庫等.  提示工程( Prompt Engineering )：透過思想鏈和思想樹提示等有效利用 LLM.  透過系統提示調整 LLM 並使用 ChatGPT 記憶體進行個人化.  Google Gemini API 和 Claude API 的使用.  用於 OpenAI API 呼叫的 Google Colab 簡介.  使用 Agency Sw...
+
+- 2025主流大语言模型深度对比 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1889837654448787699
+  在一个简单百科知识问答测试（SimpleQA）中，Google测得GPT-4.5模型正确率约62.5%，高于Gemini 2.5 Pro的52.9%。Anthropic的Claude 3.7在事实准确性上也有提升
+
+- 2025年主流大模型全景对比：Grok、Claude、ChatGPT与Gemini的 ... (relevance: 100%)
+  https://www.cnblogs.com/gccbuaa/p/19264126
+  # gccbuaa. # 2025年主流大模型全景对比：Grok、Claude、ChatGPT与Gemini的战场 - 教程. 在人工智能技术突飞猛进的2025年，大语言模型（LLM）已成为驱动企业数字化转型的核心引擎。本文聚焦Grok、Claude、ChatGPT和Gemini四大代表性模型，从技能架构、性能特点到适用场景进行全面解析，助您精准选择适配业务需求的AI解决方案。. Gemini是谷歌DeepMind团队研发的原生多模态模型，采用单一架构统一处理文本、图像、音频和视频，实现跨模态隐式对齐，幻觉率降低35%。其核心优势在于实时搜索增强，可调用Google Search材料补全时效性...
+
+- Claude、Google Gemini、Meta Llama及Mistral等主流LLM介紹 (relevance: 100%)
+  https://tw.alphacamp.co/blog/claude-gemini-llama-mistral
+  ### Google Gemini. Google Gemini是一個使用大型語言模型（LLM）技術的生成式人工智慧（AI）服務，旨在幫助使用者創造內容、發揮創意、提高效率和學習新知。Gemini模型家族包括Gemini Ultra、Gemini Pro和Gemini Nano三個版本，分別是最強的Gemini模型、一個“輕量級”的Gemini模型和一個小型的“精華”模型，適合在Mobile設備上運行. Gemini Pro是Google推出的LLM服務，提供了Chat Completion和Image Vision兩個主要功能。Chat Completion可以讓使用者輸入提示，Gemini...
 
    4.推理模型
 
 检索关键词: o1,R1,推理,思维链
 
-搜索失败
+--- Answer
+
+Google's reasoning model uses "chain of thought" (CoT) to enhance its reasoning capabilities. The model, o1, was developed by Google and later surpassed by similar models from other companies. CoT allows the model to break down complex problems into manageable steps.
+
+---
+
+--- Sources
+
+- 从o1到DeepSeek-R1，万字长文带您揭秘推理模型 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/26076930125
+  推理模型与标准LLM的主要区别在于能够在回答问题之前“思考”。推理模型的思维只是由LLM输出的长链思维——简称长CoT，有时称为推理轨迹或路径。长CoT的生成
+
+- 思维链让大模型推理更准确？谷歌早于OpenAI押中o1 ... (relevance: 100%)
+  https://www.mittrchina.com/news/detail/13790
+  几天前 OpenAI 新模型 o1 的发布，再次引发了人们对大语言模型的高度关注和讨论。. 而 o1 发布之所以如此“轰动”，是因为它与此前大模型由语言驱动用于聊天或语音助手有本质的不同。其不仅进入到复杂的领域，还表现出超强的推理能力。. OpenAI 将 GPT-4o 和 o1 在国际数学奥林匹克竞赛资格考试方面进行对比测试。根据结果，二者差异显著，其中，前者正确解决问题的准确率是 13.4%，而 o1 的准确率则能够达到 83.3%。. o1 实现超强推理能力的原因在于它的思考能力，而这背后源于强化学习和思维链（CoT，Chain of Thought）。. 就在人们对大模型的推理能力进行...
+
+- o1推理框架最新成果：斯坦福&伯克利提出元链式思维 (relevance: 100%)
+  https://www.51cto.com/article/806737.html
+  在最新的一篇长达100页的论文中，他们将o1模型背后的推理机制提炼成了一个通用的框架——元链式思维（Meta-CoT）。
+
+- 一种先进的人工智能形式——于去年9 月由美国公司OpenAI ... (relevance: 100%)
+  https://x.com/dotey/status/1883700968501469535
+  世界上首个“推理模型”（reasoning model）——一种先进的人工智能形式——于去年9 月由美国公司OpenAI 发布，名为“o1”。该模型采用“思维链”（chain of
+
+- 【OpenAI o1思维链CoT必看论文】谷歌“思维链提示“让AI更懂 ... (relevance: 100%)
+  https://blog.csdn.net/chao_666666/article/details/142568000
+  谷歌大脑团队最新开发的"思维链提示"方法，让大型语言模型在复杂推理任务上展现出惊人的进步。这项创新技术无需对模型进行额外训练，却能显著提升AI的推理
 
    4.多模态模型
 
 检索关键词: 多模态,视觉,视频生成,Sora,Seedance
 
-搜索失败
+--- Answer
+
+Google's Veo and ByteDance's Seedance are leading AI video generation models, focusing on multi-modal inputs and advanced visual storytelling. Sora and Kling also compete in this space, each with unique strengths in visual quality and narrative length. These models represent the forefront of AI-driven video creation.
+
+---
+
+--- Sources
+
+- 从Sora谷歌Veo、字节Seedance到Kino视界：AI视频下半场竞争逻辑 (relevance: 100%)
+  https://news.qq.com/rain/a/20260210A07DCX00
+  最近两天爆火的一款产品：字节推出的Seedance 2.0，也成为这一轮演进中的新节点之一：通过多模态输入与更强的镜头控制能力，进一步提升了AI 视频在叙事与连贯
+
+- 从Sora谷歌Veo、字节Seedance到Kino视界：AI视频下半场竞争逻辑 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/2004693729496302947
+  最近两天爆火的一款产品：字节推出的Seedance 2.0，也成为这一轮演进中的新节点之一：通过多模态输入与更强的镜头控制能力，进一步提升了AI 视频在叙事与连贯
+
+- 2026 AI 影片生成模型介紹&比較：Seedance 2.0、Kling 3.0、Sora 2 (relevance: 100%)
+  https://searchingc.com/blog/ai-video-generate/
+  四款模型各自代表不同的技術方向與策略：Seedance 2.0 強調創意控制，Kling 3.0 主打視覺品質，Sora 2 聚焦敘事長度，Veo 3.1 則在音訊生成上領先。這篇文章將
+
+- Seedance vs Sora vs Kling：AI 视频生成模型深度对比 (relevance: 100%)
+  https://developer.aliyun.com/article/1711714
+  简介： 本文深度解析Sora、Kling、Runway Gen-3、Seedance等主流文生视频模型的底层原理、性能差异与生产适配性，直击开发者选型难、API碎片化、成本
+
+- Seedance 2.0 vs Kling 3.0 vs Sora 2 vs Veo 3.1：終極影片生成模型 ... (relevance: 100%)
+  https://wavespeed.ai/blog/zh-tw/posts/seedance-2-0-vs-kling-3-0-sora-2-veo-3-1-video-generation-comparison-2026/
+  比較四個領先的AI影片生成模型：字節跳動的Seedance 2.0、快手的Kling 3.0、OpenAI的Sora 2和Google的Veo 3.1。包括各自的功能、定價、優勢和針對不同
 
    4.算力卡
 
 检索关键词: GPU,H100,B200,TPU,算力
 
-搜索失败
+--- Answer
+
+Google's TPUs and NVIDIA's GPUs have different strengths: GPUs excel in single-card performance and efficiency, while TPUs excel in large-scale cluster performance. H100 and B200 GPUs are top choices for high-performance computing.
+
+---
+
+--- Sources
+
+- Google的TPU vs英伟达的GPU - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1978365766635127119
+  单卡性能(Raw Power):NVIDIA 胜。 H100 的FP8/FP16 峰值算力通常高于同期的TPU。对于小规模、非标准模型，NVIDIA 更快。
+
+- 关于谷歌TPU和英伟达GPU的对比 - 雪球 (relevance: 100%)
+  https://xueqiu.com/3302071712/364090423
+  # 关于谷歌TPU和英伟达GPU的对比. 总结来看， Nvidia B300/GB300 与 Google TPU v7 核心参数的对比要点如下：. 算力（FP4）：Nvidia 单 GPU 达 15 PFLOPs，远超 Google 单 TPU 的 4.614 PFLOPs；. 能效（FP4）：Nvidia 单 GPU（10.71 TFLOPs/W）优于 Google 单 TPU（约 5.42 TFLOPs/W）；. 存储：Nvidia HBM 容量（288GB）、带宽（8TB/s）均高于 Google（192GB、7.4TB/s）。. 集群规模：Google...
+
+- 万字长文解析：从H100 到B200，GPGPU 与大模型扩展性深度分析 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1985478405458788975
+  随着大模型参数量的指数级增长，NVIDIA H100/B200 等高性能GPU 已成为算力基础设施的核心。然而，在大规模训练中，单纯堆砌GPU 数量并不足以线性提升性能。
+
+- 11.4 硬件选型：GPU、TPU 与专用加速器| 大模型原理与架构 - GitBook (relevance: 100%)
+  https://yeasy.gitbook.io/llm_internals/di-san-bu-fen-tui-li-yu-bu-shu-pian/11_serving/11.4_hardware
+  ## hashtag 11.4.1 NVIDIA GPU：当前的主流选择. NVIDIA GPU 凭借 CUDA 生态的成熟度和 Tensor Core 的强大性能，是 LLM 训练和推理的首选。关键指标对比：. 表 11-2：NVIDIA 主要 GPU 型号对比（\为 FP8 Tensor Core 算力，FP16 密集算力约为一半）. 对于推理场景，显存带宽通常比算力更重要（10.1 节已解释生成阶段是访存密集型的）。H200 的 141 GB 显存使其可以在单卡上运行 70B 的 INT4 量化模型，极大降低了部署复杂度。而 B200 的 192 GB 显存和 8 TB/s 带...
+
+- GPU 机器类型| Compute Engine - Google Cloud Documentation (relevance: 100%)
+  https://docs.cloud.google.com/compute/docs/gpus?hl=zh-cn
+  |  A4X（NVIDIA GB200 超级芯片） (`nvidia-gb200`)  A4 (NVIDIA B200)   (`nvidia-b200`)  A3 Ultra (NVIDIA H200)   (`nvidia-h200-141gb`)  A3 Mega (NVIDIA H100)   (`nvidia-h100-mega-80gb`)  A3 High (NVIDIA H100)   (`nvidia-h100-80gb`)  A3 Edge (NVIDIA H100)   (`nvidia-h100-80gb`)  A2 Ultra (NVIDIA A100 ...
 
    4.数据存储
 
 检索关键词: HBM,显存,存储,NVLink
 
-搜索失败
+--- Answer
+
+Google uses HBM and NVLink for high-bandwidth memory and interconnect solutions, enhancing data transfer speeds and parallel processing capabilities. NVLink offers higher bandwidth than PCIe, supporting up to 300GB/s in NVLink 2.0.
+
+---
+
+--- Sources
+
+- 中国与美国HBM及3D DRAM产业链深度分析 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/23269431888
+  英伟达的方案是结合HBM和普通内存：如Grace-Hopper架构中，GPU用HBM、CPU连DDR，通过NVLink互连，使系统兼有高带宽和大容量。 但纯HBM系统在容量扩展性上相对
+
+- 英伟达5万亿美元的护城河，Google TPU能撼动吗？ - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1977354855036257550
+  NVLink不仅仅是数据传输通道，更重要的是实现了内存语义的互联，GPU A可以直接读写GPU B的显存，就像访问自己的内存一样，这对于模型的并行训练来说非常重要。
+
+- 高速带宽除了PCIe 和HBM，还有哪些原创 - CSDN博客 (relevance: 99%)
+  https://blog.csdn.net/xiong_xin/article/details/146341006
+  (1) 设备内部数据传输 ; HBM 带宽最高，适用于大规模AI 计算、HPC。 ; GDDR 适用于高性能GPU，但带宽低于HBM。 ; LPDDR 适用于移动设备，功耗优化，但带宽不够
+
+- CN219392653U - 一种与gpu芯片互连的显存扩展装置 - Google Patents (relevance: 98%)
+  https://patents.google.com/patent/CN219392653U/zh
+  :   Priority to CN202320474634.5U priority Critical patent/CN219392653U/zh. :   Publication of CN219392653U publication Critical patent/CN219392653U/zh.  230000015654 memory Effects 0.000 title claims abstract description 210.  230000006870 function Effects 0.000 claims description 4.  2380000134...
+
+- CN112785485B - 用于有效的结构附接存储器的技术 - Google Patents (relevance: 89%)
+  https://patents.google.com/patent/CN112785485B/zh
+  | US16/673,537  US11182309B2 (en) | 2019-11-04 | 2019-11-04 | Techniques for an efficient fabric attached memory |. | US11182309B2 (en)  \ | 2019-11-04 | 2021-11-23 | Nvidia Corporation | Techniques for an efficient fabric attached memory |. | US12314787B2 (en) | 2023-04-27 | 2025-05-27 | Hewlett P...
 
    4.数据加速
 
 检索关键词: FlashAttention,量化,推理优化
 
-搜索失败
+--- Answer
+
+FlashAttention speeds up transformer inference by optimizing memory access. It reduces memory read/write operations. It improves both training and inference speed.
+
+---
+
+--- Sources
+
+- 大模型推理优化策略Qunatized KV Cache MQA/GQA FlashAttention ... (relevance: 72%)
+  https://blog.csdn.net/xiaoxiaowenqiang/article/details/137786885
+  模型量化：通过降低模型权重和激活的精度来减小模型大小并加速推理。但需要注意的是，量化可能会降低模型的预测质量，因此需要在性能和精度之间找到平衡。
+
+- Diffusion 推理加速方案整理 - 知乎专栏 (relevance: 60%)
+  https://zhuanlan.zhihu.com/p/1918415337877143861
+  由于同样是Transformer 结构，所以算子部分的优化和LLM 重合度很高，算子融合、FlashAttention 等等都是可用的。 2. 低精度量化(有损加速). 量化可以有两大
+
+- 一文探秘LLM应用开发(13)-模型部署与推理(优化理论) - 火山引擎 (relevance: 49%)
+  https://developer.volcengine.com/articles/7382254811992817690
+  # 一文探秘LLM应用开发(13)-模型部署与推理(优化理论). 推理阶段需要关注的相关指标，如模型的显存占用量，计算量，访存量等指标。同时，我们也发现随着模型参数量越来越大，要想将一个大模型运行起来，动辄需要高额的计算资源支持，进一步地提高吞吐量和降低访问延是一个非常大挑战，例如，GPT-175B（GPT-3）仅用于存储模型权重就需要 325GB 的内存。要让此模型进行推理，至少需要五块英伟达 A100（80GB）和复杂的并行策略。在. 1）发现阶段：发现 LLM 中复杂的相互依赖关系，并找到最小可删除的单元、组，如. 1）基于响应的知识（Response-based knowledge）：...
+
+- 12秒内AI在手机上完成作画！谷歌提出扩散模型推理加速新方法-腾讯 ... (relevance: 49%)
+  https://cloud.tencent.com/developer/article/2280400?policyId=1004
+  ## 12秒内AI在手机上完成作画！谷歌提出扩散模型推理加速新方法. # 12秒内AI在手机上完成作画！谷歌提出扩散模型推理加速新方法. ###### 明敏 发自 凹非寺 量子位 | 公众号 QbitAI. 要知道，现在的扩散模型基本都超过了10亿参数，想要快速生成一张图片，要么基于云计算，要么就是要本地硬件够强大了。. 由此，谷歌的研究员们带来了这篇新成果，名字就叫Speed is all you need：通过GPU优化加速大规模扩散模型在设备上的推理速度。. ### 三步走优化加速. 组归一化是在整个UNet体系结构中实现，这种归一化的工作原理是将特征映射的通道划分为更小...
+
+- 迈向100倍加速：全栈Transformer推理优化 - 智源社区 (relevance: 36%)
+  https://hub.baai.ac.cn/view/33449
+  # 迈向100倍加速：全栈Transformer推理优化. OneFlow 2023-12-14 14:10 分享. 本文讨论了全栈Transformer推理优化，从A100内存层次结构等硬件规格，到FlashAttention和vLLM等MLSys方法，再到专家混合等模型架构，以及推测性解码（Speculative Decoding）及其变体等解码算法。我们确定了一个最基本的事实：Transformer推理受限于内存，且大部分优化（无论来自MLSys还是建模）都基于/利用了这一事实。就像在角色扮演游戏中添加buff一样，可以看到Transformer推理是如何逐步扩展和加速的。. ...
 
    4.Agent
 
 检索关键词: 智能体,Agent,AutoGPT
 
-搜索失败
+--- Answer
+
+I am an AI system built by a team of inventors at Amazon. AutoGPT is an open-source AI agent combining GPT-4 and GPT-3.5 technologies. It autonomously breaks down tasks into subtasks.
+
+---
+
+--- Sources
+
+- 以AutoGPT为例浅谈智能体Agent_autogpt agent-CSDN博客 (relevance: 100%)
+  https://blog.csdn.net/weixin_43737299/article/details/135103320
+  什么是智能体Agent? LLM给出的答案如下：智能体，也被称为Agent，是人工智能领域中的一个重要概念。这是一个能够自主理解、规划决策和执行复杂任务的实体
+
+- 以AutoGPT为例浅谈智能体Agent (relevance: 100%)
+  https://agent.csdn.net/6835389a606a8318e85a6806.html
+  AutoGPT是一个AI agent（智能体），也是开源的应用程序，结合了GPT-4和GPT-3.5技术，给定自然语言的目标，它将尝试将其分解成子任务，并在自动循环中使用搜索
+
+- 【单Agent框架】01-AutoGPT：以ChatGPT为核心的自治AI智能体- 知乎 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/668234147
+  其实，AutoGPT是一个AI agent（智能体），也是开源的应用程序，结合了GPT-4 ... 例如，谷歌搜索命令会返回搜索结果，browse_website命令会返回抓取网站内容的摘要
+
+- AI Agent智能体应用原理剖析：AutoGPT、HuggingFPT等#AI系统#大 ... (relevance: 100%)
+  https://www.youtube.com/watch?v=AsimFwBLi_U
+  AI Agent智能体应用原理剖析：AutoGPT、HuggingFPT等#AI系统#大模型#智能体.
+
+- AI智能体卷爆大模型！AutoGPT等4大Agent打擂 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/641874075
+  这几个AI智能体中，最吸引眼球的，无疑就是一经推出就爆火的，斯坦福和谷歌的研究者共同创建的西部世界小镇了。 生成式智能体逼真地模拟了人类的行为.
 
 ---
 
@@ -130,4 +364,4 @@
 
 本报告由 OpenClaw AI 系统自动生成  
 报告版本: v1.0  
-生成时间: Wed Mar 18 06:00:01 AM CST 2026
+生成时间: Wed Mar 18 08:26:46 AM CST 2026

@@ -2,7 +2,7 @@
 === 腾讯 AI技术洞察报告
 
 报告日期: 2026年03月18日  
-生成时间: 06:00:01  
+生成时间: 08:25:24  
 数据来源: Tavily Search, 企业博客, 新闻媒体  
 洞察范围: 模型发布、技术动态、产品更新
 
@@ -20,11 +20,63 @@
 
    2.1 产品/模型发布
 
-搜索失败，请检查API配置
+--- Answer
+
+Tencent HY 2.0, a large AI model by Tencent, has 406B parameters and is top in complex reasoning tasks. It supports long context windows and efficient inference. Pricing adjustments were made for some models in March 2026.
+
+---
+
+--- Sources
+
+- 腾讯自研AI 大模型混元2.0 发布：总参数406B - IT之家 (relevance: 100%)
+  https://www.ithome.com/0/902/856.htm
+  业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件. 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题. # 腾讯自研 AI 大模型混元 2.0 发布：总参数 406B，复杂推理场景综合表现“稳居国内第一梯队”. 2025/12/5 22:17:10 来源：IT之家 作者：汪淼 责编：汪淼. IT之家 12 月 5 日消息，腾讯自研 AI 大模型混元 2.0（Tencent HY 2.0）今日正式发布，包括 Tencent HY 2.0 Think 和 Tencent HY 2.0 Instruct。. 腾讯表示，HY 2.0 采用...
+
+- AI进化速递丨腾讯混元将发布新一代生图模型 - 第一财经 (relevance: 100%)
+  https://www.yicai.com/news/102847061.html
+  腾讯混元明日将发布新一代生图模型；苹果据悉开发类ChatGPT应用；Meta CTO称人形机器人是下一个“AR级赌注”。
+
+- 腾讯发布全新混元大模型Hunyuan-Large：全球最大开源Transformer ... (relevance: 100%)
+  https://www.51cto.com/aigc/3201.html
+  这款模型不仅支持长达256K个token的超大上下文处理，还在技术层面上实现了众多创新，能够在自然语言处理及通用AI任务上取得优异的表现，甚至在某些方面超越了业界领先的模型，
+
+- 腾讯云AI模型涨价_新浪新闻 (relevance: 100%)
+  https://www.sina.cn/news/detail/5275393059979944.html
+  【#腾讯云AI模型涨价#】#腾讯云公告涨价# 3月11日，腾讯云发布公告称，为了持续提供稳定优质的大模型服务，腾讯云智能体开发平台将对部分模型的计费策略进行优化调整。本次调整主要涉及两类变更：模型价格调整与公测模型结束免费。. 根据公告内容，此次调整将从2026年3月13日00:00（北京时间）正式生效。其中，GLM 5、MiniMax 2.5、Kimi 2.5三个模型将结束限时免费公测，转为正式商用服务，根据模型调用按量计费。. 另一变化则是对混元系列模型Tencent HY2.0 Instruct与Tencent HY2.0 Think服务进行涨价。根据腾讯云披露的调整详情：Tencent...
+
+- 腾讯混元大模型_大语言模型 - 腾讯云 (relevance: 99%)
+  https://cloud.tencent.com/product/tclm
+  # 腾讯混元大模型. 腾讯混元大模型（Tencent HY）是由腾讯公司全链路自研的通用与多模态大模型家族，覆盖文本、图像、视频、3D等模态，面向内容生产、知识问答、业务自动化等场景提供企业级服务。. ## 产品体验. ## 产品规格. ### Tencent HY 2.0 Think. #### 最大输入128K. #### 最大输出64K. ### Tencent HY 2.0 Instruct. #### 最大输128K. #### 最大输出16K. ### Hunyuan-large-role-latest. #### 最大输入28K. #### 最大输出4K. ### Hunyuan...
 
    2.2 技术突破
 
-搜索失败
+--- Answer
+
+Tencent achieved significant breakthroughs in AI, cloud computing, and quantum computing in 2022. They also predicted major tech trends for 2024, including advanced AI and sustainable computing. Their innovations span from smart grids to immersive communication technologies.
+
+---
+
+--- Sources
+
+- 2022年值得关注的七大技术趋势 - Tencent 腾讯 (relevance: 100%)
+  https://www.tencent.com/zh-cn/articles/2201289.html
+  2022年值得关注的七大技术趋势 ; 1. 云原生 ; 2. 量子计算NISQ时期仍将持续 ; 3. 人工智能投入使用 ; 4. 扩展现实技术日益成熟 ; 5. 数字孪生技术协助理解物理
+
+- 巨额斥资研发，腾讯如何砸穿AI天花板- 维科号 - OFweek (relevance: 100%)
+  https://mp.ofweek.com/ai/a056714287587
+  当行业还在争论AI技术哪家强时，腾讯早已跳出单一维度，用一场自我强化的飞轮游戏重新定义了规则—这不是简单的技术迭代，而是一场从投入、突破到回报的闭环
+
+- 腾讯AI，加速狂飙的这半年 - 雷峰网 (relevance: 100%)
+  https://m.leiphone.com/category/industrycloud/WIgZrqnpY1otb8G0.html
+  除了在大语言模型领域加速追赶，腾讯在本次大会上亮出的多模态生成技术也十分惊艳：混元图像2.0 实现「毫秒级」生图突破，GenEval 基准测试准确率超95%，不仅
+
+- 2024年十大科技和应用趋势 - Tencent 腾讯 (relevance: 100%)
+  https://www.tencent.com/zh-cn/articles/2201789.html
+  # Tencent腾讯. # 2024年十大科技和应用趋势. 新的一年来临，腾讯研究院邀请科学家、工程师、学者和其他专家对2024年数字科技未来发展趋势和应用前景进行了预测。我们认为，通用人工智能渐行渐近，AI将跨行业、跨场景地驱动突破性创新，从智慧电网到电动垂直起降飞机，再到星地直连通信和辅助机器人。. 未来发电和用电模式将发生变化。一直以来，家庭都是用电单位，而现在，家庭逐渐能够产生并储存电能。智能电网可以调配电动汽车的充电模式，例如用电低峰充电省钱，然后在用电高峰将多余的光伏电力输送回电网，促进整个社会实现更加可持续的用电方式。. 飞行汽车以前只在科幻电影里才能看到。如今，它们已经走进现...
+
+- 腾讯：2022年十大数字科技应用趋势，42页pdf - 知乎专栏 (relevance: 99%)
+  https://zhuanlan.zhihu.com/p/457302354
+  新一年，腾讯继续聚焦近未来有望落地的科技趋势，凝练出三大类、十个重点方向：云原生、人工智能、未来网络、云安全、量子计算等领域的新变革有望重塑信息
 
 ---
 
@@ -53,43 +105,229 @@
 
 检索关键词: LLM,大模型,GPT,Claude,Gemini
 
-搜索失败
+--- Answer
+
+Large language models like LLM, GPT, and Gemini are advanced AI systems trained on vast text data. They generate human-like text based on learned patterns. These models are used for various tasks, including text generation and information retrieval.
+
+---
+
+--- Sources
+
+- (LLM系列)什么是大语言模型？ - 腾讯云 (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2625657
+  ## (LLM系列)什么是大语言模型？. # (LLM系列)什么是大语言模型？. ## (LLM系列)什么是大语言模型？. 人工智能正在改变我们与技术互动的方式。大语言模型（Large Language Model，简称 LLM）作为 AI 领域最具突破性的技术之一，已经从研究实验室走向了日常应用。无论是 ChatGPT、Claude 还是 Gemini，这些工具都基于同一核心技术——大语言模型。本文将深入探讨 LLM 的工作原理，并帮助您了解如何选择最适合您需求的模型。. ### 一、什么是大语言模型？. 大语言模型是一种基于深度学习的人工智能系统，经过海量文本数据的训练，能够理解和生成人类...
+
+- 最强国产多模态刚刚易主！腾讯混元把GPT-4/Claude-3.5/Gemini-1.5 ... (relevance: 100%)
+  https://www.cnblogs.com/buluai/articles/18356518
+  根据最新的AI行业资讯，腾讯的混元大模型在多模态能力上取得了显著的进步，甚至在某些方面超越了国际上知名的模型如GPT-4、Claude-3.5和Gemini-1.5。
+
+- 最强国产多模态刚刚易主！腾讯混元把GPT-4/Claude-3.5/Gemini-1.5 ... (relevance: 100%)
+  https://blog.csdn.net/weixin_40700136/article/details/141178821
+  根据最新的AI行业资讯，腾讯的混元大模型在多模态能力上取得了显著的进步，甚至在某些方面超越了国际上知名的模型如GPT-4、Claude-3.5和Gemini-1.5。
+
+- Claude、Gemini 到国产大模型：2026 年LLM API 聚合服务商深度 ... (relevance: 100%)
+  https://juejin.cn/post/7594626381432832050
+  # GPT-5、Claude、Gemini 到国产大模型：2026 年 LLM API 聚合服务商深度测评与结论. ## 背景：问题已不再是“有没有模型”. 到 2026 年，GPT-5、Claude、Gemini 与国产大模型已形成长期并存格局。模型能力不再稀缺，真正的挑战转向：如何以低成本、低复杂度、可持续地使用多模型能力。. ## 核心维度一：模型覆盖不等于真实能力. 几乎所有平台都能列出“支持 GPT-5 / Claude / Gemini / 国产模型”，但差异在于：. ## 核心维度二：稳定性来自架构设计. ## 核心维度三：低价背后的不同路径...
+
+- 重磅！Gemini 3深夜突袭：碾压GPT-5.1、超越Claude 4.5 - 腾讯 (relevance: 100%)
+  https://view.inews.qq.com/a/20251119A01SIQ00
+  首创「生成式界面」（GenUI）：以前的AI 给你文字或代码，现在的Gemini 3 能直接为你生成一个交互界面。比如搜索「RNA 聚合酶工作原理」，它不再扔给你一堆链接
 
    4.推理模型
 
 检索关键词: o1,R1,推理,思维链
 
-搜索失败
+--- Answer
+
+{
+  "title": "Tencent's Reasoning Model Overview",
+  "content": "Tencent's reasoning model R1 and o1 excel in logical reasoning but struggle with speed; o1 uses deep thinking and reasoning chains.",
+  "next_action": "final_answer"
+}
+
+---
+
+--- Sources
+
+- 腾讯发布自研推理模型混元T1 性能比肩DeepSeek - 联合早报 (relevance: 73%)
+  https://www.zaobao.com.sg/news/china/story20250322-6056246
+  由于R1在生成答案前，需进行深度思考，并列出思维链，因此存在回应速度慢的短板。 综合测试结果，混元T1在逻辑推理能力优于R1和OpenAI的o1，但在数学和
+
+- o1也会「想太多」？腾讯AI Lab与上海交大揭秘o1模型过度思考问题 (relevance: 69%)
+  https://m.36kr.com/p/3113905629941513
+  o1 模型通过模拟人类的深度思考过程，在思维链中运用如自我反思、纠错以及探索多种解法等推理策略，展现了强大的长时间推理（Inference-Time Scaling）性能。
+
+- 从o1到DeepSeek-R1，万字长文带您揭秘推理模型——及其与标准 ... (relevance: 62%)
+  https://zhuanlan.zhihu.com/p/26076930125
+  推理模型与标准LLM的主要区别在于能够在回答问题之前“思考”。推理模型的思维只是由LLM输出的长链思维——简称长CoT，有时称为推理轨迹或路径。长CoT的
+
+- g1：o1推理链开源实现，原理竟如此简单！解决60-80% 的困扰LLM ... (relevance: 57%)
+  https://cloud.tencent.com/developer/article/2472870
+  此外，我觉得o1不会是单纯 gpt-4o+Agent+思维链 能到达的水平，可能o1训练的数据集会存在一种tag，其作用是提供一个问题不同种类的、拆解的、细致的解决步骤，当然，这可能只是其中一种训练方式。. 当然这一切都是一些猜测，回到正题，我们今天要介绍的是一个模仿o1思维链的开源项目——g1（在 Groq 上使用 Llama-3.1 70b 创建类似 o1 的推理链）。. g1 是实验性的并且是开源的，以帮助激励开源社区开发新的策略来产生类似 o1 的推理。不过他主要是展示可视化步骤提示推理的力量，而不是与使用不同技术的 o1 进行比较或完全复制。. ###### Groq 模型（如lla...
+
+- OpenAI o1模型的思维链机制对推理能力的提升效果如何？ - 飞书文档 (relevance: 55%)
+  https://docs.feishu.cn/v/wiki/Cn2CwOhfDiNkHyk7YaWcl0HJnDd/a7
+  传统的思维链方法通常缺乏对推理过程的深入建模，导致模型在处理复杂问题时容易失败。作者通过引入过程监督、搜索算法（如蒙特卡洛树搜索MCTS和A）等技术，解决了这一问题。
 
    4.多模态模型
 
 检索关键词: 多模态,视觉,视频生成,Sora,Seedance
 
-搜索失败
+--- Answer
+
+Tencent's Seedance 2.0 is a multi-modal AI model for video generation, emphasizing synchronized audio-visual creation and narrative coherence. It competes with Sora and other models in AI video generation. Seedance 2.0 focuses on narrative-driven, synchronized audio-visual content creation.
+
+---
+
+--- Sources
+
+- 中国AI的“DeepSeek时刻”再次来临：Seedance 2.0如何缩小多模态 ... (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2635642
+  2026年春节，抖音集团Seedance 2.0视频生成模型震撼发布，实现多模态输入、物理真实感、生成质量三大突破。与DeepSeek形成中国AI双轮驱动格局，
+
+- Seedance 2.0：技术革新开启AI视频生成新纪元 - QQ.com - 腾讯 (relevance: 100%)
+  https://news.qq.com/rain/a/20260224A050DN00
+  # Seedance 2.0：技术革新开启AI视频生成新纪元. 2026-02-24 16:10发布于北京中国日报中文网官方账号. Seedance 2.0的发布成为AI视频生成领域从“单模态画面”向“多模态视听合一”质变的关键节点，其独创的“双分支扩散变换器”架构实现了全方位技术突破，不仅攻克了传统模型的诸多行业痛点，更与Sora、可灵形成差异化技术路线，重塑了行业竞争格局，推动AI视频生成从简单的素材制作向专业的工业化内容生产迈进，为行业发展带来全新变革。. 传统AI视频生成长期沿用“先绘画面、后配音频”的割裂制作模式，音频信号需依托已生成的画面特征进行后期匹配与拼凑，不仅极易产生明显的音...
+
+- 字节开源版Seedance发布，超越Sora 2！-腾讯新闻 - QQ News (relevance: 100%)
+  https://news.qq.com/rain/a/20260214A02GZL00
+  # 字节开源版Seedance发布，超越Sora 2！. 2026-02-14 10:19发布于北京科技领域创作者. 专注AIGC领域的专业社区，关注微软&OpenAI、百度文心一言、讯飞星火等大语言模型（LLM）的发展和应用落地，聚焦LLM的市场研究和AIGC开发者生态，欢迎关注！. 字节刚刚发布了Seedance 2.0：Game over！视频GPT-4o时刻！Seedance 2.0引爆全球。. 在两轮大规模的人类评估中，Alive甚至超越顶级闭源Sora 2、Veo 3.1等，稳稳的开源最强。. ### 音视频生成的大一统变革. 我们看到的所谓AI大片，大多是哑巴电影，要么就...
+
+- Seedance 2.0火出圈，意味着AGI又近了一步 - 虎嗅网 (relevance: 100%)
+  https://www.huxiu.com/article/4833993.html
+  字节跳动Seedance 2.0视频生成模型因真人肖像生成能力引发争议，于2024年2月紧急下线相关功能。该模型在物理模拟和多模态生成方面的突破引发行业对AGI
+
+- 视频生成模型技术进展 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1917688698310493175
+  端到端多模态模型，具备“推理链”机制，可完成图像编辑、未来帧预测等复杂任务。 混合专家多模态模型，支持视觉理解，文本到图像生成，图像编辑，并且思考模式
 
    4.算力卡
 
 检索关键词: GPU,H100,B200,TPU,算力
 
-搜索失败
+--- Answer
+
+The H100 GPU by Nvidia is a powerful AI chip used in large-scale training clusters. It offers significant performance improvements over previous models. Its high cost and limited availability make it a sought-after resource in AI development.
+
+---
+
+--- Sources
+
+- AI算力芯片天下一分为四，中国实力渐显 (relevance: 100%)
+  https://www.szw.org.cn/20231221/64702.html
+  训练算力相关设备主要是英伟达的A100和H100；推理算力相关设备主要是英伟达T4卡。 ... 与英伟达通用型GPU相比，谷歌TPU采用低精度计算，在几乎不影响
+
+- 10万卡H100集群有多难搭？一文解析算力集群技术要点 - 腾讯云 (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2432525
+  ## 有钱买卡还不够，10万卡H100集群有多难搭？一文解析算力集群技术要点. # 有钱买卡还不够，10万卡H100集群有多难搭？一文解析算力集群技术要点. ###### 【新智元导读】在英伟达市值猛涨、各家科技巨头囤芯片的热潮中，我们往往会忽视GPU芯片是如何转变为数据中心算力的。最近，一篇SemiAnalysis的技术文章就深入解读了10万卡H100集群的构建过程。. 包括但不限于OpenAI、微软、xAI和Meta在内的多个头部公司都在争相建立超过10万卡的GPU集群，在这个规模上，仅仅是服务器的成本就超过40亿美元，还要受到数据中心容量和电力不足等多项因素的限制。. 我们可以做...
+
+- 全球五大巨头GPU总量曝光！2025年等效H100或超1240万块 - 网易 (relevance: 99%)
+  https://www.163.com/dy/article/JIFOG0TJ0511N33R.html
+  这台超算配备了10万张英伟达H100/H200显卡，并预计未来即将扩展到20万张。 自此，AI巨头们倍感压力，数据中心大战火
+
+- 【深度万文】10 万卡H100 集群的尽头 (relevance: 99%)
+  https://zhuanlan.zhihu.com/p/1945041259526882222
+  与2 万卡A100 集群相比，AI 训练算力可提升31.5 倍。 ... 损坏的节点和备用热节点是指那些并没有为模型运行做出贡献但理论上可以提供算力能力的GPU。
+
+- 英伟达AI王冠上的四大挑战-腾讯新闻 (relevance: 99%)
+  https://news.qq.com/rain/a/20240320A049OE00
+  # 英伟达AI王冠上的四大挑战. 2024-03-20 12:26发布于河北腾讯科技AI未来指北官方账号. 23年它的拳头产品H100 GPU 3000美金的成本，官方售价35000美金，毛利达到90%。卖水人的生意做到了卖依云的水平。. 图片（根据IOT Analytic的数据，英伟达在数据中心市场占有率达92%，而OpenAI在模型领域仅为39%）. 在GTC 2024大会之中，英伟达推出了在训练速度上四倍于H100的新一代B200 GPU，GB200服务器推理速度甚至超越前代30倍。在生态搭建领域构筑企业AI+转化的专有平台HIM；更押宝下个10年，布局了机器人领域的全套训练基建。. 但...
 
    4.数据存储
 
 检索关键词: HBM,显存,存储,NVLink
 
-搜索失败
+--- Answer
+
+Tencent uses HBM, NVLink, and high-speed memory for advanced data storage and processing. NVLink enables high-speed GPU-to-GPU data transfer. HBM provides TB/s bandwidth for high-performance computing.
+
+---
+
+--- Sources
+
+- 内存焦虑？长文梳理： HBM/DRAM/CXL/HBF/GPU-Direct - 腾讯云 (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2574387
+  | CXL-DRAM 资源池 | ~160 - 250 ns (本地DRAM时延 + 30-80ns开销) | 64 GB/s per x16 CXL 3.0 link | 128 GB - 2 TB per device | 超大模型内存扩展、内存池化、温数据层 (Massive Model Memory Expansion, Memory Pooling, Warm Data Tier) | 16 |. | HBF (高带宽闪存) | > 1 µs (预计) | ~1.2 TB/s (预计, 与HBM相当) | 256 GB - 4 TB per device (预计) | (未来) 读取...
+
+- 存储芯片本轮涨价能走多远？一文看懂产业链 - 腾讯 (relevance: 99%)
+  https://news.qq.com/rain/a/20260226A034KK00
+  # 存储芯片本轮涨价能走多远？一文看懂产业链. 2026-02-26 11:18发布于北京北京融中传媒科技有限公司官方账号. 存储芯片是芯片行业的第二大产业，仅次于CPU、GPU等逻辑芯片。得益于上游SK海力士、三星等存储晶圆原厂主动控制产出，存储芯片价格从2023年下半年开始反转，进入第五个上行周期。. 存储芯片是芯片行业的第二大产业，仅次于CPU、GPU等逻辑芯片。本轮存储芯片市场的热潮，源于全球范围内供需关系的深刻调整。需求端方面，人工智能基础设施建设的激增，导致对高端内存的需求前所未有，供给端方面，美光科技等国际大厂已预警短缺状态将持续。. 存储芯片一般3-4年为一个周期，得益于上...
+
+- [转载]GPU 超节点：NVIDIA NVL72 vs HW CloudMatrix384 vs AWS ... (relevance: 93%)
+  https://zhuanlan.zhihu.com/p/1936692231969956879
+  NVLink-C2C 为CPU 内存和GPU 显存之间创建了一个NVLink 可寻址的地址空间。 NVLink 和NVLink-C2C 技术使得任意CPU 和GPU 之间都可以高速的互换内存数据。
+
+- 超节点算力革命(三）| 超节点关键技术揭秘 (relevance: 85%)
+  https://www.comentropy.org/en/2026/post/26694/
+  HBM已成为高性能GPU/NPU的标配。通过3D堆叠技术，HBM在极小的物理空间内提供了TB/s级别的内存带宽，这是支撑NPU内部数千个核心并行计算的关键。超节点中的
+
+- 转载：【AI系统】NVLink 原理剖析 - 腾讯云 (relevance: 82%)
+  https://cloud.tencent.com/developer/article/2475996
+  英伟达的 NVLink 技术则为 GPU 之间提供了更高速度的数据交换能力，其传输速度远超传统的 PCIe 连接，使得数据在 GPU 之间的传输更加高效。此外，NVSwitch 技术进一步扩展了这种能力，允许多达数十个 GPU 之间实现高速、高带宽的直接连接。这种先进的互连技术极大地提高了大规模 GPU 集群处理复杂模型时的数据交换效率，降低了通信延迟，从而使得万亿级别的模型训练成为可能。. 在英伟达推出其创新的 NVLink 和 NVSwitch 互联技术之前，构建强大计算节点的常规方法是通过 PCIe 交换机将多个 GPU 直接连接到 CPU，如下图所示。这种配置方式依赖于 PCIe 标准...
 
    4.数据加速
 
 检索关键词: FlashAttention,量化,推理优化
 
-搜索失败
+--- Answer
+
+Tencent's FlashAttention optimizes attention mechanisms for faster inference, leveraging FP4 quantization and hardware-aware algorithms. SageAttention from Tsinghua University offers even greater speedups, achieving up to 5x faster than FlashAttention on GPUs. Both aim to accelerate large model inference with reduced precision.
+
+---
+
+--- Sources
+
+- 4比特量化三倍加速不掉点！清华即插即用的SageAttention迎来升级 (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2496492
+  此前，清华大学陈键飞团队提出的 8-Bit 的即插即用 Attention（SageAttention），将 Attention 中的 QK^T 量化至 INT8，将 PV 保持为 FP16 精度并使用 FP16 精度的矩阵乘法累加器，同时提出 Smooth K 技术保持了量化 Attention 的精度，实现了 2 倍加速于 FlashAttention2，且在各类大模型上均保持了端到端的精度表现。. SageAttention2 实现了高效的 Attention 算子，可以实现即插即用的推理加速。输入任意 Q, K, V 矩阵，SageAttention2 可以快速返回 Attention...
+
+- 清华SageAttention3，FP4量化5倍加速！且首次支持8比特训练 (relevance: 100%)
+  https://news.qq.com/rain/a/20250618A07JGZ00
+  随着大型模型需要处理的序列长度不断增加，注意力运算（Attention）的时间开销逐渐成为主要开销。此前，清华大学陈键飞团队提出的即插即用的 SageAttention 和 SageAttention2 已经被业界及社区广泛的使用于各种开源及商业的大模型中，比如 Vidu，CogvideoX，Mochi，Wan，HunyuanVideo，Flux，Llama3，Qwen 等。. 近日，清华大学陈键飞团队进一步提出了针对 BlackWell 架构的首个全 FP4 量化的即插即用注意力算子（SageAttention3）。实现了5 倍相比于 FlashAttention 的即插...
+
+- FlashAttention - 3的新优化点对AI模型意味着什么？ - 飞书文档 (relevance: 100%)
+  https://docs.feishu.cn/v/wiki/ESWYwhmISiMOvIkU44CcIZVzntb/ad
+  在精度方面，FA3 采用了不相关处理和哈达玛变换技术来减少FP8 量化误差，这对于保持模型精度同时加速计算至关重要。 这些优化不仅使得处理长序列成为可能，而且为大型语言模
+
+- 清华团队提出微缩版FP4注意力机制，以即插即用方式加速推理 - 腾讯 (relevance: 100%)
+  https://news.qq.com/rain/a/20250529A08KXW00
+  近日，清华大学团队打造了首个用于推理加速的微缩版 FP4 注意力机制——SageAttention3，在英伟达 RTX5090 上实现了 1038TOPS 的计算性能。相比此前在英伟达 RTX5090 上计算性能最快的、由美国斯坦福大学提出的 FlashAttention，SageAttention3 的计算性能快了 5 倍。实验表明，SageAttention3 能够加速各种模型，并且不会导致端到端质量指标的下降。. 由于注意力机制的时间复杂度是 n²，因此注意力机制的效率非常重要。为此，他们通过两个关键贡献提高了注意力的效率：首先，研究团队利用英伟达 Blackwell GPU 中...
+
+- FlashAttention 系列技术详解：加速大模型训练的利器 (relevance: 100%)
+  https://developer.volcengine.com/articles/7444834108175286298
+  # FlashAttention 系列技术详解：加速大模型训练的利器. ## FlashAttention 的解决方案. 为了解决上述问题，FlashAttention 提出了一种 快速、节省内存、精确的注意力计算方法 ，通过减少内存读写次数，提高 GPU 的内存 IO 效率，加快训练速度，并增加上下文窗口长度。其核心目标是通过 硬件感知（IO-awareness） 的算法优化，将整个注意力计算过程在更高速的 SRAM （静态随机存取存储器）中完成，减少对 HBM（高带宽内存）的依赖。. 在传统的注意力机制中，首先需要将输入矩阵 从 HBM 中读取，随后计算注意...
 
    4.Agent
 
 检索关键词: 智能体,Agent,AutoGPT
 
-搜索失败
+--- Answer
+
+AutoGPT is an open-source AI tool using advanced language models for autonomous tasks. It integrates internet search and has memory capabilities. It aims to automate and enhance various workflows.
+
+---
+
+--- Sources
+
+- AutoGPT如何用大模型重构AI工作流-腾讯云开发者社区 (relevance: 69%)
+  https://cloud.tencent.com/developer/article/2618851
+  ## LLM Agent智能体引爆未来！深度解析AgentGPT、AutoGPT如何用大模型重构AI工作流. 社区首页 >专栏 >LLM Agent智能体引爆未来！深度解析AgentGPT、AutoGPT如何用大模型重构AI工作流. # LLM Agent智能体引爆未来！深度解析AgentGPT、AutoGPT如何用大模型重构AI工作流. 发布于 2026-01-16 09:05:45. 发布于 2026-01-16 09:05:45. # LLM Agent智能体引爆未来！深度解析AgentGPT、AutoGPT如何用大模型重构AI工作流. 如有侵权，请联系 cloudcommunity@t...
+
+- 【单Agent框架】01-AutoGPT：以ChatGPT为核心的自治AI智能体- 知乎 (relevance: 68%)
+  https://zhuanlan.zhihu.com/p/668234147
+  同年4月，Auto GPT成为国内外的热门话题，那AutoGPT到底是什么呢？ 其实，AutoGPT是一个AI agent（智能体），也是开源的应用程序，结合了GPT-4和GPT-
+
+- AutoGPT如何用大模型重构AI工作流LLM Agent智 - 稀土掘金 (relevance: 67%)
+  https://juejin.cn/post/7595413459200049188
+  # LLM Agent智能体引爆未来！深度解析AgentGPT、AutoGPT如何用大模型重构AI工作流. jimeng-2026-01-16-6875-扁平化动画风格，科技海报设计，技术博客封面图，极简主义构图，科技感十足的背景元素....png. jimeng-2026-01-16-6875-扁平化动画风格，科技海报设计，技术博客封面图，极简主义构图，科技感十足的背景元素....png. ## LLM Agent智能体引爆未来！深度解析AgentGPT、AutoGPT如何用大模型重构AI工作流. 摘要：本文深入剖析LLM Agent智能体技术革命，聚焦AgentGPT与AutoGP...
+
+- 一文读懂AutoGPT 开源AI Agents-腾讯云开发者社区 (relevance: 65%)
+  https://cloud.tencent.com/developer/article/2364149
+  ## 一文读懂 AutoGPT 开源 AI Agents. # 一文读懂 AutoGPT 开源 AI Agents. ### AutoGPT 是什么，以及如何定义 ？. AutoGPT 是一种创新的开源自主人工智能（AI）工具，充分利用了 OpenAI 最新的文本生成模型——GPT-3.5 和 GPT-4，并与软件和在线服务进行无缝交互。这种生成式预训练 Transformer（GPT）模型代表了最先进的语言处理技术，通过深度学习算法根据给定的输入生成与人类类似的文本。. ### AutoGPT 具备哪些核心特性 ？. AutoGPT 的互联网搜索功能使其能够连接到广阔的互联网...
+
+- AI Agent深度调研：设计一个QQ机器人- 腾讯云专区- 博客园 (relevance: 63%)
+  https://brands.cnblogs.com/tencentcloud/p/19213
+  # AI Agent深度调研：设计一个QQ机器人. #### AI Agent发展历史. AI Agent（智能体）的发展史是一个从哲学思想启蒙到现代人工智能实体落地的漫长过程，大致可以分为以下几个阶段：. >  案例： 哲学家们如赫拉克利特斯、庄子、亚里士多德和丹尼斯·狄德罗等，对思维、意识和知识表示进行了深入思考，为AI的理论基础埋下了种子。莱布尼兹的“通用计算机”概念和对形式逻辑的贡献对计算机科学和AI产生了影响。图灵也在1950年提出了图灵测试，成为判断机器智能的重要标准，对AI的发展产生了深远影响。. >  案例： MYCIN是一个著名的医学诊断系统，它利用专...
 
 ---
 
@@ -130,4 +368,4 @@
 
 本报告由 OpenClaw AI 系统自动生成  
 报告版本: v1.0  
-生成时间: Wed Mar 18 06:00:01 AM CST 2026
+生成时间: Wed Mar 18 08:25:46 AM CST 2026

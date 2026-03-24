@@ -1,0 +1,5 @@
+任务名称: weekly-ai-insight-6am
+执行时间: 2026-03-22 06:00:05
+执行耗时: 0分4秒
+执行状态: 成功
+日志文件: /root/.openclaw/workspace/logs/weekly-ai-insight-6am-20260322-060001.log

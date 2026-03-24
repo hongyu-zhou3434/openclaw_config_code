@@ -5,6 +5,9 @@
 
 set -e
 
+# 确保 PATH 包含 node 和 nvm
+export PATH="/root/.nvm/current/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
 # 配置
 WORKSPACE="/root/.openclaw/workspace"
 OUTPUT_DIR="$WORKSPACE/output/daily-insights/$(date +%Y-%m-%d)"

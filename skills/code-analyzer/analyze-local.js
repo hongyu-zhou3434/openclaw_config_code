@@ -145,6 +145,7 @@ function generateReport(targetDir, structure, keyFileContents, codebuddyAnalysis
   const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
   const dirName = path.basename(targetDir);
   const reportFile = path.join(CONFIG.reportDir, `${dirName}-analysis-${timestamp}.md`);
+  const pdfFile = path.join(CONFIG.reportDir, `${dirName}-analysis-${timestamp}.pdf`);
   
   ensureDir(CONFIG.reportDir);
   
@@ -210,9 +211,23 @@ ${content.slice(0, 300)}...
 `;
 
   fs.writeFileSync(reportFile, report);
-  console.log(`✅ 报告已生成: ${reportFile}`);
+  console.log(`✅ Markdown 报告已生成: ${reportFile}`);
   
-  return reportFile;
+  // 生成 PDF 报告
+  console.log('📄 正在生成 PDF 报告...');
+  try {
+    const { execSync } = require('child_process');
+    execSync(`node "${path.join(__dirname, 'generate-pdf.js')}" "${reportFile}" "${pdfFile}"`, {
+      timeout: 120000,
+      stdio: 'inherit'
+    });
+    console.log(`✅ PDF 报告已生成: ${pdfFile}`);
+  } catch (e) {
+    console.log('⚠️  PDF 生成失败，仅保留 Markdown 报告');
+    console.log('💡 如需 PDF，请安装 puppeteer: npm install puppeteer');
+  }
+  
+  return { markdown: reportFile, pdf: pdfFile };
 }
 
 // 主函数

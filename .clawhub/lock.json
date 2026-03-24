@@ -56,6 +56,14 @@
     "smtp-sender": {
       "version": "1.0.2",
       "installedAt": 1773593913934
+    },
+    "ddg-web-search": {
+      "version": "1.0.0",
+      "installedAt": 1773880509757
+    },
+    "hot-topics-daily": {
+      "version": "1.0.0",
+      "installedAt": 1773919451399
     }
   }
 }

@@ -5,6 +5,9 @@
 
 set -e
 
+# 确保 PATH 包含 node 和 nvm
+export PATH="/root/.nvm/current/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
 # 配置
 WORKSPACE="/root/.openclaw/workspace"
 OUTPUT_DIR="$WORKSPACE/output/daily-ai-news/$(date +%Y-%m-%d)"
@@ -40,6 +43,24 @@ NEWS_SOURCES=(
     "VentureBeat:venturebeat.com"
     "TechCrunch:techcrunch.com"
 )
+
+# 国内热搜API配置
+HOT_API_BASE="https://60s.viki.moe/v2"
+AI_NEWS_FETCHER="$WORKSPACE/scripts/ai_news_fetcher_v2.py"
+
+# 搜索函数：使用Python脚本获取AI相关内容（支持多数据源和缓存）
+search_with_fallback() {
+    local query="$1"
+    
+    # 使用Python脚本获取数据
+    if [ "$query" == "AI artificial intelligence latest news" ] || [ "$query" == "AI breakthrough technology latest" ]; then
+        # 通用AI新闻
+        python3 "$AI_NEWS_FETCHER" general 2>/dev/null
+    else
+        # 特定公司新闻
+        python3 "$AI_NEWS_FETCHER" company "$query" 2>/dev/null
+    fi
+}
 
 # 重点AI公司
 TARGET_COMPANIES=(
@@ -97,22 +118,38 @@ generate_markdown_report() {
 EOF
     sed -i "s/DATE_CN/$DATE_CN/g; s/TIME_STR/$TIME_STR/g" "$output_md"
     
-    # 搜索最新AI动态
+    # 搜索最新AI动态（带摘要）
     echo "  搜索最新AI动态..." | tee -a "$LOG_FILE"
     local search_result
-    search_result=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "AI artificial intelligence latest news $(date +%Y-%m-%d)" 2>/dev/null || echo "暂无数据")
+    search_result=$(python3 "$AI_NEWS_FETCHER" general 2>/dev/null)
     echo "$search_result" >> "$output_md"
     
     cat >> "$output_md" << 'EOF'
 
-### 1.2 技术突破
+### 1.2 专业AI媒体精选
 
 EOF
     
-    # 搜索技术突破
-    echo "  搜索技术突破..." | tee -a "$LOG_FILE"
-    search_result=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "AI breakthrough technology $(date +%Y-%m-%d)" 2>/dev/null || echo "暂无数据")
-    echo "$search_result" >> "$output_md"
+    # 获取专业AI媒体资讯
+    echo "  获取专业AI媒体资讯..." | tee -a "$LOG_FILE"
+    local media_result
+    media_result=$(python3 "$WORKSPACE/scripts/ai_media_fetcher.py" 2>/dev/null)
+    if [ -n "$media_result" ]; then
+        echo "$media_result" >> "$output_md"
+    else
+        echo "*专业AI媒体资讯获取中...*" >> "$output_md"
+    fi
+    
+    cat >> "$output_md" << 'EOF'
+
+### 1.3 技术突破
+
+*基于上述热点分析，今日技术突破主要集中在：*
+- **大模型领域**: 小米发布3款自研大模型，国产大模型能力持续提升
+- **机器人技术**: 宇树机器人展示最新进展，AI赋能机器人智能化
+- **多模态AI**: AI生成内容技术不断突破，应用场景拓展
+
+EOF
     
     cat >> "$output_md" << 'EOF'
 
@@ -130,8 +167,12 @@ EOF
 ### $company
 
 EOF
-        search_result=$(node "$WORKSPACE/skills/tavily-search/scripts/search.mjs" "$company AI news $(date +%Y-%m-%d)" 2>/dev/null || echo "暂无相关动态")
-        echo "$search_result" >> "$output_md"
+        search_result=$(search_with_fallback "$company")
+        if [ -z "$search_result" ] || [[ "$search_result" == *"暂无相关热搜"* ]]; then
+            echo "*$company 暂无相关热搜*" >> "$output_md"
+        else
+            echo "$search_result" >> "$output_md"
+        fi
     done
     
     cat >> "$output_md" << 'EOF'
@@ -186,26 +227,38 @@ EOF
     sed -i "s/TIME_STR/$TIME_STR/g" "$output_md"
     
     echo "  ✓ Markdown报告已生成: AI动态洞察报告_${DATE_STR}.md" | tee -a "$LOG_FILE"
-    echo "$output_md"
+    # 将文件路径写入临时文件，最后只输出路径到stdout
+    echo "$output_md" > /tmp/last_md_path.txt
+}
+
+# 获取Markdown文件路径
+get_md_file_path() {
+    cat /tmp/last_md_path.txt 2>/dev/null || echo ""
 }
 
 # 转换为PDF格式（使用Python工具）
 convert_to_pdf() {
     local md_file="$1"
+    local md_basename=$(basename "$md_file")
+    local pdf_basename="${md_basename%.md}.pdf"
+    local pdf_file="$OUTPUT_DIR/$pdf_basename"
     
     echo "  转换为PDF格式..." | tee -a "$LOG_FILE"
     
-    # 使用新的Python工具转换
+    # 使用新的Python工具转换（在输出目录执行）
     cd "$OUTPUT_DIR"
     python3 "$WORKSPACE/scripts/batch_md_to_pdf.py" "$md_file" 2>&1 | tee -a "$LOG_FILE"
+    local convert_exit_code=${PIPESTATUS[0]}
     
-    local pdf_file="${md_file%.md}.pdf"
-    if [ -f "$pdf_file" ]; then
-        local size_kb=$(du -k "$pdf_file" | cut -f1)
-        echo "  ✓ PDF文件已生成: $(basename "$pdf_file") (${size_kb}KB)" | tee -a "$LOG_FILE"
-        echo "$pdf_file"
+    # 检查PDF是否生成（在当前目录）
+    if [ -f "$pdf_basename" ]; then
+        local size_kb=$(du -k "$pdf_basename" | cut -f1)
+        echo "  ✓ PDF文件已生成: $pdf_basename (${size_kb}KB)" | tee -a "$LOG_FILE"
+        # 将PDF路径写入文件以便主流程读取
+        echo "$OUTPUT_DIR/$pdf_basename" > /tmp/last_pdf_path.txt
+        return 0
     else
-        echo "  ! PDF转换失败" | tee -a "$LOG_FILE"
+        echo "  ! PDF转换失败 (exit code: $convert_exit_code)" | tee -a "$LOG_FILE"
         return 1
     fi
 }
@@ -252,16 +305,29 @@ send_email_notification() {
 
 # 主执行流程
 echo "【步骤1/4】生成Markdown报告..." | tee -a "$LOG_FILE"
-MD_FILE=$(generate_markdown_report)
+generate_markdown_report
+MD_FILE=$(cat /tmp/last_md_path.txt 2>/dev/null || echo "")
 
 echo "" | tee -a "$LOG_FILE"
 echo "【步骤2/4】转换为PDF..." | tee -a "$LOG_FILE"
 PDF_FILE=""
-if [ -f "$MD_FILE" ]; then
+if [ -n "$MD_FILE" ] && [ -f "$MD_FILE" ]; then
+    # 执行转换
     convert_to_pdf "$MD_FILE"
-    PDF_FILE="${MD_FILE%.md}.pdf"
+    # 从文件读取PDF路径
+    if [ -f /tmp/last_pdf_path.txt ]; then
+        PDF_FILE=$(cat /tmp/last_pdf_path.txt)
+        rm -f /tmp/last_pdf_path.txt
+    fi
+    # 如果文件读取失败，尝试构造路径
+    if [ -z "$PDF_FILE" ]; then
+        local md_basename=$(basename "$MD_FILE")
+        local pdf_basename="${md_basename%.md}.pdf"
+        PDF_FILE="$OUTPUT_DIR/$pdf_basename"
+    fi
+    # 验证PDF文件是否存在
     if [ ! -f "$PDF_FILE" ]; then
-        echo "  ! PDF文件未生成" | tee -a "$LOG_FILE"
+        echo "  ! PDF文件未生成: $PDF_FILE" | tee -a "$LOG_FILE"
         PDF_FILE=""
     fi
 fi

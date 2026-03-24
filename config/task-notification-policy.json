@@ -1,0 +1,119 @@
+{
+  "name": "任务执行结果通知策略",
+  "version": "1.0.0",
+  "description": "所有任务执行结束后，自动发送消息通知任务执行结果",
+  "configured_at": "2026-03-24T20:15:00Z",
+  "policy": {
+    "notification": {
+      "enabled": true,
+      "description": "任务执行结果自动通知",
+      "triggers": [
+        {
+          "event": "task_completed",
+          "description": "任务成功完成",
+          "notify": true,
+          "priority": "normal"
+        },
+        {
+          "event": "task_failed",
+          "description": "任务执行失败",
+          "notify": true,
+          "priority": "high"
+        },
+        {
+          "event": "task_partial",
+          "description": "任务部分完成",
+          "notify": true,
+          "priority": "normal"
+        },
+        {
+          "event": "task_timeout",
+          "description": "任务执行超时",
+          "notify": true,
+          "priority": "high"
+        }
+      ],
+      "channels": {
+        "primary": {
+          "type": "wecom_msg",
+          "description": "企业微信消息（主渠道）",
+          "enabled": true,
+          "target": "ZhouHongYu",
+          "format": "markdown"
+        },
+        "secondary": {
+          "type": "email",
+          "description": "邮件通知（备用渠道）",
+          "enabled": true,
+          "target": "273477656@qq.com",
+          "format": "html",
+          "condition": "task_failed or task_timeout"
+        }
+      }
+    },
+    "notification_content": {
+      "template": {
+        "title": "📋 任务执行结果通知",
+        "fields": [
+          "task_name",
+          "task_status",
+          "execution_time",
+          "result_summary",
+          "output_files",
+          "error_message"
+        ],
+        "format": {
+          "success": "✅ 任务成功完成",
+          "failed": "❌ 任务执行失败",
+          "partial": "⚠️ 任务部分完成",
+          "timeout": "⏱️ 任务执行超时"
+        }
+      },
+      "include_details": {
+        "execution_time": true,
+        "command_history": false,
+        "output_preview": true,
+        "error_details": true,
+        "file_attachments": false
+      }
+    },
+    "suppression_rules": {
+      "duplicate_notifications": {
+        "enabled": true,
+        "window_minutes": 5,
+        "description": "5分钟内相同任务不重复通知"
+      },
+      "silent_hours": {
+        "enabled": false,
+        "start": "23:00",
+        "end": "08:00",
+        "description": "夜间时段静默（可选）"
+      }
+    }
+  },
+  "implementation": {
+    "wrapper_script": {
+      "path": "scripts/task-wrapper.sh",
+      "description": "任务执行包装器，自动捕获结果并发送通知"
+    },
+    "notification_script": {
+      "path": "scripts/send-task-notification.sh",
+      "description": "发送任务通知的专用脚本"
+    },
+    "hook_integration": {
+      "pre_task": "记录任务开始时间",
+      "post_task": "捕获结果并触发通知",
+      "on_error": "捕获错误信息并发送告警"
+    }
+  },
+  "examples": {
+    "success_notification": {
+      "title": "✅ 任务成功完成",
+      "content": "任务：Wan2.1代码分析\n状态：成功\n耗时：5分钟\n输出：PDF报告已生成\n文件：wan2.1-technical-report.pdf"
+    },
+    "failed_notification": {
+      "title": "❌ 任务执行失败",
+      "content": "任务：PDF生成\n状态：失败\n错误：缺少依赖\n建议：安装wkhtmltopdf"
+    }
+  }
+}

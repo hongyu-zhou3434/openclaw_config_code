@@ -1,0 +1,198 @@
+{
+  "name": "OpenClaw 系统模型调用上下文信息",
+  "version": "1.0.0",
+  "generated_at": "2026-03-24T06:56:00Z",
+  "session": {
+    "model": "qwencode/kimi-k2.5",
+    "channel": "wecom",
+    "chat_id": "wecom:ZhouHongYu",
+    "user_id": "ZhouHongYu",
+    "user_name": "周洪宇"
+  },
+  "runtime": {
+    "os": "Linux",
+    "hostname": "VM-0-16-ubuntu",
+    "timezone": "Asia/Shanghai",
+    "timestamp": "2026-03-24T14:56:00+08:00"
+  },
+  "environment": {
+    "node_version": "v22.22.1",
+    "npm_version": "10.9.4",
+    "git_version": "2.43.0",
+    "gh_cli_version": "2.45.0",
+    "codebuddy_version": "2.64.2",
+    "openclaw_version": "2026.3.8"
+  },
+  "workspace": {
+    "path": "/root/.openclaw/workspace",
+    "git_repository": "git@github.com:hongyu-zhou3434/openclaw_config_code.git",
+    "branch": "main",
+    "latest_commit": "2d508a6 添加系统策略配置和任务执行情况报告",
+    "total_commits": 15
+  },
+  "mcp_servers": {
+    "total": 8,
+    "servers": [
+      {
+        "name": "wecom-schedule",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "tools_count": 8
+      },
+      {
+        "name": "wecom-meeting",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "tools_count": 5
+      },
+      {
+        "name": "wecom-todo",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "tools_count": 6
+      },
+      {
+        "name": "wecom-doc-new",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "tools_count": 19
+      },
+      {
+        "name": "wecom-msg",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "tools_count": 4
+      },
+      {
+        "name": "wecom-contact",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "tools_count": 1
+      },
+      {
+        "name": "wecom-doc",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "note": "legacy"
+      },
+      {
+        "name": "wecom-calendar",
+        "type": "enterprise_wechat",
+        "status": "active",
+        "note": "legacy"
+      }
+    ]
+  },
+  "skills": {
+    "total": 19,
+    "installed": [
+      "agent-browser",
+      "code-analyzer",
+      "ddg-web-search",
+      "find-skills",
+      "github",
+      "hot-topics-daily",
+      "obsidian",
+      "openclaw-tavily-search",
+      "self-improving-agent",
+      "skillhub-preference",
+      "smtp-sender",
+      "summarize",
+      "tavily-search",
+      "tencentcloud-lighthouse-skill",
+      "tencent-cos-skill",
+      "tencent-docs",
+      "weather",
+      "wecom-calendar",
+      "wps-skill"
+    ]
+  },
+  "configurations": {
+    "system_policy": "/root/.openclaw/workspace/config/system-policy.json",
+    "wecom_suite": "/root/.openclaw/workspace/config/wecom-suite-config.json",
+    "github": "/root/.openclaw/workspace/config/github-config.json",
+    "codebuddy": "/root/.openclaw/workspace/config/codebuddy-config.json",
+    "skills_status": "/root/.openclaw/workspace/config/skills-status-report.json",
+    "task_execution": "/root/.openclaw/workspace/config/task-execution-report.json",
+    "system_context": "/root/.openclaw/workspace/config/system-context.json"
+  },
+  "policies": {
+    "pdf_generation": {
+      "default_skill": "wps-skill",
+      "fallback": "pandoc",
+      "last_updated": "2026-03-24T06:55:00Z"
+    },
+    "document_conversion": {
+      "markdown_to_pdf": "wps-skill",
+      "html_to_pdf": "wps-skill"
+    }
+  },
+  "integrations": {
+    "enterprise_wechat": {
+      "status": "connected",
+      "services": ["schedule", "meeting", "todo", "doc", "msg", "contact"],
+      "corp_id": "ww2344238d03fc4448"
+    },
+    "github": {
+      "status": "connected",
+      "account": "hongyu-zhou3434",
+      "repos": 4
+    },
+    "codebuddy": {
+      "status": "authenticated",
+      "version": "2.64.2",
+      "cloud_ai": "available"
+    },
+    "smtp": {
+      "status": "configured",
+      "server": "smtp.qq.com",
+      "email": "273477656@qq.com"
+    }
+  },
+  "capabilities": {
+    "can_send_email": true,
+    "can_analyze_code": true,
+    "can_generate_pdf": true,
+    "can_access_github": true,
+    "can_use_wecom_api": true,
+    "can_browse_web": false,
+    "can_execute_shell": true
+  },
+  "recent_tasks": [
+    {
+      "id": "TASK-001",
+      "name": "配置企业微信办公套件",
+      "status": "completed"
+    },
+    {
+      "id": "TASK-002",
+      "name": "配置 GitHub 功能",
+      "status": "completed"
+    },
+    {
+      "id": "TASK-003",
+      "name": "配置 CodeBuddy 代码分析",
+      "status": "completed"
+    },
+    {
+      "id": "TASK-004",
+      "name": "检查所有 Skills 状态",
+      "status": "completed"
+    },
+    {
+      "id": "TASK-005",
+      "name": "分析 Kimi-K2.5 代码并发送邮件",
+      "status": "completed"
+    },
+    {
+      "id": "TASK-006",
+      "name": "更新 PDF 生成策略",
+      "status": "completed"
+    }
+  ],
+  "context_window": {
+    "current_tokens": 0,
+    "max_tokens": 128000,
+    "usage_percentage": 0
+  }
+}

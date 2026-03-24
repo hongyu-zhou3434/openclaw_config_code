@@ -1,0 +1,155 @@
+{
+  "name": "上下文管理策略",
+  "version": "1.0.0",
+  "description": "系统自动检查推理上下文长度，超过阈值时自动启动压缩、总结等手段",
+  "configured_at": "2026-03-24T08:15:00Z",
+  "thresholds": {
+    "warning": {
+      "tokens": 40000,
+      "percentage": 31.25,
+      "action": "log_warning",
+      "description": "警告阈值，记录日志提醒"
+    },
+    "compression": {
+      "tokens": 50000,
+      "percentage": 39.06,
+      "action": "start_compression",
+      "description": "压缩阈值，启动上下文压缩"
+    },
+    "summarization": {
+      "tokens": 60000,
+      "percentage": 46.88,
+      "action": "force_summarization",
+      "description": "强制总结阈值，必须总结历史消息"
+    },
+    "critical": {
+      "tokens": 80000,
+      "percentage": 62.50,
+      "action": "emergency_cleanup",
+      "description": "紧急阈值，清理非关键上下文"
+    },
+    "maximum": {
+      "tokens": 120000,
+      "percentage": 93.75,
+      "action": "reject_new_requests",
+      "description": "最大阈值，拒绝新请求"
+    }
+  },
+  "compression_strategies": {
+    "level_1": {
+      "name": "轻量压缩",
+      "trigger": "warning_threshold",
+      "methods": [
+        "移除过时的系统消息",
+        "压缩重复的工具输出",
+        "简化文件内容引用"
+      ],
+      "target_reduction": "10%"
+    },
+    "level_2": {
+      "name": "标准压缩",
+      "trigger": "compression_threshold",
+      "methods": [
+        "总结早期对话历史",
+        "合并相似的文件读取",
+        "压缩冗长的工具输出",
+        "移除已完成的任务详情"
+      ],
+      "target_reduction": "25%"
+    },
+    "level_3": {
+      "name": "深度压缩",
+      "trigger": "summarization_threshold",
+      "methods": [
+        "总结所有历史对话",
+        "仅保留关键文件引用",
+        "压缩所有工具输出为摘要",
+        "移除中间推理过程"
+      ],
+      "target_reduction": "40%"
+    },
+    "level_4": {
+      "name": "紧急清理",
+      "trigger": "critical_threshold",
+      "methods": [
+        "仅保留最近10轮对话",
+        "删除所有文件内容缓存",
+        "仅保留关键配置信息",
+        "重置工具调用历史"
+      ],
+      "target_reduction": "60%"
+    }
+  },
+  "summarization_rules": {
+    "auto_summarize": {
+      "enabled": true,
+      "trigger_tokens": 60000,
+      "summary_length": "1000 tokens",
+      "preserve_elements": [
+        "用户当前请求",
+        "最近的5轮对话",
+        "关键配置信息",
+        "未完成的任务"
+      ]
+    },
+    "summary_format": {
+      "header": "## 历史对话总结",
+      "sections": [
+        "任务完成概况",
+        "关键决策点",
+        "当前状态",
+        "待办事项"
+      ]
+    }
+  },
+  "monitoring": {
+    "check_interval": "every_10_calls",
+    "log_level": "info",
+    "alert_channels": [
+      "console",
+      "file",
+      "wecom_notification"
+    ],
+    "metrics_to_track": [
+      "total_tokens",
+      "tokens_per_call",
+      "compression_ratio",
+      "summarization_count"
+    ]
+  },
+  "implementation": {
+    "pre_call_check": {
+      "enabled": true,
+      "description": "每次调用前检查上下文长度"
+    },
+    "post_call_update": {
+      "enabled": true,
+      "description": "每次调用后更新上下文统计"
+    },
+    "background_worker": {
+      "enabled": true,
+      "interval": "5_minutes",
+      "description": "后台定期检查和压缩"
+    }
+  },
+  "example_scenarios": {
+    "scenario_1": {
+      "description": "上下文达到 52K",
+      "action": "启动 Level 2 标准压缩",
+      "expected_reduction": "13K tokens (25%)",
+      "result": "降至 39K tokens"
+    },
+    "scenario_2": {
+      "description": "上下文达到 65K",
+      "action": "启动 Level 3 深度压缩 + 自动总结",
+      "expected_reduction": "26K tokens (40%)",
+      "result": "降至 39K tokens"
+    },
+    "scenario_3": {
+      "description": "上下文达到 85K",
+      "action": "启动 Level 4 紧急清理",
+      "expected_reduction": "51K tokens (60%)",
+      "result": "降至 34K tokens"
+    }
+  }
+}

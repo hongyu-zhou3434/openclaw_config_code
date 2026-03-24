@@ -213,18 +213,19 @@ ${content.slice(0, 300)}...
   fs.writeFileSync(reportFile, report);
   console.log(`✅ Markdown 报告已生成: ${reportFile}`);
   
-  // 生成 PDF 报告
-  console.log('📄 正在生成 PDF 报告...');
+  // 生成 PDF 报告（使用 wps-skill）
+  console.log('📄 正在使用 wps-skill 生成 PDF 报告...');
   try {
     const { execSync } = require('child_process');
-    execSync(`node "${path.join(__dirname, 'generate-pdf.js')}" "${reportFile}" "${pdfFile}"`, {
+    execSync(`node "${path.join(__dirname, 'convert-to-pdf.js')}" "${reportFile}" "${pdfFile}"`, {
       timeout: 120000,
       stdio: 'inherit'
     });
     console.log(`✅ PDF 报告已生成: ${pdfFile}`);
+    console.log('💡 使用 wps-skill 生成，符合系统策略配置');
   } catch (e) {
     console.log('⚠️  PDF 生成失败，仅保留 Markdown 报告');
-    console.log('💡 如需 PDF，请安装 puppeteer: npm install puppeteer');
+    console.log('💡 请检查 wps-skill 是否已正确安装');
   }
   
   return { markdown: reportFile, pdf: pdfFile };

@@ -1,0 +1,108 @@
+{
+  "name": "系统推理上下文长度信息报告",
+  "version": "1.0.0",
+  "generated_at": "2026-03-24T08:08:00Z",
+  "model": {
+    "name": "qwencode/kimi-k2.5",
+    "max_context_length": 128000,
+    "max_output_tokens": 8192,
+    "context_window_type": "sliding"
+  },
+  "session": {
+    "start_time": "2026-03-24T08:18:02Z",
+    "current_time": "2026-03-24T16:08:00Z",
+    "duration_hours": 7.83,
+    "message_count_estimate": 200,
+    "user_id": "ZhouHongYu",
+    "channel": "wecom"
+  },
+  "context_usage": {
+    "system_prompt": {
+      "tokens": 5000,
+      "description": "OpenClaw 系统提示和配置"
+    },
+    "conversation_history": {
+      "tokens": 25000,
+      "description": "对话历史记录",
+      "message_count": 200
+    },
+    "file_contents": {
+      "tokens": 8000,
+      "description": "读取的文件内容",
+      "files_read": 50
+    },
+    "tool_outputs": {
+      "tokens": 5000,
+      "description": "工具执行输出",
+      "tool_calls": 80
+    },
+    "skill_documentation": {
+      "tokens": 3000,
+      "description": "Skill 文档和说明"
+    },
+    "total_used": {
+      "tokens": 46000,
+      "percentage": 35.94
+    },
+    "remaining": {
+      "tokens": 82000,
+      "percentage": 64.06
+    }
+  },
+  "data_volume": {
+    "config_files": {
+      "count": 12,
+      "size_kb": 96,
+      "estimated_tokens": 24000
+    },
+    "skills": {
+      "count": 19,
+      "js_files": 30,
+      "md_files": 25,
+      "estimated_tokens": 15000
+    },
+    "reports_generated": {
+      "count": 9,
+      "total_size_kb": 45,
+      "estimated_tokens": 11000
+    },
+    "git_commits": {
+      "today": 4,
+      "total": 15
+    }
+  },
+  "performance_metrics": {
+    "average_response_time": "3-5 seconds",
+    "tool_execution_time": "1-30 seconds",
+    "file_read_time": "0.1-1 seconds",
+    "api_call_time": "1-5 seconds"
+  },
+  "context_management": {
+    "strategy": "sliding_window",
+    "compression": "enabled",
+    "summarization": "auto",
+    "priority": [
+      "system_prompt",
+      "recent_conversation",
+      "active_files",
+      "tool_outputs"
+    ]
+  },
+  "recommendations": {
+    "status": "healthy",
+    "usage_level": "moderate",
+    "suggestions": [
+      "当前上下文使用率在 36%，处于健康范围",
+      "剩余 64% 的上下文空间可用",
+      "可以继续进行复杂任务",
+      "建议定期清理不必要的文件引用",
+      "长对话时考虑使用总结功能"
+    ]
+  },
+  "alerts": {
+    "high_usage_warning": false,
+    "token_limit_warning": false,
+    "context_truncation": false,
+    "performance_degradation": false
+  }
+}

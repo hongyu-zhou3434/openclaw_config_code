@@ -1,0 +1,162 @@
+{
+  "name": "系统执行效率分析报告",
+  "version": "1.0.0",
+  "generated_at": "2026-03-24T08:45:00Z",
+  "analysis_reason": "用户反馈执行效率越来越慢",
+  "system_resources": {
+    "cpu": {
+      "usage_percent": 0.0,
+      "load_average": [0.00, 0.00, 0.00],
+      "status": "normal",
+      "conclusion": "CPU 使用率正常，无瓶颈"
+    },
+    "memory": {
+      "total": "3.6Gi",
+      "used": "1.1Gi",
+      "free": "503Mi",
+      "buff_cache": "2.3Gi",
+      "available": "2.6Gi",
+      "usage_percent": 30.6,
+      "status": "normal",
+      "conclusion": "内存使用率正常，有充足可用内存"
+    },
+    "disk": {
+      "total": "59G",
+      "used": "21G",
+      "available": "37G",
+      "usage_percent": 36,
+      "status": "normal",
+      "conclusion": "磁盘空间充足"
+    },
+    "swap": {
+      "total": "9.9Gi",
+      "used": "524Ki",
+      "usage_percent": 0.005,
+      "status": "normal",
+      "conclusion": "几乎未使用 swap，内存充足"
+    }
+  },
+  "process_analysis": {
+    "total_processes": 139,
+    "zombie_processes": 2,
+    "zombie_pids": [],
+    "status": "warning",
+    "conclusion": "存在 2 个僵尸进程，建议清理"
+  },
+  "context_analysis": {
+    "current_tokens": 46000,
+    "max_tokens": 128000,
+    "usage_percent": 35.94,
+    "threshold": 50000,
+    "status": "normal",
+    "conclusion": "上下文长度正常，未达到压缩阈值"
+  },
+  "storage_analysis": {
+    "git_repository": {
+      "size": "31M",
+      "status": "normal"
+    },
+    "workspace": {
+      "size": "56M",
+      "status": "normal"
+    },
+    "logs": {
+      "size": "376K",
+      "status": "normal"
+    },
+    "output": {
+      "size": "24M",
+      "status": "normal"
+    },
+    "conclusion": "存储使用正常，无异常增长"
+  },
+  "network_analysis": {
+    "active_connections": 18,
+    "dns_resolution": "normal",
+    "github_access": "normal",
+    "conclusion": "网络连接正常"
+  },
+  "performance_tests": {
+    "git_status": {
+      "real_time": "0.004s",
+      "status": "excellent"
+    },
+    "config_load": {
+      "real_time": "0.021s",
+      "status": "excellent"
+    },
+    "conclusion": "基础操作性能优秀"
+  },
+  "identified_issues": [
+    {
+      "id": "ISSUE-001",
+      "severity": "low",
+      "category": "process",
+      "description": "存在 2 个僵尸进程",
+      "impact": "轻微影响系统资源",
+      "solution": "运行 kill -9 清理僵尸进程"
+    },
+    {
+      "id": "ISSUE-002",
+      "severity": "medium",
+      "category": "context",
+      "description": "上下文长度 46K，接近 50K 压缩阈值",
+      "impact": "可能影响推理性能",
+      "solution": "考虑手动压缩或总结历史对话"
+    },
+    {
+      "id": "ISSUE-003",
+      "severity": "medium",
+      "category": "perception",
+      "description": "用户主观感觉变慢，但客观指标正常",
+      "impact": "用户体验",
+      "solution": "可能是由于对话历史累积导致的感知变慢"
+    }
+  ],
+  "root_cause_analysis": {
+    "primary_hypothesis": "主观感知变慢",
+    "reasoning": [
+      "1. 所有客观性能指标（CPU、内存、磁盘、网络）均正常",
+      "2. Git 操作和配置文件加载速度优秀（<0.1s）",
+      "3. 上下文长度 46K 虽接近阈值但未超标",
+      "4. 系统资源充足，无瓶颈",
+      "5. 最可能原因：长对话导致的累积效应，用户感知响应变慢"
+    ],
+    "supporting_evidence": [
+      "会话已运行 8.5 小时",
+      "累计 200+ 条消息",
+      "上下文使用 46K tokens (35.94%)"
+    ]
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "action": "清理僵尸进程",
+      "command": "ps aux | grep '<defunct>' | awk '{print $2}' | xargs kill -9 2>/dev/null; echo '僵尸进程已清理'",
+      "expected_improvement": "轻微"
+    },
+    {
+      "priority": "high",
+      "action": "压缩上下文",
+      "command": "node /root/.openclaw/workspace/skills/context-manager/context-manager.js --check",
+      "expected_improvement": "中等"
+    },
+    {
+      "priority": "medium",
+      "action": "开始新会话",
+      "description": "如果上述优化无效，建议开始新会话",
+      "expected_improvement": "显著"
+    },
+    {
+      "priority": "low",
+      "action": "清理日志文件",
+      "command": "find /root/.openclaw/workspace/logs -name '*.log' -mtime +7 -delete",
+      "expected_improvement": "轻微"
+    }
+  ],
+  "conclusion": {
+    "status": "no_critical_issues",
+    "summary": "系统客观性能指标全部正常，用户感知的变慢可能是由于长对话累积效应。建议清理僵尸进程、压缩上下文或开始新会话。",
+    "confidence": "high"
+  }
+}

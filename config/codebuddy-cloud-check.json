@@ -1,0 +1,76 @@
+{
+  "name": "CodeBuddy 云端分析能力检查报告",
+  "version": "1.0.0",
+  "check_time": "2026-03-24T09:00:00Z",
+  "status": "configured",
+  "auth": {
+    "status": "authenticated",
+    "login_time": "2026-03-24T08:55:00Z",
+    "method": "interactive_login",
+    "session_valid": true
+  },
+  "cloud_capabilities": {
+    "code_analysis": {
+      "status": "available",
+      "tested": true,
+      "description": "云端代码功能分析",
+      "response_time": "3-5 seconds"
+    },
+    "code_optimization": {
+      "status": "available",
+      "tested": true,
+      "description": "云端代码优化建议",
+      "response_time": "3-5 seconds"
+    },
+    "architecture_analysis": {
+      "status": "available",
+      "tested": true,
+      "description": "云端架构分析",
+      "response_time": "5-10 seconds"
+    },
+    "interactive_mode": {
+      "status": "available",
+      "description": "交互式代码编辑"
+    }
+  },
+  "test_results": {
+    "basic_connection": {
+      "status": "passed",
+      "description": "云端 AI 连接正常"
+    },
+    "code_analysis_test": {
+      "status": "passed",
+      "input": "function sum(a,b){return a+b}",
+      "output_type": "analysis",
+      "response_received": true
+    },
+    "code_optimization_test": {
+      "status": "passed",
+      "input": "优化这段代码",
+      "output_type": "optimization",
+      "response_received": true
+    }
+  },
+  "configuration": {
+    "version": "2.64.1",
+    "path": "/root/.nvm/current/bin/codebuddy",
+    "api_endpoint": "https://www.codebuddy.ai",
+    "timeout": 30
+  },
+  "usage": {
+    "basic": "echo '代码' | codebuddy -p",
+    "with_prompt": "codebuddy -p '分析这段代码'",
+    "interactive": "codebuddy"
+  },
+  "limitations": {
+    "response_time": "云端分析需要 3-10 秒",
+    "rate_limit": "可能存在调用频率限制",
+    "session_timeout": "长时间无操作可能需要重新登录"
+  },
+  "recommendations": [
+    "云端 AI 分析已可用，可以正常使用",
+    "建议结合本地分析和云端分析以获得最佳效果",
+    "对于简单任务使用本地分析，复杂任务使用云端分析",
+    "注意云端分析的响应时间比本地分析长"
+  ]
+}

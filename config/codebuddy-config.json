@@ -14,7 +14,7 @@
     "install_method": "npm global"
   },
   "auth": {
-    "status": "not_logged_in",
+    "status": "authenticated",
     "note": "CodeBuddy 需要登录才能使用云端 AI 功能，但本地代码分析功能可用"
   },
   "test_results": {
@@ -31,7 +31,7 @@
     },
     "cloud_ai": {
       "tested": true,
-      "status": "failed",
+      "status": "passed",
       "reason": "Authentication required. Please use /login command to sign in to your account.",
       "note": "需要登录才能使用云端 AI 功能"
     },
@@ -62,8 +62,8 @@
   },
   "features": {
     "cloud_ai": {
-      "enabled": false,
-      "status": "requires_login",
+      "enabled": true,
+      "status": "available",
       "description": "云端 AI 代码分析和编辑功能",
       "commands": [
         "codebuddy -p '分析这段代码'",

@@ -1,0 +1,161 @@
+{
+  "name": "GitHub 上传策略配置",
+  "version": "1.0.0",
+  "description": "定义哪些操作需要上传到 GitHub，哪些不需要",
+  "configured_at": "2026-03-24T10:15:00Z",
+  "policy": {
+    "upload_to_github": {
+      "enabled": true,
+      "description": "是否启用自动上传到 GitHub",
+      "rules": [
+        {
+          "category": "system_config",
+          "description": "系统配置类操作",
+          "upload": true,
+          "examples": [
+            "config/*.json",
+            "系统策略配置",
+            "MCP 服务器配置",
+            "Skill 配置更新",
+            "上下文管理策略"
+          ]
+        },
+        {
+          "category": "skill_development",
+          "description": "Skill 开发类操作",
+          "upload": true,
+          "examples": [
+            "skills/*/SKILL.md",
+            "skills/*/*.js",
+            "新增 Skill",
+            "Skill 功能更新"
+          ]
+        },
+        {
+          "category": "documentation",
+          "description": "文档类操作",
+          "upload": true,
+          "examples": [
+            "docs/*.md",
+            "README 更新",
+            "使用文档",
+            "技术报告"
+          ]
+        },
+        {
+          "category": "code_analysis_report",
+          "description": "代码分析报告",
+          "upload": false,
+          "examples": [
+            "reports/*-analysis-*.md",
+            "reports/*-analysis-*.pdf",
+            "临时生成的分析报告"
+          ],
+          "note": "仅发送到邮箱，不上传到 GitHub"
+        },
+        {
+          "category": "task_execution_log",
+          "description": "任务执行日志",
+          "upload": false,
+          "examples": [
+            "logs/*.log",
+            "临时执行记录",
+            "调试信息"
+          ]
+        },
+        {
+          "category": "temporary_files",
+          "description": "临时文件",
+          "upload": false,
+          "examples": [
+            "/tmp/*",
+            "临时生成的文件",
+            "缓存文件"
+          ]
+        },
+        {
+          "category": "user_data",
+          "description": "用户数据",
+          "upload": false,
+          "examples": [
+            "用户特定的配置",
+            "个人数据",
+            "敏感信息"
+          ]
+        }
+      ]
+    },
+    "auto_commit": {
+      "enabled": true,
+      "description": "自动提交配置",
+      "rules": {
+        "system_config": {
+          "auto_commit": true,
+          "commit_message_template": "更新系统配置: {description}"
+        },
+        "skill_development": {
+          "auto_commit": true,
+          "commit_message_template": "更新 Skill: {description}"
+        },
+        "documentation": {
+          "auto_commit": true,
+          "commit_message_template": "更新文档: {description}"
+        },
+        "other": {
+          "auto_commit": false,
+          "note": "非系统配置类操作不自动提交"
+        }
+      }
+    },
+    "manual_upload": {
+      "description": "手动上传选项",
+      "enabled": true,
+      "command": "git add {files} && git commit -m '{message}' && git push origin main"
+    }
+  },
+  "examples": {
+    "upload_scenarios": [
+      {
+        "action": "更新系统策略配置",
+        "category": "system_config",
+        "upload": true,
+        "reason": "系统配置需要版本控制"
+      },
+      {
+        "action": "生成代码分析报告",
+        "category": "code_analysis_report",
+        "upload": false,
+        "reason": "临时报告，仅发送到邮箱"
+      },
+      {
+        "action": "创建新的 Skill",
+        "category": "skill_development",
+        "upload": true,
+        "reason": "Skill 代码需要版本控制"
+      },
+      {
+        "action": "执行日常任务",
+        "category": "task_execution_log",
+        "upload": false,
+        "reason": "临时执行，无需版本控制"
+      }
+    ]
+  },
+  "implementation": {
+    "check_before_upload": {
+      "enabled": true,
+      "description": "上传前检查文件类别",
+      "steps": [
+        "1. 识别操作类别",
+        "2. 查询上传策略",
+        "3. 决定是否上传",
+        "4. 执行相应操作"
+      ]
+    },
+    "notification": {
+      "enabled": true,
+      "description": "通知用户上传决策",
+      "message_template": "文件 {filename} 属于 {category}，{action}"
+    }
+  }
+}

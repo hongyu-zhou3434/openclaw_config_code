@@ -1,0 +1,88 @@
+{
+  "name": "OpenClaw 系统策略配置",
+  "version": "1.0.0",
+  "description": "系统级策略和默认配置",
+  "configured_at": "2026-03-24T06:55:00Z",
+  "policies": {
+    "pdf_generation": {
+      "description": "PDF 文件生成策略",
+      "default_skill": "wps-skill",
+      "fallback": "pandoc",
+      "rules": [
+        {
+          "condition": "需要生成 PDF 格式文件",
+          "action": "优先调用 wps-skill",
+          "priority": 1
+        },
+        {
+          "condition": "wps-skill 不可用",
+          "action": "使用 pandoc 或 markdown-pdf",
+          "priority": 2
+        },
+        {
+          "condition": "所有工具都不可用",
+          "action": "生成 HTML，提示用户手动转换",
+          "priority": 3
+        }
+      ]
+    },
+    "document_conversion": {
+      "description": "文档转换策略",
+      "markdown_to_pdf": "wps-skill",
+      "html_to_pdf": "wps-skill",
+      "docx_to_pdf": "wps-skill",
+      "xlsx_to_pdf": "wps-skill",
+      "pptx_to_pdf": "wps-skill"
+    },
+    "code_analysis": {
+      "description": "代码分析策略",
+      "local_analysis": "code-analyzer/analyze-local.js",
+      "cloud_analysis": "codebuddy",
+      "report_format": "pdf",
+      "fallback_format": "markdown"
+    },
+    "email_notification": {
+      "description": "邮件通知策略",
+      "default_sender": "smtp-sender",
+      "format": "html",
+      "attachments": true
+    }
+  },
+  "integrations": {
+    "wps_office": {
+      "enabled": true,
+      "skill_path": "/root/.openclaw/workspace/skills/wps-skill",
+      "capabilities": [
+        "docx_to_pdf",
+        "xlsx_to_pdf",
+        "pptx_to_pdf",
+        "markdown_to_docx",
+        "html_to_pdf"
+      ]
+    },
+    "codebuddy": {
+      "enabled": true,
+      "skill_path": "/root/.openclaw/workspace/skills/code-analyzer",
+      "capabilities": [
+        "code_analysis",
+        "architecture_analysis",
+        "optimization_suggestions"
+      ]
+    },
+    "smtp": {
+      "enabled": true,
+      "skill_path": "/root/.openclaw/workspace/skills/smtp-sender",
+      "capabilities": [
+        "send_email",
+        "send_html_email",
+        "send_with_attachments"
+      ]
+    }
+  },
+  "task_execution": {
+    "default_timeout": 300,
+    "retry_count": 3,
+    "log_level": "info",
+    "report_status": true
+  }
+}

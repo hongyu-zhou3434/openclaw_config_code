@@ -1,0 +1,131 @@
+{
+  "name": "CodeBuddy 功能配置",
+  "version": "1.0.0",
+  "description": "腾讯 CodeBuddy 国内版代码分析工具配置",
+  "status": "active",
+  "configured_at": "2026-03-24T05:44:00Z",
+  "tested_at": "2026-03-24T05:44:00Z",
+  "test_status": "partial",
+  "installation": {
+    "installed": true,
+    "version": "2.64.1",
+    "path": "/root/.nvm/current/bin/codebuddy",
+    "package": "@tencent-ai/codebuddy-code",
+    "install_method": "npm global"
+  },
+  "auth": {
+    "status": "not_logged_in",
+    "note": "CodeBuddy 需要登录才能使用云端 AI 功能，但本地代码分析功能可用"
+  },
+  "test_results": {
+    "cli_installation": {
+      "tested": true,
+      "status": "passed",
+      "version": "2.64.1",
+      "path": "/root/.nvm/current/bin/codebuddy"
+    },
+    "cli_help": {
+      "tested": true,
+      "status": "passed",
+      "output": "显示完整的帮助信息"
+    },
+    "cloud_ai": {
+      "tested": true,
+      "status": "failed",
+      "reason": "Authentication required. Please use /login command to sign in to your account.",
+      "note": "需要登录才能使用云端 AI 功能"
+    },
+    "local_analysis": {
+      "tested": true,
+      "status": "passed",
+      "test_target": "/root/.openclaw/workspace/skills/wecom-calendar",
+      "result": {
+        "total_files": 28,
+        "total_dirs": 1,
+        "file_types": {
+          "JavaScript/TypeScript": 15,
+          "Other": 10,
+          "Markdown": 2,
+          "JSON": 1
+        },
+        "extensions": {
+          ".js": 15,
+          ".ics": 8,
+          ".md": 2,
+          ".sh": 2,
+          ".json": 1
+        },
+        "report_generated": true,
+        "report_path": "/root/.openclaw/workspace/skills/code-analyzer/reports/wecom-calendar-analysis-2026-03-24T05-44-10-963Z.md"
+      }
+    }
+  },
+  "features": {
+    "cloud_ai": {
+      "enabled": false,
+      "status": "requires_login",
+      "description": "云端 AI 代码分析和编辑功能",
+      "commands": [
+        "codebuddy -p '分析这段代码'",
+        "codebuddy --print '优化这个函数'"
+      ],
+      "note": "需要运行 codebuddy /login 登录后才能使用"
+    },
+    "local_analysis": {
+      "enabled": true,
+      "status": "working",
+      "description": "本地代码分析和报告生成功能",
+      "commands": [
+        "node analyze-local.js <目录路径>"
+      ],
+      "note": "无需登录即可使用本地分析功能"
+    },
+    "interactive_mode": {
+      "enabled": false,
+      "status": "requires_login",
+      "description": "交互式代码编辑会话",
+      "commands": [
+        "codebuddy",
+        "codebuddy /login"
+      ]
+    }
+  },
+  "usage": {
+    "login": [
+      "codebuddy /login",
+      "按照提示完成登录"
+    ],
+    "local_analysis": [
+      "cd /root/.openclaw/workspace/skills/code-analyzer",
+      "node analyze-local.js /path/to/project"
+    ],
+    "cloud_analysis": [
+      "codebuddy -p '分析这段代码的功能和架构'",
+      "codebuddy -p '优化这个函数的性能'"
+    ]
+  },
+  "limitations": {
+    "current": [
+      "云端 AI 功能需要登录",
+      "交互式模式需要登录",
+      "本地分析功能不依赖云端 AI"
+    ],
+    "solutions": [
+      "运行 codebuddy /login 完成登录以使用完整功能",
+      "使用 analyze-local.js 进行本地代码分析",
+      "使用 GitHub Copilot 或其他 AI 工具作为替代"
+    ]
+  },
+  "alternatives": {
+    "local_analysis": {
+      "tool": "analyze-local.js",
+      "description": "本地代码统计和报告生成",
+      "features": [
+        "代码文件统计",
+        "技术栈识别",
+        "目录结构分析",
+        "Markdown 报告生成"
+      ]
+    }
+  }
+}

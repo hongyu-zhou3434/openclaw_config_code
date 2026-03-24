@@ -1,0 +1,97 @@
+{
+  "name": "CodeBuddy 云端代码分析功能测试报告",
+  "version": "1.0.0",
+  "test_date": "2026-03-24T05:55:00Z",
+  "status": "passed",
+  "auth_status": "authenticated",
+  "test_results": {
+    "basic_connection": {
+      "tested": true,
+      "status": "passed",
+      "description": "云端 AI 连接正常"
+    },
+    "code_analysis": {
+      "tested": true,
+      "status": "passed",
+      "test_case": "JavaScript 加法函数分析",
+      "result": {
+        "function_identified": "add(a, b)",
+        "analysis_content": [
+          "函数声明分析",
+          "参数说明",
+          "返回值说明",
+          "行为特点（数字/字符串/混合类型）",
+          "潜在改进建议",
+          "TypeScript 类型注解示例"
+        ]
+      }
+    },
+    "code_optimization": {
+      "tested": true,
+      "status": "passed",
+      "test_case": "for 循环优化",
+      "result": {
+        "original_code": "for (var i = 0; i < arr.length; i++)",
+        "optimized_options": [
+          "for...of (推荐)",
+          "forEach",
+          "展开运算符"
+        ],
+        "optimization_points": [
+          "避免重复访问 arr.length",
+          "使用 const 替代 var",
+          "语义更清晰"
+        ]
+      }
+    },
+    "architecture_analysis": {
+      "tested": true,
+      "status": "passed",
+      "test_case": "项目架构分析指南",
+      "result": {
+        "aspects_covered": [
+          "目录结构",
+          "分层架构",
+          "模块与依赖",
+          "数据流",
+          "核心抽象",
+          "配置与环境",
+          "错误处理",
+          "测试架构",
+          "构建与部署",
+          "技术选型"
+        ]
+      }
+    }
+  },
+  "features_available": {
+    "code_analysis": {
+      "enabled": true,
+      "description": "代码功能分析"
+    },
+    "code_optimization": {
+      "enabled": true,
+      "description": "代码优化建议"
+    },
+    "architecture_analysis": {
+      "enabled": true,
+      "description": "架构分析指导"
+    },
+    "interactive_mode": {
+      "enabled": true,
+      "description": "交互式代码编辑"
+    }
+  },
+  "usage_examples": {
+    "basic_analysis": "echo '代码内容' | codebuddy -p",
+    "file_analysis": "cat file.js | codebuddy -p",
+    "optimization": "echo '优化这段代码' | codebuddy -p",
+    "architecture": "echo '分析项目架构' | codebuddy -p"
+  },
+  "integration_with_skill": {
+    "skill_path": "/root/.openclaw/workspace/skills/code-analyzer",
+    "local_analysis": "node analyze-local.js <目录>",
+    "cloud_analysis": "codebuddy -p '分析这段代码'",
+    "combined_usage": "本地统计 + 云端 AI 分析"
+  }
+}

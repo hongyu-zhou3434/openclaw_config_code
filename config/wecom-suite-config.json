@@ -1,0 +1,181 @@
+{
+  "name": "企业微信办公套件",
+  "version": "1.0.0",
+  "description": "完整的企业微信办公自动化套件，包含日程、会议、待办、文档、消息、通讯录管理功能",
+  "status": "active",
+  "configured_at": "2026-03-24T05:15:00Z",
+  "tested_at": "2026-03-24T05:15:00Z",
+  "test_status": "passed",
+  "mcp_servers": {
+    "wecom-schedule": {
+      "name": "日程管理",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/schedule?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtMRv5WgXSL5t9PpX769oJ5GFdi89aNo8mvBri8CCkbMMXmRpLM9Ti1xVw2LnvfJfEZ2A32",
+      "status": "ok",
+      "tools": [
+        "create_schedule",
+        "update_schedule",
+        "cancel_schedule",
+        "get_schedule_list_by_range",
+        "get_schedule_detail",
+        "add_schedule_attendees",
+        "del_schedule_attendees",
+        "check_availability"
+      ],
+      "test_result": {
+        "tested_at": "2026-03-24T05:15:00Z",
+        "status": "passed",
+        "sample_data": {
+          "schedule_count": 2,
+          "schedule_ids": [
+            "a90712c36a65943ecf61d0e8b6bbc323wqkbznxz",
+            "fe9a0b395555cd53f06aee14fe855dc4vhzxoofw"
+          ]
+        }
+      }
+    },
+    "wecom-meeting": {
+      "name": "会议管理",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/meeting?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtMj54Deg8jt7JuY1JERNdNYZ5yFUgSTeJ4USFDLbwfyJEpBNJx8WtYruPz8dyDnQrjHj5r",
+      "status": "ok",
+      "tools": [
+        "create_meeting",
+        "set_invite_meeting_members",
+        "get_meeting_info",
+        "list_user_meetings",
+        "cancel_meeting"
+      ],
+      "test_result": {
+        "tested_at": "2026-03-24T05:15:00Z",
+        "status": "passed",
+        "sample_data": {
+          "meeting_id": "hyJRi4PwAAhnPahQ3xs6aN8HJIzU-rGA",
+          "title": "与客户交流",
+          "meeting_code": "349700139"
+        }
+      }
+    },
+    "wecom-todo": {
+      "name": "待办管理",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/todo?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtPLYrPry97wBke5bE6HWfE1ynzLRaV67JTZXSJooRJR12RArD5jre6ri3nuBhRFgi9PJrt",
+      "status": "ok",
+      "tools": [
+        "get_todo_list",
+        "get_todo_detail",
+        "create_todo",
+        "update_todo",
+        "delete_todo",
+        "change_todo_user_status"
+      ],
+      "test_result": {
+        "tested_at": "2026-03-24T05:15:00Z",
+        "status": "passed",
+        "sample_data": {
+          "todo_id": "tdJRi4PwAAmVAtze_s7nq0CN64HCI6lA",
+          "content": "准备与客户交流的材料"
+        }
+      }
+    },
+    "wecom-doc-new": {
+      "name": "文档管理",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/doc?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtPH3xVPht7Siqq98b9ncyM27Vw4ogq2EkB4YxVjS7Rhosxvk8H1RJtyEmCHcvTH6H21tsr",
+      "status": "ok",
+      "tools": [
+        "get_doc_content",
+        "create_doc",
+        "edit_doc_content",
+        "smartsheet_add_sheet",
+        "smartsheet_update_sheet",
+        "smartsheet_delete_sheet",
+        "smartsheet_get_sheet",
+        "smartsheet_add_fields",
+        "smartsheet_update_fields",
+        "smartsheet_delete_fields",
+        "smartsheet_get_fields",
+        "smartsheet_add_records",
+        "smartsheet_update_records",
+        "smartsheet_delete_records",
+        "smartsheet_get_records"
+      ],
+      "test_result": {
+        "tested_at": "2026-03-24T05:15:00Z",
+        "status": "passed",
+        "sample_data": {
+          "doc_id": "dcGXSxlQHXxc0E3kkzHeH5l268AyNWNTWzgCz-NFx-BSr0GTHSv-Rhj1rEYC3y3ft8iVxYmxTHBoMao2Mi-ixBGg",
+          "doc_name": "客户交流会议纪要"
+        }
+      }
+    },
+    "wecom-msg": {
+      "name": "消息管理",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/msg?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtP8tdWCMzsGcDgru5wPQsbVxxdj2bJgsCswcR3bQ83eKcrGrbDKD6NwVPYDTjaoPLFvyon",
+      "status": "ok",
+      "tools": [
+        "send_message",
+        "get_message",
+        "get_msg_chat_list",
+        "get_msg_media"
+      ],
+      "test_result": {
+        "tested_at": "2026-03-24T05:15:00Z",
+        "status": "passed"
+      }
+    },
+    "wecom-contact": {
+      "name": "通讯录管理",
+      "url": "https://qyapi.weixin.qq.com/mcp/bot/contact?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtLwNUDSHnhkUFYBwrDhXfGJHAS33FTGF4rKTUckz5fVmeox6Jzq1t5Jis7t5oN9JWvLERN",
+      "status": "ok",
+      "tools": [
+        "get_userlist"
+      ],
+      "test_result": {
+        "tested_at": "2026-03-24T05:15:00Z",
+        "status": "passed",
+        "sample_data": {
+          "user_count": 4,
+          "users": [
+            {"userid": "ZhouHongYu", "name": "周洪宇"},
+            {"userid": "LiYi", "name": "李义"},
+            {"userid": "zn", "name": "zn"},
+            {"userid": "min", "name": "Min"}
+          ]
+        }
+      }
+    }
+  },
+  "features": {
+    "schedule": {
+      "enabled": true,
+      "description": "日程管理 - 创建、更新、取消日程，查询日程列表和详情"
+    },
+    "meeting": {
+      "enabled": true,
+      "description": "会议管理 - 创建、取消会议，查询会议信息，获取会议号和链接"
+    },
+    "todo": {
+      "enabled": true,
+      "description": "待办管理 - 创建、更新、删除待办，设置提醒时间"
+    },
+    "document": {
+      "enabled": true,
+      "description": "文档管理 - 创建、编辑文档，智能表格管理"
+    },
+    "message": {
+      "enabled": true,
+      "description": "消息管理 - 发送消息，获取消息记录和会话列表"
+    },
+    "contact": {
+      "enabled": true,
+      "description": "通讯录管理 - 获取企业成员列表"
+    }
+  },
+  "usage": {
+    "quick_start": [
+      "mcporter call wecom-schedule.create_schedule --args '{...}'",
+      "mcporter call wecom-meeting.create_meeting --args '{...}'",
+      "mcporter call wecom-todo.create_todo --args '{...}'",
+      "mcporter call wecom-doc-new.create_doc --args '{...}'",
+      "mcporter call wecom-msg.send_message --args '{...}'",
+      "mcporter call wecom-contact.get_userlist --args '{}'"
+    ]
+  }
+}

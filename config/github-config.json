@@ -1,0 +1,166 @@
+{
+  "name": "GitHub 功能配置",
+  "version": "1.0.0",
+  "description": "GitHub CLI 和 API 功能测试配置",
+  "status": "active",
+  "configured_at": "2026-03-24T05:20:00Z",
+  "tested_at": "2026-03-24T05:20:00Z",
+  "test_status": "passed",
+  "cli": {
+    "installed": true,
+    "version": "2.45.0",
+    "path": "/usr/bin/gh",
+    "auth": {
+      "status": "logged_in",
+      "account": "hongyu-zhou3434",
+      "host": "github.com",
+      "token_scopes": [
+        "admin:enterprise",
+        "admin:gpg_key",
+        "admin:org",
+        "admin:org_hook",
+        "admin:public_key",
+        "admin:repo_hook",
+        "admin:ssh_signing_key",
+        "audit_log",
+        "codespace",
+        "copilot",
+        "delete:packages",
+        "delete_repo",
+        "gist",
+        "notifications",
+        "project",
+        "repo",
+        "user",
+        "workflow",
+        "write:discussion",
+        "write:network_configurations",
+        "write:packages"
+      ]
+    }
+  },
+  "test_results": {
+    "cli_login": {
+      "tested": true,
+      "status": "passed",
+      "account": "hongyu-zhou3434"
+    },
+    "repo_list": {
+      "tested": true,
+      "status": "passed",
+      "repo_count": 4,
+      "repos": [
+        {
+          "name": "hongyu-zhou3434/openclaw_config_code",
+          "description": "openclaw配置代码",
+          "visibility": "public",
+          "created_at": "2026-03-18T05:13:36Z"
+        },
+        {
+          "name": "hongyu-zhou3434/code_store",
+          "description": "code store",
+          "visibility": "public",
+          "created_at": "2026-03-15T11:40:23Z"
+        },
+        {
+          "name": "hongyu-zhou3434/ai-insight-system",
+          "description": "AI Model and Paper Analysis System - Automated daily insights on latest AI models and research",
+          "visibility": "public",
+          "created_at": "2026-02-25T14:49:50Z"
+        },
+        {
+          "name": "hongyu-zhou3434/Hunyuan3D-2.1",
+          "description": "From Images to High-Fidelity 3D Assets with Production-Ready PBR Material",
+          "visibility": "public",
+          "is_fork": true,
+          "created_at": "2025-09-08T15:16:17Z"
+        }
+      ]
+    },
+    "repo_view": {
+      "tested": true,
+      "status": "passed",
+      "sample_repo": {
+        "name": "openclaw_config_code",
+        "description": "openclaw配置代码",
+        "visibility": "PUBLIC",
+        "created_at": "2026-03-15T15:02:07Z"
+      }
+    },
+    "api_user": {
+      "tested": true,
+      "status": "passed",
+      "user": {
+        "login": "hongyu-zhou3434",
+        "public_repos": 4
+      }
+    },
+    "api_repo_contents": {
+      "tested": true,
+      "status": "passed",
+      "sample_files": [
+        ".clawhub",
+        ".config",
+        ".learnings",
+        ".openclaw",
+        "AGENTS.md",
+        "BOOTSTRAP.md",
+        "HEARTBEAT.md",
+        "IDENTITY.md",
+        "SOUL.md",
+        "TOOLS.md"
+      ]
+    }
+  },
+  "features": {
+    "repo_management": {
+      "enabled": true,
+      "commands": [
+        "gh repo list",
+        "gh repo view",
+        "gh repo create",
+        "gh repo clone"
+      ]
+    },
+    "issue_management": {
+      "enabled": true,
+      "commands": [
+        "gh issue list",
+        "gh issue view",
+        "gh issue create"
+      ]
+    },
+    "pr_management": {
+      "enabled": true,
+      "commands": [
+        "gh pr list",
+        "gh pr view",
+        "gh pr create",
+        "gh pr merge"
+      ]
+    },
+    "api_access": {
+      "enabled": true,
+      "commands": [
+        "gh api user",
+        "gh api repos/{owner}/{repo}",
+        "gh api repos/{owner}/{repo}/contents"
+      ]
+    }
+  },
+  "usage": {
+    "quick_start": [
+      "gh repo list --limit 10",
+      "gh repo view owner/repo",
+      "gh issue list --repo owner/repo",
+      "gh api user",
+      "gh api repos/owner/repo/contents"
+    ],
+    "workflow": [
+      "gh repo clone owner/repo",
+      "cd repo",
+      "gh issue create --title 'Bug' --body 'Description'",
+      "gh pr create --title 'Feature' --body 'Description'"
+    ]
+  }
+}

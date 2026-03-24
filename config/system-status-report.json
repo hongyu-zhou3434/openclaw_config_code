@@ -1,0 +1,71 @@
+{
+  "name": "OpenClaw 系统状态检查报告",
+  "version": "1.0.0",
+  "check_date": "2026-03-24T06:10:00Z",
+  "overall_status": "operational",
+  "components": {
+    "config_files": {
+      "status": "passed",
+      "total_files": 7,
+      "valid_json": 7,
+      "invalid_json": 0,
+      "files": {
+        "codebuddy-auth.json": {"status": "valid", "size": 780},
+        "codebuddy-config.json": {"status": "valid", "size": 3724},
+        "codebuddy-test-results.json": {"status": "valid", "size": 2708},
+        "github-config.json": {"status": "valid", "size": 4084},
+        "mcporter.json": {"status": "valid", "size": 1564},
+        "task-config.json": {"status": "valid", "size": 3038},
+        "wecom-suite-config.json": {"status": "valid", "size": 6017}
+      }
+    },
+    "wecom_suite": {
+      "status": "operational",
+      "mcp_servers": {
+        "wecom-schedule": {"status": "ok", "tools": 8},
+        "wecom-meeting": {"status": "ok", "tools": 5},
+        "wecom-todo": {"status": "ok", "tools": 6},
+        "wecom-doc-new": {"status": "ok", "tools": 19},
+        "wecom-msg": {"status": "ok", "tools": 4},
+        "wecom-contact": {"status": "ok", "tools": 1}
+      },
+      "test_data": {
+        "schedules": 2,
+        "meetings": 1,
+        "todos": 1,
+        "docs": 1,
+        "contacts": 4
+      }
+    },
+    "github": {
+      "status": "operational",
+      "cli_version": "2.45.0",
+      "auth": {
+        "status": "logged_in",
+        "account": "hongyu-zhou3434",
+        "repos": 4
+      }
+    },
+    "codebuddy": {
+      "status": "partial",
+      "version": "2.64.1",
+      "features": {
+        "local_analysis": {"status": "operational"},
+        "cloud_analysis": {"status": "intermittent", "note": "响应较慢但可用"},
+        "interactive_mode": {"status": "not_tested"}
+      }
+    }
+  },
+  "checks_performed": [
+    "配置文件格式验证",
+    "企业微信 MCP 服务状态",
+    "GitHub CLI 登录状态",
+    "CodeBuddy 基础功能"
+  ],
+  "recommendations": [
+    "所有配置文件格式正确，可以提交到 GitHub",
+    "企业微信办公套件运行正常",
+    "GitHub 连接正常",
+    "CodeBuddy 云端功能响应较慢，建议优化或增加超时处理"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "wecom-doc": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/doc?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtMHQDgyvSWLuyiNLFhQ622FFhJ64AerXakeszZETB8aWpsUqd3AKpV3yn4yB4MwtGSPpwA"
+    },
+    "wecom-calendar": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/calendar?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtMHQDgyvSWLuyiNLFhQ622FFhJ64AerXakeszZETB8aWpsUqd3AKpV3yn4yB4MwtGSPpwA"
+    },
+    "wecom-schedule": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/schedule?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtMRv5WgXSL5t9PpX769oJ5GFdi89aNo8mvBri8CCkbMMXmRpLM9Ti1xVw2LnvfJfEZ2A32"
+    },
+    "wecom-meeting": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/meeting?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtMj54Deg8jt7JuY1JERNdNYZ5yFUgSTeJ4USFDLbwfyJEpBNJx8WtYruPz8dyDnQrjHj5r"
+    },
+    "wecom-todo": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/todo?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtPLYrPry97wBke5bE6HWfE1ynzLRaV67JTZXSJooRJR12RArD5jre6ri3nuBhRFgi9PJrt"
+    },
+    "wecom-doc-new": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/doc?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtPH3xVPht7Siqq98b9ncyM27Vw4ogq2EkB4YxVjS7Rhosxvk8H1RJtyEmCHcvTH6H21tsr"
+    },
+    "wecom-msg": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/msg?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtP8tdWCMzsGcDgru5wPQsbVxxdj2bJgsCswcR3bQ83eKcrGrbDKD6NwVPYDTjaoPLFvyon"
+    },
+    "wecom-contact": {
+      "baseUrl": "https://qyapi.weixin.qq.com/mcp/bot/contact?uaKey=2LnxXZYxeuqEzDsC4yyRo1DtLwNUDSHnhkUFYBwrDhXfGJHAS33FTGF4rKTUckz5fVmeox6Jzq1t5Jis7t5oN9JWvLERN"
+    }
+  },
+  "imports": []
+}

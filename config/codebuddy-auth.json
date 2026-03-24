@@ -1,0 +1,28 @@
+{
+  "apiKey": "ck_fgyf8na6kagw.TFCRm758aCHsuSX8SJv8wFQQ64GcvvK8Gn9bZ5goi7s",
+  "keyName": "openclaw",
+  "configured_at": "2026-03-24T05:50:00Z",
+  "auth_method": "api_key",
+  "status": "configured",
+  "note": "API Key 已配置，但可能需要通过 /login 命令完成认证流程",
+  "usage": {
+    "environment_variable": "export CODEBUDDY_API_KEY=\"ck_fgyf8na6kagw.TFCRm758aCHsuSX8SJv8wFQQ64GcvvK8Gn9bZ5goi7s\"",
+    "config_file": "~/.config/codebuddy/config.json",
+    "login_command": "codebuddy /login"
+  },
+  "troubleshooting": {
+    "issue": "401 Authentication required",
+    "possible_causes": [
+      "API Key 格式不正确",
+      "API Key 已过期",
+      "需要通过 /login 完成 OAuth 流程",
+      "需要配置其他认证信息"
+    ],
+    "solutions": [
+      "检查 API Key 是否正确",
+      "尝试运行 codebuddy /login 完成认证",
+      "联系 CodeBuddy 支持获取正确的认证方式",
+      "使用本地分析功能作为替代"
+    ]
+  }
+}

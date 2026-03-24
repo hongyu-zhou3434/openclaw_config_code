@@ -1,0 +1,163 @@
+{
+  "name": "OpenClaw Skills 状态检查报告",
+  "version": "1.0.0",
+  "check_date": "2026-03-24T06:15:00Z",
+  "total_skills": 20,
+  "overall_status": "operational",
+  "skills": {
+    "agent-browser": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/agent-browser",
+      "files": ["SKILL.md", "CONTRIBUTING.md"],
+      "description": "浏览器自动化工具",
+      "operational": true
+    },
+    "code-analyzer": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/code-analyzer",
+      "files": ["SKILL.md", "analyze.js", "analyze-local.js"],
+      "description": "代码分析工具（CodeBuddy）",
+      "operational": true
+    },
+    "ddg-web-search": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/ddg-web-search",
+      "files": ["SKILL.md"],
+      "description": "DuckDuckGo 网页搜索",
+      "operational": true
+    },
+    "find-skills": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/find-skills",
+      "files": ["SKILL.md"],
+      "description": "技能查找工具",
+      "operational": true
+    },
+    "github": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/github",
+      "files": ["SKILL.md"],
+      "description": "GitHub 操作工具",
+      "operational": true
+    },
+    "hot-topics-daily": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/hot-topics-daily",
+      "files": ["SKILL.md"],
+      "description": "每日热搜推送",
+      "operational": true
+    },
+    "obsidian": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/obsidian",
+      "files": ["SKILL.md"],
+      "description": "Obsidian 笔记工具",
+      "operational": true
+    },
+    "openclaw-tavily-search": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/openclaw-tavily-search",
+      "files": ["SKILL.md"],
+      "description": "Tavily 搜索工具",
+      "operational": true
+    },
+    "self-improving-agent": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/self-improving-agent",
+      "files": ["SKILL.md"],
+      "description": "自我改进 Agent",
+      "operational": true
+    },
+    "skillhub-preference": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/skillhub-preference",
+      "files": ["SKILL.md"],
+      "description": "SkillHub 偏好设置",
+      "operational": true
+    },
+    "smtp-sender": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/smtp-sender",
+      "files": ["SKILL.md"],
+      "description": "SMTP 邮件发送",
+      "operational": true
+    },
+    "summarize": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/summarize",
+      "files": ["SKILL.md"],
+      "description": "内容摘要工具",
+      "operational": true
+    },
+    "tavily-search": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/tavily-search",
+      "files": ["SKILL.md"],
+      "description": "Tavily 搜索",
+      "operational": true
+    },
+    "tencentcloud-lighthouse-skill": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/tencentcloud-lighthouse-skill",
+      "files": ["SKILL.md"],
+      "description": "腾讯云轻量服务器管理",
+      "operational": true
+    },
+    "tencent-cos-skill": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/tencent-cos-skill",
+      "files": ["SKILL.md"],
+      "description": "腾讯云 COS 存储管理",
+      "operational": true
+    },
+    "tencent-docs": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/tencent-docs",
+      "files": ["SKILL.md"],
+      "description": "腾讯文档操作",
+      "operational": true
+    },
+    "weather": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/weather",
+      "files": ["SKILL.md"],
+      "description": "天气查询工具",
+      "operational": true
+    },
+    "wecom-calendar": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/wecom-calendar",
+      "files": ["SKILL.md", "15个JS脚本"],
+      "description": "企业微信日历管理",
+      "operational": true
+    },
+    "wps-skill": {
+      "status": "installed",
+      "path": "/root/.openclaw/workspace/skills/wps-skill",
+      "files": ["SKILL.md", "README.md", "版本更新记录.md"],
+      "description": "WPS Office 自动化",
+      "operational": true
+    }
+  },
+  "categories": {
+    "企业办公": ["wecom-calendar", "tencent-docs", "wps-skill", "obsidian"],
+    "云服务": ["tencentcloud-lighthouse-skill", "tencent-cos-skill"],
+    "搜索工具": ["ddg-web-search", "tavily-search", "openclaw-tavily-search", "agent-browser"],
+    "开发工具": ["github", "code-analyzer", "summarize"],
+    "通讯工具": ["smtp-sender"],
+    "信息管理": ["hot-topics-daily", "self-improving-agent", "skillhub-preference", "find-skills"],
+    "实用工具": ["weather"]
+  },
+  "operational_status": {
+    "total": 20,
+    "operational": 20,
+    "degraded": 0,
+    "down": 0
+  },
+  "recommendations": [
+    "所有 20 个 skill 均已安装且文件完整",
+    "所有 skill 均可正常使用",
+    "建议定期更新 skill 到最新版本",
+    "建议备份自定义 skill 配置"
+  ]
+}

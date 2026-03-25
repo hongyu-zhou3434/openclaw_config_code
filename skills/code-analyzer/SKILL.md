@@ -26,6 +26,7 @@ metadata:
 
 | 组件 | 功能 | 技术栈 |
 |------|------|--------|
+| **code-downloader.js** | 🆕 代码下载工具（系统默认） | Node.js + 多策略下载 |
 | **analyze-local.js** | 本地代码分析引擎 | Node.js + CodeBuddy API |
 | **analyze.js** | GitHub 代码分析引擎 | Node.js + CodeBuddy API |
 | **pdf-generator.js** | PDF 生成器（多方案降级） | Node.js + pandoc/xelatex/wkhtmltopdf |
@@ -103,6 +104,45 @@ pip install weasyprint
 - **自动降级**: 多方案 PDF 生成，确保可用性
 
 ## 使用方法
+
+### 🆕 代码下载工具（推荐）
+
+**系统默认代码下载工具**，支持多种下载策略自动切换。
+
+```bash
+# 基本用法
+download-code <仓库URL>
+
+# 指定分支
+download-code https://github.com/username/repo.git -b dev
+
+# 指定下载策略
+download-code https://github.com/username/repo.git -s ssh
+download-code https://github.com/username/repo.git -s https
+download-code https://github.com/username/repo.git -s mirror
+
+# 查看帮助
+download-code --help
+```
+
+**下载策略**:
+- `auto` (默认) - 自动尝试所有策略
+- `ssh` - SSH 方式
+- `https` - HTTPS 方式
+- `mirror` - 镜像代理
+- `zip` - ZIP 下载
+
+**示例：**
+```bash
+# 下载 Wan2.2
+download-code https://github.com/Wan-Video/Wan2.2.git
+
+# 下载指定分支
+download-code https://github.com/Wan-Video/Wan2.2.git -b main
+
+# 使用 SSH
+download-code git@github.com:Wan-Video/Wan2.2.git -s ssh
+```
 
 ### 分析本地项目（自动生成 PDF）
 

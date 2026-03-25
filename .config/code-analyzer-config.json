@@ -1,0 +1,40 @@
+{
+  "version": "2.2.0",
+  "defaultDownloader": "code-downloader.js",
+  "download": {
+    "workDir": "/tmp/code-analysis",
+    "maxRetries": 3,
+    "retryDelay": 5000,
+    "timeout": 300000,
+    "strategies": ["ssh", "https", "mirror", "zip"],
+    "defaultStrategy": "auto"
+  },
+  "analysis": {
+    "reportDir": "/root/.openclaw/workspace/skills/code-analyzer/reports",
+    "maxFileSize": 1048576,
+    "maxDepth": 4,
+    "excludeDirs": ["node_modules", "dist", "build", ".git"],
+    "excludeFiles": [".DS_Store", "Thumbs.db"]
+  },
+  "pdf": {
+    "enabled": true,
+    "strategies": ["wps-skill", "pandoc", "wkhtmltopdf"],
+    "defaultStrategy": "wps-skill"
+  },
+  "commands": {
+    "download": "download-code",
+    "analyzeLocal": "analyze-local.js",
+    "analyzeGitHub": "analyze.js",
+    "analyzeRemote": "analyze-remote.sh"
+  },
+  "autoCall": {
+    "enabled": true,
+    "triggers": [
+      "下载代码",
+      "下载github",
+      "下载仓库",
+      "clone",
+      "git clone"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+# CodeBuddy 代码下载工具 - 全局命令
+# 用法: download-code <仓库URL> [选项]
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+node "$SCRIPT_DIR/code-downloader.js" "$@"

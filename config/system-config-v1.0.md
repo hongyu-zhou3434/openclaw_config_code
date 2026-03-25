@@ -1,7 +1,7 @@
 # OpenClaw 系统配置 v1.0
 
-**版本**: 1.0.0
-**生成时间**: 2026-03-16 00:10:00 +08:00
+**版本**: 1.0.7
+**生成时间**: 2026-03-25 17:40:05 +08:00
 **生效状态**: ✅ 已生效
 **文件定位**: 全量稳定系统配置
 **更新规则**: ⚠️ 必须手动更新（不自动更新）
@@ -164,7 +164,7 @@ v1.0.md（稳定配置） > v1.1.md（运维配置）
 
 | 配置项 | 值 | 状态 |
 |--------|-----|------|
-| **TAVILY_API_KEY** | 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 | ✅ |
+| **TAVILY_API_KEY** | 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 | ✅ |
 | **API 端点** | https://api.tavily.com | ✅ |
 
 ### 4.4 Git SSH
@@ -262,13 +262,13 @@ gh auth status
 
 *本配置由系统自动生成，遵循配置修改确认规则*
 
-### 3.2 每日早6:00 - AI技术洞察报告
+### 3.2 每周日早6:00 - AI技术洞察报告
 
 | 配置项 | 值 |
 |--------|-----|
-| **任务名称** | daily-ai-insight-6am |
-| **执行时间** | 每日早6:00 |
-| **Cron表达式** | `0 6 * * *` |
+| **任务名称** | weekly-ai-insight-6am |
+| **执行时间** | 每周日早6:00 |
+| **Cron表达式** | `0 6 * * 0` |
 | **脚本路径** | `scripts/daily-ai-insight.sh` |
 | **输出目录** | `output/daily-insights/{日期}/` |
 | **报告数量** | 9个（8个公司 + 1个汇总） |
@@ -472,4 +472,5 @@ gh auth status
 | 1.0.4 | 2026-03-16 | 修复邮件附件MIME类型问题，PDF正确显示而非bin格式 |
 | 1.0.5 | 2026-03-16 | 更新system-health-check.sh，添加14个技能可用性检查 |
 | 1.0.6 | 2026-03-16 | 添加API密钥集中配置（config/api-keys.sh），支持Tavily和OpenAI |
+| 1.0.7 | 2026-03-25 | 更新Tavily API Key，修改AI洞察报告为每周执行，配置QQ邮箱SMTP |
 

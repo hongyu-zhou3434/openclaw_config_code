@@ -1,8 +1,8 @@
 # OpenClaw 系统配置 v1.1
 
-**版本**: 1.1.0  
-**更新日期**: 2026-03-16  
-**更新内容**: 统一格式转换工具配置  
+**版本**: 1.1.1  
+**更新日期**: 2026-03-25  
+**更新内容**: 更新Tavily API Key，修改AI洞察报告为每周执行，配置QQ邮箱SMTP  
 **文件定位**: 日常运维与临时配置  
 **更新规则**: ✅ 自动和手动更新
 
@@ -129,9 +129,9 @@ python3 /root/.openclaw/workspace/skills/wps-skill/scripts/main.py docx_to_md fi
 
 | 任务名称 | 执行时间 | 脚本路径 | 邮件发送 | 状态 |
 |----------|----------|----------|----------|------|
-| daily-ai-insight-6am | 06:00 | scripts/daily-ai-insight.sh | ✅ | 已配置 |
-| daily-ai-news-8am | 08:00 | scripts/daily-ai-news-8am.sh | ✅ | 已修复 |
-| system-health-check-21h | 21:00 | scripts/system-health-check.sh | ✅ | 已配置 |
+| weekly-ai-insight-6am | 每周日 06:00 | scripts/daily-ai-insight.sh | ✅ | 已配置 |
+| daily-ai-news-8am | 每日 08:00 | scripts/daily-ai-news-8am.sh | ✅ | 已修复 |
+| system-health-check-21h | 每日 21:00 | scripts/system-health-check.sh | ✅ | 已配置 |
 
 ### 监控配置
 
@@ -162,7 +162,7 @@ python3 /root/.openclaw/workspace/skills/wps-skill/scripts/main.py docx_to_md fi
 ## 🔑 API密钥配置
 
 ### Tavily Search
-- **Key**: `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`
+- **Key**: `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`
 - **用途**: AI动态搜索
 
 ### OpenAI/DashScope
@@ -201,6 +201,11 @@ python3 /root/.openclaw/workspace/skills/wps-skill/scripts/main.py docx_to_md fi
 ---
 
 ## 📝 更新记录
+
+### v1.1.1 (2026-03-25)
+- ✅ 更新Tavily API Key
+- ✅ 修改AI洞察报告为每周执行（每周日6:00）
+- ✅ 配置QQ邮箱SMTP
 
 ### v1.1.0 (2026-03-16)
 - ✅ 统一格式转换工具配置（wps-skill）
@@ -241,4 +246,4 @@ python3 -m json.tool /root/.openclaw/workspace/config/task-config.json
 ---
 
 **维护者**: OpenClaw AI  
-**最后更新**: 2026-03-16 10:15
+**最后更新**: 2026-03-25 17:40

@@ -1,0 +1,367 @@
+
+=== DeepSeek AI技术洞察报告
+
+报告日期: 2026年04月19日  
+生成时间: 06:01:27  
+数据来源: Tavily Search, 企业博客, 新闻媒体  
+洞察范围: 模型发布、技术动态、产品更新
+
+---
+
+--- 一、公司概况
+
+公司名称: DeepSeek  
+主要产品: DeepSeek-V3,R1  
+检索优先级: 高
+
+---
+
+--- 二、最新动态检索
+
+   2.1 产品/模型发布
+
+--- Answer
+
+DeepSeek is an AI model developed by Amazon's team, known for its advanced language processing capabilities. DeepSeek-V3 and DeepSeek-R1 are notable models within this series, released in late 2024 and early 2025 respectively.
+
+---
+
+--- Sources
+
+- DeepSeek 时间线与模型发布速览 - AI 工具箱 (relevance: 87%)
+  https://fishersama.com/deepseek-timeline
+  2025年1月20日，DeepSeek推出了推理模型DeepSeek-R1，并同步开源其模型权重，通过大规模强化学习技术显著提升推理能力，性能媲美顶尖闭源产品，迅速引发全球关注。MIT 许可均可
+
+- DeepSeek-V3 - 维基百科，自由的百科全书 (relevance: 85%)
+  https://zh.wikipedia.org/zh-cn/DeepSeek-V3
+  DeepSeek-V3是深度求索于2024年12月16日发布的人工智能大型语言模型，专门适用于数学、编码和中文等任务，性能对标GPT-4o等竞争产品。
+
+- DeepSeek 将发布下一代旗舰级AI 模型，具备强大的编码能力: r ... (relevance: 85%)
+  https://www.reddit.com/r/LocalLLaMA/comments/1q88hdc/the_information_deepseek_to_release_next_flagship/?tl=zh-hans
+  Altman 表示，今年早些时候，当中国的DeepSeek 出现时， OpenAI 就已进入“红色警戒”状态。今年1 月，DeepSeek 声称其AI 模型能够以远低于ChatGPT的O1 等顶级
+
+- DeepSeek各模型介绍与盘点_人工智能_生死簿-DeepSeek技术社区 (relevance: 84%)
+  https://deepseek.csdn.net/67d3da166670175f9935f13c.html
+  # logo DeepSeek技术社区. ### DeepSeek技术社区. DeepSeek LLM 的微设计很大程度上遵循了 LLaMA 的设计， 采用预范数结构, 并采用 RMSNorm 函数并使用 SwiGLU 作为前馈网络（FFN）的激活函数。 它还采用了旋转嵌入进行位置编码。为了优化推理成本， 67B 模型使用了分组查询注意(GQA) 来代替传统的多头注意力 (MHA)。. 论文地址： [[2401.02954] DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org...
+
+- DeepSeek：开源大模型探索 | 企业级 AI 应用前沿 | IBM (relevance: 84%)
+  https://www.ibm.com/cn-zh/think/topics/deepseek
+  2025 年 1 月发布的 DeepSeek-R1 带来了大量报道 DeepSeek 的文章，其中可能会令人困惑的一点是：DeepSeek 深度求索即是一家公司的名称，也是该公司所制作模型的名称，DeepSeek 还是在此类模型上运行的聊天机器人的名称。鉴于报道的数量和人们对 AI 领域发生重大转变所带来的经济影响的兴奋，一般读者可能很难区分事实与猜测和虚构。. DeepSeek 是一个位于中国杭州的 AI 研究实验室。这也是该公司开发的开放权重生成式 AI 模型的名称。2025 年 1 月下旬，他们的 DeepSeek-R1 LLM 在主流科技和金融新闻中被广泛报道，其性能可与 ...
+
+   2.2 技术突破
+
+--- Answer
+
+DeepSeek technology achieved breakthroughs in model architecture and efficiency, leading to significant performance improvements despite resource constraints. It introduced innovative sparse attention mechanisms and advanced model optimization techniques. DeepSeek's advancements have redefined AI development paradigms.
+
+---
+
+--- Sources
+
+- 技术人说-DeepSeek 的核心技术全揭秘 - 腾讯云 (relevance: 100%)
+  https://cloud.tencent.com/developer/article/2503122
+  DeepSeek核心技术揭秘，涵盖量化投资到AI颠覆的历程，实现算法、架构与成本控制的突破，以及R1推理强化学习创新。系统性优化带来颠覆性进展，探讨技术创新
+
+- DeepSeek关键技术详解 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/23048347789
+  DeepSeek R1和R1 Zero模型的突破主要体现在以下几个方面。 强大的推理能力. DeepSeek R1 和R1 Zero模型在多个推理基准测试中表现出色。 值得注意的是，
+
+- 极致性能背后的算力逻辑：DeepSeek如何重构AI研发的底层叙事 (relevance: 100%)
+  https://www.news.cn/tech/20250213/ffa943332636461aaa76810c9d717c32/c.html
+  DeepSeek的技术路径展现了对AI研发底层逻辑的颠覆性理解。其核心突破不在于单纯压缩模型规模，而是通过架构创新重构了“算力—性能”的价值函数。 在
+
+- DeepSeek大模型性能、特点、生态及挑战的分析 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/20724502865
+  美国对中国的芯片出口限制，本意是遏制中国AI的发展，却意外催生了DeepSeek这样的“技术奇迹”。通过算法优化和资源整合，DeepSeek在算力受限的情况下实现了突破，甚至让美国科技
+
+- 3年，从0到全球领跑：万字长文拆解DeepSeek大模型技术演进 - AI-Frontiers - 博客园 (relevance: 100%)
+  https://www.cnblogs.com/aifrontiers/p/19608897
+  官网发布信息，见：<https://api-docs.deepseek.com/news/news251201>. | 2024/5/7 | DeepSeek-V2 | 236B (21B激活) | MLA, DeepSeekMoE | 重新定义MoE架构，显存占用降93% |. | 2024/6/17 | DeepSeek-Coder-V2 | 16B/236B | MoE for Code, 338种语言 | 开源模型首次在代码领域对齐GPT-4 Turbo |. | 2024/9/6 | DeepSeek-V2.5 | 236B | Chat与Coder合并 | 通用与垂类能力统一，硬盘...
+
+---
+
+--- 三、技术趋势分析
+
+   3.1 模型能力演进
+
+基于检索结果分析DeepSeek在以下方面的进展：
+
+- 大语言模型: 上下文长度、推理能力、多语言支持
+- 多模态能力: 图像理解、视频生成、跨模态交互
+- 推理优化: 思维链、深度推理、数学/代码能力
+
+   3.2 工程化进展
+
+- 训练基础设施: 算力规模、训练效率、成本控制
+- 推理优化: 量化技术、KV Cache优化、批处理策略
+- 部署方案: 云端API、边缘部署、私有化方案
+
+---
+
+--- 四、关键技术点展开
+
+
+   4.大语言模型
+
+检索关键词: LLM,大模型,GPT,Claude,Gemini
+
+--- Answer
+
+I am an AI system built by a team of inventors at Amazon. DeepSeek, LLMs like GPT, and models such as Gemini are advanced language technologies. They are used for various applications in AI.
+
+---
+
+--- Sources
+
+- DeepSeek vs. ChatGPT vs. Gemini：三大LLM的全面对比 - CSDN博客 (relevance: 100%)
+  https://blog.csdn.net/llm_way/article/details/145410614
+  如今，DeepSeek、ChatGPT 和Google Gemini 是全球最热门和令人兴奋的大型语言模型（LLM）技术，用于推理、多模态能力和通用语言性能。DeepSeek 采用专家混合（
+
+- 2026年全网最全大模型API横评：Claude / GPT / Gemini 等8 大厂商 ... (relevance: 100%)
+  https://segmentfault.com/a/1190000047676047
+  | Claude Opus 4.6 | `claude-opus-4-6` | $5.00 | $25.00 | 1M tokens |. | Claude Sonnet 4.6 | `claude-sonnet-4-6` | $3.00 | $15.00 | 1M tokens |. | Claude Haiku 4.5 | `claude-haiku-4-5-20251001` | $1.00 | $5.00 | 200k tokens |. | GPT-4o | `gpt-4o` | $2.50 | $10.00 | 128k tokens |. | Gemini 2.5 Flash |...
+
+- Gemini大战Claude大战ChatGPT 大战Deepseek：现在到底谁在LLM ... (relevance: 100%)
+  https://www.reddit.com/r/Bard/comments/1ih0eia/gemini_vs_claude_vs_chatgpt_vs_deepseek_who_is/?tl=zh-hans
+  嗯，自从这条评论发布以来已经有一段时间了，我可以自信地说，Claude 在大多数情况下仍然是最好的。自从Gemini 升级到2.5 系列，并且2.5 pro 变得如此之快，我
+
+- 【大模型学习】2025年6月主流大模型盘点：差异、应用场景和选型指南 (relevance: 100%)
+  https://deepseek.csdn.net/683d424d870cef736062c1f9.html
+  中英文能力：DeepSeek训练了海量中英文数据，在中文基准C-Eval上达到90.1%，与Claude旗鼓相当。多语言MMLU上79.4%，也接近GPT-4o表现。可以说，DeepSeek是
+
+- 2025年AI模型API比較：DeepSeek V3、GPT-4o和Claude 3.5 的全面評估 (relevance: 100%)
+  https://vocus.cc/article/67989c74fd89780001a65ff6
+  # 2025年AI模型API比較：DeepSeek V3、GPT-4o和Claude 3.5 的全面評估. ## DeepSeek：中國AI新星崛起，挑戰AI晶片軍備競賽. ### DeepSeek 是一家於 2023 年在中國杭州成立的人工智慧新創公司。. 由梁文峰創立的 DeepSeek，近期以其開源大型語言模型（LLM）DeepSeek-R1 備受矚目。DeepSeek-R1 展現了與 OpenAI 的 GPT-4o 等領先模型相媲美的效能。更令人驚訝的是，DeepSeek 聲稱其模型的訓練成本僅為 600 萬美元，遠低於 GPT-4 的 1 億美元。在美國對中國實施晶片...
+
+   4.推理模型
+
+检索关键词: o1,R1,推理,思维链
+
+--- Answer
+
+DeepSeek R1 is an advanced AI model that uses chain-of-thought reasoning to solve complex problems, showing superior performance in mathematical and coding tasks. It employs reinforcement learning for improved reasoning and has been recognized for its innovative approach in AI.
+
+---
+
+--- Sources
+
+- 思维链推理机制是什么？DeepSeek R1深度思考有何特别之处 (relevance: 86%)
+  https://www.betteryeah.com/blog/chain-of-thought-reasoning-mechanism-and-deepseek-r1-deep-thinking
+  # 思维链推理机制是什么？DeepSeek R1深度思考有何特别之处. 发布于2025-02-25 17:51:24. 在当今人工智能蓬勃发展的浪潮下，AI大模型领域的创新日新月异，思维链推理机制犹如一颗闪耀的明星，照亮了模型向更高智能进阶的道路。从谷歌大脑团队开创性地提出思维链提示，引发学界与业界的广泛探索，到如今各类模型对这一机制的深入实践，思维链推理已然成为衡量大模型智能水准的关键维度。在众多模型之中，DeepSeek R1深度思考模型凭借其独有的特质脱颖而出，备受瞩目。接下来，我们将深入探寻思维链推理机制的奥秘，并详细解析DeepSeek R1的过人之处。. ## 一、思维链推理机制的...
+
+- DeepSeek推理模型预览版上线，解密o1推理过程 (relevance: 81%)
+  https://api-docs.deepseek.com/zh-cn/news/news1120
+  # DeepSeek推理模型预览版上线，解密o1推理过程. 今天，DeepSeek 全新研发的推理模型 DeepSeek-R1-Lite 预览版正式上线。. 所有用户均可登录官方网页（chat.deepseek.com），一键开启与 R1-Lite 预览版模型的超强推理对话体验。. DeepSeek R1 系列模型使用强化学习训练，推理过程包含大量反思和验证，思维链长度可达数万字。. 该系列模型在数学、代码以及各种复杂逻辑推理任务上，取得了媲美 o1-preview 的推理效果，并为用户展现了 o1 没有公开的完整思考过程。. ### 全面提升的推理性能​. ## 深度思考的效果与潜力​. D...
+
+- 示例，因为由于思维链的存在，推理模型的“智能”程度高了 (relevance: 78%)
+  https://x.com/dotey/status/1888020104262382039
+  去年OpenAI 发布o1 这样的推理模型，接着DeepSeek 也发布了DeepSeek R1 推理模型，推理模型和传统的生成式语言模型的差别在于，传统的生成式语言模型在收到
+
+- 从o1-mini到DeepSeek-R1，万字长文带你读懂推理模型的历史与技术 (relevance: 78%)
+  https://zhuanlan.zhihu.com/p/25978555277
+  推理模型的长思维链输出为我们提供了一种控制LLM 推理时间计算的简单方法。如果我们想花费更多计算来解决问题，我们可以简单地生成更长的思维链。同样，不太
+
+- 为什么DeepSeek-R1之后的大模型都开始做思维链？_人工智能 (relevance: 77%)
+  https://deepseek.csdn.net/680067cde47cbf761b5ba788.html
+  1、 思维链（CoT）究竟是什么？ · 智能分配计算力：碰到那种需要多步推理的难题，思维链能把问题拆成中间步骤，让模型把更多的计算能力用在刀刃上，专门攻克这些
+
+   4.多模态模型
+
+检索关键词: 多模态,视觉,视频生成,Sora,Seedance
+
+--- Answer
+
+Seedance 2.0 is a breakthrough AI model for video generation. It has advanced capabilities in multi-modal input and physical simulation. It represents a significant step towards more advanced AI general intelligence.
+
+---
+
+--- Sources
+
+- 中国AI的“DeepSeek时刻”再次来临：Seedance 2.0如何缩小多模态世界差距-腾讯云开发者社区-腾讯云 (relevance: 83%)
+  https://cloud.tencent.com/developer/article/2635642
+  ## 中国AI的“DeepSeek时刻”再次来临：Seedance 2.0如何缩小多模态世界差距. # 中国AI的“DeepSeek时刻”再次来临：Seedance 2.0如何缩小多模态世界差距. 一年前的春节，DeepSeek用文本模型震惊世界；一年后的今天，抖音集团旗下的Seedance 2.0在视频生成领域再次让全球瞩目，中国AI的双轮驱动格局就此形成。. 2026年的春节，不仅是中国传统马年的开端，更成为中国人工智能发展史上的又一个里程碑时刻。当全球科技界还在回味一年前DeepSeek带来的震撼时，字节跳动（抖音集团）旗下的Seedance 2.0视频生成模型悄然上线，旋即引爆全球科技...
+
+- 又一个“DeepSeek时刻” ？Seedance对AI视频产业意味着什么？_腾讯新闻 (relevance: 76%)
+  https://news.qq.com/rain/a/20260215A01Q8V00
+  # 又一个“DeepSeek时刻” ？Seedance对AI视频产业意味着什么？. 2026-02-15 08:08发布于上海澎湃新闻官方账号. 临近春节，国产大模型迎来密集“上新潮”，甚至有业内称之为AI大模型的“春节档”。其中，字节跳动旗下的AI视频生成模型Seedance 2.0，更是凭借“秒级生成影院级大片”的出色效果，在全球范围“出圈”。而在此之前，快手旗下可灵AI也已上线视频生成模型3.0系列，并提出由此开启“每个人的导演时代”。. 在业内看来，当前，AI已进入“导演级创作”阶段。有专家表示，Seedance 2.0这一模型的上线，在某种程度上意味着AI视频生成领域迎来“DeepS...
+
+- 观察｜Seedance 2.0置于全球聚光灯下，如何从视觉奇观迈向工业理性？ (relevance: 76%)
+  https://m.thepaper.cn/newsDetail_forward_32611142
+  # 观察｜Seedance 2.0置于全球聚光灯下，如何从视觉奇观迈向工业理性？. 最近，字节跳动发布了新一代视频创作模型Seedance 2.0，火速在全球出圈。. “发展速度太快。”特斯拉CEO马斯克近日在社交平台X上针对Seedance 2.0评论道。AI领域知名科技博主莱纳斯·埃肯斯坦（Linus Ekenstam）在Instagram上发文说：“Seedance 2.0将会引爆互联网，这是来自中国的最新一代AI视频模型，强得离谱。”. 过去一年里，AI视频生成模型的能力突飞猛进。谷歌的Veo 3增加了生成带音频视频片段的能力，OpenAI推出了Sora 2以及一款新应用，允许用户创建...
+
+- Seedance 2.0火出圈，意味着AGI又近了一步 - 虎嗅 (relevance: 67%)
+  https://www.huxiu.com/article/4833993.html
+  字节跳动Seedance 2.0因突破性视频生成能力引发行业震动，其物理建模和多模态融合被视为迈向AGI的关键一步，但版权与商业化挑战仍是隐忧。 --- ## 1. Seedance 2.0的技术突破与行业影响 - \\多模态输入能力\\：支持12个混合文件（文本/图片/视频/音频）协同生成，通过@提及系统精准控制资源，显著提升创作效率。 - \\物理模拟升级\\：采用"Seedance V2运动合成"技术，改进重力、碰撞等物理现象模拟，减少动作伪影，生成效果接近实拍。 - \\性能优势\\：10秒1080p视频生成仅需2-5分钟，支持2K/2分钟视频，远超Sora 2...
+
+- 又一个“DeepSeek时刻” ？Seedance对AI视频产业意味着什么？ (relevance: 59%)
+  https://wap.eastmoney.com/a/202602153651078283.html
+  在业内看来，当前，AI已进入“导演级创作”阶段。有专家表示，Seedance 2.0这一模型的上线，在某种程度上意味着AI视频生成领域迎来“DeepSeek时刻”。也有专家指出
+
+   4.算力卡
+
+检索关键词: GPU,H100,B200,TPU,算力
+
+--- Answer
+
+DeepSeek relies on a mix of H100 and H200 GPUs for its computing power, with around 60,000 cards in total. ASIC chips are emerging as a cost-effective alternative to traditional GPUs for specific AI tasks. The B200 GPU offers significant improvements in efficiency and bandwidth for large-scale AI training.
+
+---
+
+--- Sources
+
+- DeepSeek掀起算力革命，英伟达摇挑战加剧，ASIC芯片悄然崛起 (relevance: 83%)
+  https://m.chinaventure.com.cn/news/78-20250311-385426.html
+  # DeepSeek掀起算力革命，英伟达摇挑战加剧，ASIC芯片悄然崛起. ## “新地图”价值远不止1000亿美元。. DeepSeek带动推理需求爆发，英伟达的“算力霸权”被撕开一道口子，一个新世界的大门逐渐打开——由ASIC芯片主导的算力革命，正从静默走向喧嚣。. 日前，芯流智库援引知情人士的消息，称DeepSeek正在筹备AI芯片自研。相比这个后起之秀，国内大厂如阿里、百度、字节们更早就跨过了“自研”的大门。. 此前更是一度传出Sam Altman计划筹集70000亿美元打造“芯片帝国”，设计与制造通吃。此外，谷歌、亚马逊、微软、Meta也都先后加入了这场“自研热潮”。. 一个明显的信...
+
+- 地球上算力芯片参数汇总、整理、对比- 吴建明wujianming - 博客园 (relevance: 69%)
+  https://www.cnblogs.com/wujianming-110117/p/18886018
+  # 吴建明. ## 微信视频号：sph0RgSyDYV47z6 快手号：4874645212 抖音号：dy0so323fq2w 小红书号：95619019828 B站1：UID:3546863642871878 B站2：UID: 3546955410049087 知乎视频：https://www.zhihu.com/people/wujianming\_110117/zvideos 知乎：https://www.zhihu.com/people/wujianming\_110117. # 地球上算力芯片参数汇总、整理、对比. AI大模型能力的快速提升（如Qwen3、Llama4的多模态升级与逻...
+
+- 不同型号部署DEEPSEEK解析- AI学院- 猿界算力 (relevance: 69%)
+  https://www.apetops.com/AIxueyuan/292.html
+  基于Hopper 架构的H100，拥有800GB/s 的HBM3 显存带宽，显存容量分为80GB 或40GB，FP8 算力高达624 TFLOPS。在DeepSeek 部署场景下，处理常规自然语言处理任务
+
+- 一张图说清：H100、H200、B200 到底该怎么选？ - 稀土掘金 (relevance: 66%)
+  https://juejin.cn/post/7586892413890068526
+  | NVLink | 第四代（900 GB/s） | 第四代 | 第五代（1.8 TB/s） |. H200 不是算力升级，而是显存与带宽升级，解决“跑不动”的问题；. B200 则是一次架构级跃迁，面向千卡集群、下一代 AI 工厂设计。. | <7B 参数，微调/推理 | A10 / L4 / RTX 6000 Ada | 小模型对算力要求低，A10/L4 成本更低；H100 属性能过剩，仅在统一集群时考虑 |. | 7B–30B，全参训练 | H100 | 在 FP8 + 梯度检查点 + ZeRO 下可高效训练PyTorch/TensorFlow 生态最成熟，调试工...
+
+- 6万张显卡之谜：一文看懂DeepSeek的真实算力今天读卓克讲 ... (relevance: 62%)
+  https://x.com/vista8/status/1887554816043614298
+  坊间传闻中DeepSeek拥有5万张H100计算卡。 但实际上，DeepSeek的计算卡主要由上一代卡和阉割版本的卡组成。 据Semianalysis分析，DeepSeek大约有6万张卡。
+
+   4.数据存储
+
+检索关键词: HBM,显存,存储,NVLink
+
+--- Answer
+
+DeepSeek utilizes NVLink for high-speed GPU interconnects, enhancing data transfer and storage efficiency. HBM and high-bandwidth memory are used for large model storage. NVLink enables effective data distribution across multiple GPUs.
+
+---
+
+--- Sources
+
+- DeepSeek是否有国运级创新？2万字解读与硬核分析V3/R1的架构 (relevance: 100%)
+  https://h5.ifeng.com/c/vivoArticle/v002zr0oY-_X4A3WNUbrKIpzgu2gx5fq4OIcm3d3WUwRfE5M__?isNews=1&showComments=0
+  当然DeepSeek团队也开发了基于NVLink的HFReduce with NVLink ... 对于Dense模型（实际上是单专家的特例），超过对等算力的单卡大显存或扩展存储容易形成浪费。
+
+- DeepSeek模型部署硬件指南：从入门到专业的全场景配置方案 (relevance: 99%)
+  https://cloud.baidu.com/article/3586449
+  简介：本文详细解析DeepSeek模型在不同应用场景下的硬件需求，涵盖CPU、GPU、内存、存储等核心组件的选型标准，提供从入门级开发到企业级部署的完整硬件
+
+- 【LLM技术报告】DeepSeek-V3技术报告（全文） - 知乎专栏 (relevance: 99%)
+  https://zhuanlan.zhihu.com/p/14890557782
+  在IB 和NVLink 网络间转发数据，同时汇聚来自单个GPU 发往同一节点内多个GPU 的IB 数据流。 在RDMA 缓冲区（注册的GPU 内存区域）与输入/输出缓冲区间传输数据。 执行
+
+- [PDF] DeepSeek 开源周发布五大技术 (relevance: 98%)
+  https://pdf.dfcfw.com/pdf/H3_AP202503031644005539_1.pdf
+  DeepSeek 开源周发布五大技术 2025 年2 月21 日，DeepSeek 宣布将开展“开源周”，陆续开源5 个代码 库，这一举动被认为是DeepSeek 开源战略的进一步升级。 1.1 FlashMLA 助力AI 场景生成提速 2025 年2 月24 日，DeepSeek 启动“开源周”，首发开源项目FlashMLA 为 Hopper 架构GPU（如H800）设计的高效MLA 解码内核，通过深度优化变长序 列处理及分页KV 缓存机制，显著提升大模型推理效率。 优化路径：1）MLA 解码端：MLA 采用低秩联合压缩技术将多头注意力机制 中的键（Key）和值（Value）矩阵投影到低维潜...
+
+- DeepSeek最强专业拆解来了，清交复教授超硬核解读-36氪 (relevance: 97%)
+  https://m.36kr.com/p/3152872354814728
+  传统方法分为两种，一是从环境直接获取奖励信号，二是从专家数据或者偏好数据学习奖励。 ... NVLink连接起GPU。GPU之间的带宽是160GB，节点之间的带宽
+
+   4.数据加速
+
+检索关键词: FlashAttention,量化,推理优化
+
+--- Answer
+
+FlashAttention optimizes attention mechanisms, significantly improving model efficiency. It achieves high bandwidth utilization and reduces redundant data transfer. DeepSeek uses FlashAttention for faster inference and model optimization.
+
+---
+
+--- Sources
+
+- DeepSeek 首次公布模型推理优化细节？普通人有哪些影响？ - 知乎 (relevance: 100%)
+  https://www.zhihu.com/question/13898968328
+  FlashAttention可达约92%的带宽利用率，通过高效的内存访问模式降低冗余数据传输。 二、FlashAttention v3配置. 1. 动态稀疏支持. 引入动态token丢弃
+
+- DeepSeek-OCR-2性能优化：vLLM张量并行+FlashAttention加速推理 ... (relevance: 100%)
+  https://ascendai.csdn.net/69d61cab72111d255bf8418f.html
+  本文介绍了如何在星图GPU平台上自动化部署DeepSeek-OCR-2镜像，并利用vLLM张量并行与FlashAttention技术优化其推理性能。该方案能显著提升OCR处理速度，
+
+- 算子与编译器——推理优化、Flash Attention与Deepseek-V3 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/2015101165277303703
+  1 核心内容框架Flash Attention优化注意力机制的原理与实现LLM分布式训练并行策略MoE架构、混合精度训练、通信计算融合等系统优化2 LLM推理服务的核心
+
+- 实测优化16%, 体验FlashMLA加速DeepSeek-V2-Lite推理 (relevance: 100%)
+  https://developer.aliyun.com/article/1653795
+  简介： DeepSeek-AI 开源的FlashMLA 是一个优化多层注意力机制的解码内核，显著提升大语言模型的长序列处理和推理效率。本文介绍了如何在PAI 平台上安装
+
+- DeepSeek-V3注意力计算优化终极指南 - 火山引擎ADG 社区 (relevance: 100%)
+  https://adg.csdn.net/69730cfe437a6b40336b621f.html
+  DeepSeek-V3作为新一代大语言模型，通过创新的注意力计算优化技术实现了性能飞跃。本文将全面解析其核心优化方案，包括FlashAttention-2高效注意力机制与
+
+   4.Agent
+
+检索关键词: 智能体,Agent,AutoGPT
+
+--- Answer
+
+DeepSeek Agent is an advanced AI system designed for autonomous task execution. AutoGPT is another notable AI agent framework. Both focus on enhancing AI capabilities through large language models.
+
+---
+
+--- Sources
+
+- 智能体主题分享：DeepSeek、Manus与AI Agent行业现状，附51页PPT (relevance: 100%)
+  https://www.tmtpost.com/7522189.html
+  在2023年3月，AutoGPT横空出世，那时人们开始接触AI Agent，但对其并不了解。7月份，OpenAI的翁丽莲发表了一篇名为《LLM Powered Autonomous AI Agents》的
+
+- DeepSeek与开源AI Agent框架协同：智能体开发的最速路径与最强实践 (relevance: 100%)
+  https://cloud.baidu.com/article/3566958
+  简介：本文深度解析DeepSeek与开源AI Agent框架（如AutoGPT、LangChain、BabyAGI）的协同开发模式，从技术架构、开发效率、性能优化三个维度展开，提供可
+
+- AI智能体卷爆大模型！AutoGPT等4大Agent打擂 - 飞书文档 (relevance: 100%)
+  https://docs.feishu.cn/article/wiki/Ot3hwmn7Ti4tFAkTWGDciHdjnxe
+  飞书AI 知识问答系统深度集成DeepSeek R1 满血版大模型，支持实时联网搜索、多格式文件解析及知识库的无缝对接。用户可免费构建AI 知识库，通过整合云端数据与本地资源
+
+- 大模型应用开发实战：AI Agent与智能体开发技术解析 (relevance: 100%)
+  https://deepseek.csdn.net/6864c741a6db534ba2b594e0.html
+  AI Agent（智能体）是基于大模型构建的自主任务执行系统，能够根据用户指令拆解目标、调用工具、完成复杂任务（如数据分析、自动化办公）。其核心特征包括：.
+
+- 深入浅出完整解析AI Agent（AI智能体）的核心基础知识 - 知乎专栏 (relevance: 100%)
+  https://zhuanlan.zhihu.com/p/1919046969076195976
+  而AI Agent系统则更强调自主决策能力和复合任务执行能力。 在AI Agent系统中，LLM/AIGC大模型（比如DeepSeek、GPT-4o、Claude等）就是大脑，实现自然语言乃至多模态
+
+---
+
+--- 五、整体技术趋势判断
+
+   5.1 战略方向
+
+基于2026年04月19日的检索结果，DeepSeek的AI战略呈现以下特点：
+
+1. 技术路线: 
+2. 产品布局: 
+3. 生态建设: 
+
+   5.2 竞争态势
+
+- vs OpenAI: 
+- vs Google: 
+- vs 国内竞品: 
+
+   5.3 未来展望
+
+预测DeepSeek在未来3-6个月可能的技术/产品动向：
+
+1. 
+2. 
+3. 
+
+---
+
+--- 六、参考来源
+
+- Tavily Search 检索结果
+- 企业官方博客/公告
+- 技术媒体（量子位、机器之心等）
+- 学术论文（arXiv）
+
+---
+
+本报告由 OpenClaw AI 系统自动生成  
+报告版本: v1.0  
+生成时间: Sun Apr 19 06:01:49 AM CST 2026
